@@ -7,3 +7,18 @@ nonetheless: tuy nhiên, dù sao đi nữa
 prompt: nhắc nhở
 attest: chứng thực
 charge: thù lao
+elegants: thanh lịch
+ambitious: tham vọng
+milestones: cột mốc quan trọng
+disaster: thảm họa
+blame: đổ tội
+formal: chính thức
+verbal: lời nói
+anticipate: đoán trước
+definitely: chắc chắn
+pressure: áp lực
+compensation: đền bù
+competitive: cạnh tranh
+negotiate: thương lượng
+appreciate: đánh giá
+compromise: thỏa hiệp
