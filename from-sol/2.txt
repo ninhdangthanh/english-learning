@@ -1,0 +1,26 @@
+intact: nguyên vẹn
+unaltered: không thay đổi
+sustain: duy trì, bền vững
+terminology: thuật ngữ
+somewhat: phần nào
+burden: gánh nặng
+settle: ổn định
+dispute: tranh luận
+desirable: mong muốn
+sacrificing: hy sinh
+afford: đủ khả năng
+Optimistic: lạc quan
+inception: khởi đầu
+prove: chứng minh
+batches: lô
+derived: lấy được, nguồn gốc
+fraud: gian lận
+attestation: sự chứng thực
+identical: giống hệt nhau
+probabilistic: xác xuất
+allocate: chỉ định, phân bổ
+quoted: trích dẫn
+exceed: vượt quá
+indefinitely: vô thời hạn
+initiative: sáng kiến
+

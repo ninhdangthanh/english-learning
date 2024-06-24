@@ -1,0 +1,10 @@
+accurate: chính xác
+approximate: xấp xỉ
+infer: xuy luận
+examine: nghiên cứu
+indeed: thực sự
+counterpart: đối tác
+mark: đánh dấu
+attendant: tiếp viên
+due to: bởi vì
+due: quá hạn, đến hạn
