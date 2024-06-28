@@ -1,0 +1,18 @@
+the thing took place: sự việc đã xảy ra
+fault tolerant: khả năng chịu lỗi
+durable for later: một cách lâu dài
+durably: lâu bền
+spectively: nhìn lại
+retro: cổ điển, quá khứ
+interpretation: thông dịch
+compile: biên dịch
+so that: để có thể
+automotive: ô tô
+sensor: cảm biến
+emergencies: trường hợp khẩn cấp
+divisions: chia, phân chia
+elastic: đàn hồi
+vendors: nhà cung cấp
+decoupled and agnostic: tách rời và bất khả thi
+denoted: kí hiệu
+hands-on: thực hành
