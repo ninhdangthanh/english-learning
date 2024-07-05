@@ -1,0 +1,740 @@
+If I can break into the software engineering world
+
+without a computer science degree, then so can you.
+
+With so many computer
+
+science or equivalents and job postings, it seems discouraging.
+
+But in today's video, I'm going to be giving you a practical robot
+
+that you can use to teach yourself how to code with the intention
+
+of getting you a job.
+
+If you're new here, then Hi, my name is Lewis and I'm on a mission
+
+to inspire developers and tech enthusiasts in the world of software engineering.
+
+There's a ton of different roles that you can pursue.
+
+Front end, back end, Q way.
+
+Like, there's so much.
+
+So before we even touch this road map, let's figure out what our end goal
+
+should be.
+
+If you love those crazy animated websites or if you're into clean, sleek
+
+and esthetic user interfaces, it sounds like front end is for you.
+
+No aid for design, no problem.
+
+Choose back end.
+
+If you really want to get stuck under the hood.
+
+And if you don't know, I have a video describing what programing language
+
+you should learn based off of the industry that interests you the most.
+
+So check that out if you want.
+
+For the remainder of this video,
+
+I'm just going to be referencing Fullstack developer just because it kind of wraps
+
+around everything.
+
+However, this roadmap isn't geared towards any specific industry.
+
+Learn how to program.
+
+So our first priority is how to program as well as how to think like a programmer,
+
+no matter what level you are in your career,
+
+you're always going to be learning something new.
+
+Software engineering requires a deep understanding of how computers recode.
+
+So start with a programing language and do not, I repeat, do not spend
+
+too much time thinking about what programing language you should learn.
+
+In my humble opinion, you should start with JavaScript or Python.
+
+And I have two reasons for this.
+
+One, they're the most popular languages, meaning it'll be much easier
+
+to find resources to help you become more fluent
+
+and to concepts like variables, data types.
+
+Functions are already in these languages and translates elsewhere.
+
+Course Learn any programing language that you want to learn like I'm not your boss.
+
+Here are some resources where you can learn programing for books.
+
+No starch Press has some great options.
+
+Specifically, look for the beginner books
+
+that are targeted towards new programmers.
+
+Bootcamps are going to be more pricey,
+
+but the accountability is great if you can fork out that cash
+
+and if you're into video tutorials, I recommend zero two Mastery,
+
+which I've used before, but is also the sponsor of today's video.
+
+Listen, There's a ton of different videos on YouTube, Udemy,
+
+Twitter, whatever, but none have the intentions
+
+of helping you use these new skills that you just developed.
+
+Zero two Mastery is entire philosophy revolves around outcome based results,
+
+meaning that their courses are designed to help you get hired
+
+rather than just learn a skill you can show at a party.
+
+Sorry, are programmers getting invited to parties asking for a friend?
+
+You can take their free career path quiz
+
+that will literally give you
+
+a personalized career roadmap based on your goals and experience,
+
+which hopefully you did the step before
+
+just fall on the courses, projects and interview prep to land your dream job
+
+and if you ever get stuck along the way, which you know happens to the best of us,
+
+the community of over 400,000 students are here to help answer any questions.
+
+Something I love as they've added, I've dedicated a project section
+
+where they've been launching a new project you can build every week.
+
+Nothing beats learning by doing.
+
+And these projects are also a great way to build up your portfolio and confidence.
+
+So if you want to learn
+
+the most in-demand skills, like literally, I just saw a course go up
+
+that was about large language models and Zero
+
+Mastery is an incredible resource for new or existing developers like myself
+
+who want to constantly stay ahead to get started with their courses
+
+and working towards landing a job as a software
+
+engineer, which, by the way, can make up to $100,000 per year.
+
+It'll only cost you wait a minute, $23 a month.
+
+How do these guys even make any money?
+
+Graduate from zero
+
+to mastery of land, a position at Tesla, Amazon, Google and more.
+
+Use the code in the description below
+
+to level up your career and support the channel.
+
+30 days money back guaranteed.
+
+Thanks again to Zero Mastery for supporting the channel.
+
+Once you've read a book or done a course of some sort,
+
+you'll have some familiarity with how the programing language works.
+
+Let's go to the next step.
+
+Building a portfolio.
+
+You're probably thinking build a portfolio.
+
+Like I have no idea what I'm doing.
+
+Well, the good news, neither do I.
+
+There are many reasons to start portfolio really early.
+
+One, it helps you build a community, which, speaking of community,
+
+I have a Discord channel with over 9000 other developers.
+
+I love to code so I would be happy if you would join to help you
+
+communicate abstract ideas in ways that are understandable to a general audience.
+
+And three, you can knock out a project and create a portfolio in one go.
+
+Now, if I were to start over, this is how I was structure it.
+
+I would create a web page that has a home page, a blog page, and a project page.
+
+This would mean that I can have a little blurb about me.
+
+I can start blogging to get my ideas and learning out into the world.
+
+Then a project page so I can showcase all my amazing things that I've worked on.
+
+If you want to build your own website, you can use HTML, CSS and JavaScript.
+
+You can also learn some advanced frameworks like next JSA or Jungle.
+
+But if you really just want something up and fast,
+
+then something like Ghost or WordPress are two of my favorites.
+
+This portfolio is going to act like a diary moving forward.
+
+We'll keep coming back to this
+
+like as our home and continue to update it so that in the future
+
+we can prove that we have the experience and that we know what we're talking about.
+
+Build beginning projects.
+
+You probably build some projects and the courses
+
+that you took, but water things are coming off.
+
+We're diving straight into the deep end, whether you like it or not.
+
+Sorry, that was weird.
+
+Don't be alarmed
+
+though is extremely common in software engineering to go into something
+
+without experience and needing to understand
+
+the requirements of how to get it done.
+
+We have to set goals because if you thought
+
+you were learning during a course, well then this.
+
+While you're going to learn ten times easier, you're three ways.
+
+You are going to get a beginner project idea.
+
+One use Try to find some to think of something easy you would like to use.
+
+And three uses open source repository to help you get started.
+
+Now I love this repository right here, but please use this carefully.
+
+Each of these resources are linked with pages on how you can build it,
+
+which is going to take away from your learning.
+
+Just use the titles as ideas and see what you think.
+
+Here's how you're going to be successful with this.
+
+Let's grab an idea using method one charge Djibouti.
+
+I asked it for elicit beginner ideas.
+
+All right.
+
+I like this expense tracker.
+
+All right. An expense tracker. Interesting.
+
+We would want to accept input.
+
+Like the expense, the category of it, and the price.
+
+We can then maybe get a detailed output after we are done inserting.
+
+So I don't know about you, but my stupid little pea brain right here
+
+freezes under pressure, so I would recommend
+
+breaking this down into micro tasks.
+
+Let me show you why not create input for expense price and category to parse
+
+input and lowercase all values three store in a file type
+
+so we can access it later for import that file type and get all expenses
+
+under a certain category and get the sum and then five show the user the output.
+
+Well, I have seen like an overwhelming one app
+
+is now being broken down into five micro application.
+
+Also, we just have some ideas for our blog and portfolio.
+
+Best way to ask for multiple input in Python.
+
+Best ways to store data that is in a database.
+
+Beautiful output in python. Guys.
+
+I'm being serious here communicating to an audience
+
+really helps you learn throughout your entire process.
+
+And this diary approach that we're taking is going to create a breadcrumb
+
+for your whole entire programing journey, which also means that people know
+
+what you're talking about and finding an idea
+
+and breaking it down into a bunch of small pieces is going to help you
+
+code 20 times better.
+
+And don't be scared to read documents.
+
+Open next step.
+
+Learn more advanced topics and databases.
+
+Okay, You started building some amazing beginner projects
+
+and you kind of feel like a badass, which is good for you.
+
+I think you should feel like that.
+
+So in my example that I mentioned
+
+with the Fullstack developer, while we can then go into more advanced
+
+topics of Python like Python has a web server, databases,
+
+algorithms, again, I have a more dedicated video to becoming
+
+a full stack developer, front end developer, a back end developer, whatever.
+
+But here is the spark notes on this.
+
+Software is often built with many moving parts at the same time.
+
+So let's start moving towards that by building a back end web server
+
+with Python.
+
+Let's think about how an application will work.
+
+You have a smartphone, a microcomputer, a website, whatever, talking to a server
+
+in that server, some computation happens and gathers memory from a database.
+
+This architecture is simple,
+
+but keep this in your head when you think of developing apps.
+
+If I wanted to learn Advanced Python, for example, I would expand into SGI,
+
+which would be Flask or Django Databases, Sequel or NoSQL API development.
+
+How can you get all the pieces of software to talk to each other?
+
+And if you haven't learned about classes
+
+or object oriented, then now is the time to do so.
+
+Also, start looking into data structures and algorithms.
+
+Realistically, at this point in your journey,
+
+you definitely have stumbled across them a little bit,
+
+but they're an absolute essential to computer science by even just
+
+a glance of this will really help you with your coding journey.
+
+But stay tuned for that.
+
+This is where it becomes really important to have an end goal.
+
+If you want to be a full stack developer, then learn what I said above.
+
+If you want to be in game
+
+development, learn more advanced concepts in your programing, language or engine.
+
+The possibilities are endless.
+
+But here are some general resources that will work most of the time.
+
+Most books on
+
+no starch press have an advanced version in most programing languages.
+
+Zero to mastery also have some advanced topics
+
+you can use as well, or join a coding community
+
+and see what other people are working on and what is required to make that
+
+build and advanced at
+
+your back.
+
+In the scenario now where you've learned a lot
+
+but need to take off your water wings while in this case
+
+take your water wings off and strap some bricks to your feet.
+
+Sorry, was that too far?
+
+At this rate, you've learned a lot.
+
+You'll understand how technology works together to create a harmonious app
+
+and feel like you have the potential to be as orchestrator.
+
+I just made that up on the fly, by the way.
+
+We can do what we did before.
+
+We can also find inspiration and open source.
+
+Again, I like this
+
+project called Build Your Own Acts, but beware, it gets pretty nuts.
+
+Build an OS with rust like I want to go outside once every three days at least.
+
+Let's take the same idea you had in the beginner project
+
+and expand it with that new technology you just learned.
+
+Imagine of the expense tracker that we made in the first half
+
+had a web form that you could fill out and then talked to a server with an API
+
+and then had a database that was able to store this information
+
+as well as crunch some numbers on the file.
+
+The same philosophy applies when building
+
+break it down with your dumb little pea brain.
+
+Well, sorry, I have the brain.
+
+You're probably a little bit smarter than I am, so create a form of three inputs.
+
+Write a function that sends
+
+an HTTP request with all the data,
+
+Write a flash application
+
+that accepts that information and passes it.
+
+Format this to accept into an actual query,
+
+write a query to get all existing inputs,
+
+sign all together
+
+serialize output, enter JSON
+
+and send back to the user
+
+and display the results in a fancy way.
+
+Again, this method allowed us to chop away at it
+
+just one piece at a time, but it also gives us some business
+
+and communication tools as well.
+
+By breaking down things into a scope and how much you can execute it.
+
+I am once again going to bother you about the portfolio and blog
+
+with this experience of building this out comes a lot of great knowledge
+
+that you can share best packages to create forums, most secure
+
+ways to insert you all JSON, serializing for beginners, etc.
+
+This content feedback and validation you'll receive from this is what will help
+
+you gather authority
+
+to keep moving forward and connect with other like minded developers.
+
+Something we haven't even discussed yet is working as a team.
+
+Your blog and portfolio will help you with this whole communication aspects,
+
+but it is really important to learn tools like get for example.
+
+This will be key, especially for the next step.
+
+Getting an experience.
+
+How can an entry level job require
+
+experience when I need that job to get experience?
+
+I hate, hate, hate.
+
+I hate to say this, but it's the sad reality.
+
+No education and no experience is considered a risk to employers.
+
+And realistically,
+
+this shouldn't be true because graduates could have just flown under the radar.
+
+But that degree is serious authority.
+
+Just a disclaimer.
+
+This is what I did, and if you can please avoid this as much as possible.
+
+But I had to work for free to prove myself as a young person.
+
+I needed people to have a no rest attitude when it came to hiring me,
+
+so I would often do small jobs or small businesses to help with this.
+
+I'm very privileged to be in a situation where I could work for free,
+
+so please never aim to work for free gain.
+
+Some real life experience
+
+by consulting with small businesses that often face software issues.
+
+These can range from simple connectivity between two software applications
+
+to adding a small perform on a website that can be printed out by offering
+
+to solve a small problem for a client, you can gain
+
+valuable experience working with real world requirements.
+
+So let's say, for example, they wanted to print in real time
+
+when a web form submission happened again, people in mentality, How can we do this?
+
+Create a service in the middle or on the server
+
+that passes all of the data once it is passed correctly,
+
+send it to the computer in the office and format on letterhead, paper, print
+
+and save somewhere that the job was a success.
+
+Gluing two things together is arguably some of the most effective way
+
+that you can gain real world experience with small businesses.
+
+It's also small enough to the point where you don't have to slave away
+
+building an application that someone asked you to do another way
+
+you could get experience is by contributing to open source.
+
+Go to GitHub issues of any decent sized project and it will be swarmed with bugs.
+
+This could be a good opportunity to work with code
+
+in the real world and provide your input.
+
+I will say that this method is a little bit tougher just because
+
+you have to be familiar with the project, but it's still incredible nonetheless.
+
+Computer Science related Topics.
+
+Now all the advice I have led up to this moment
+
+have been extremely practical, and that's on purpose.
+
+But the word software engineer is extremely controversial
+
+and it's because of that one word engineer.
+
+Computer science is an extremely dense
+
+topic that often involves a lot of theory and abstract concepts.
+
+However, it's extremely important to have at least a surface level
+
+understanding of computer science, especially going into your interview
+
+or even diving deep into your code. For example.
+
+How does that network work?
+
+What responsibilities does your operating system handle?
+
+File systems, computer architectures, maybe even cloud computing.
+
+My recommendation
+
+when it comes to learning computer science is to start with roadmaps, stages,
+
+self-learning, computer science charts, and it provides a lot of resources
+
+and lengths on each subject that you click on.
+
+Also, look into the open Source Society University's computer science course.
+
+In that course, some of the things overlap with what we've already discussed,
+
+so be a bit selective with it.
+
+I'm a big fan of the calculus and math courses specifically
+
+for this reason, so make sure you take that and catch up on math
+
+interview, prep
+
+your community involvement and blog posts, show that you're skilled
+
+at communicating what you know. You have been doing that right?
+
+So if you get overwhelmed in an interview, well, we've already discovered
+
+the method of breaking things down the brain method.
+
+That way you don't have to practice.
+
+Okay, I'm joking. Of wake up.
+
+Now is your time to practice more theoretical programing problems
+
+to show employers that you know what you're talking about at this stage.
+
+Hopefully you have some experience which will let you explain to employers
+
+how you're able to take requirements and translate it over into the real world.
+
+Technical interviews
+
+may or may not be something that you have to do depending on where you get a job,
+
+but it's still worth taking time out of your day to keep your brain on alert.
+
+And I mean, let's be real here.
+
+It's just good for your brain in general.
+
+If this is the moment you have to prove yourself,
+
+you want to make the best impression possible, It's really important
+
+to not be discouraged in this moment.
+
+You may struggle in your first ten interviews.
+
+Just keep going and learn from your mistakes.
+
+That's all you can do.
+
+And you'll just ultimately be a better person by the end of it.
+
+Eventually, you'll get that reply back saying that you got the job.
+
+You're just some sample ways on how you can prep less code.
+
+This one is Mehmed everywhere online, but there's a great collection
+
+of resources to do technical interviews, so use them at your disposal.
+
+Mock interviews,
+
+Get a friend to download an interview and have them quiz you on the spot.
+
+One of my favorites, the tech interview handbook is an open source handbook
+
+that will give you practical tips on resume building algorithms and more.
+
+An incredible resource. So definitely check that one out.
+
+Zero two Mastery
+
+zero two Mastery has a course where you can master the tech interview
+
+specifically with large tech companies like Google, Facebook, etc.
+
+Congratulations.
+
+It was a long journey, but your passion and dedication did it for you.
+
+Keep learning.
+
+Great.
+
+You landed the job.
+
+Why are you still watching this video, though?
+
+A misconception I always had when it came to working in the software
+
+engineering industry was that eventually I was going to get good
+
+and that this whole learning process will finally go away.
+
+So if that's you and you're feeling this way, come here for a sec.
+
+That feeling never goes away.
+
+Software engineering is a field that is constantly throwing things at you
+
+that you have never even seen before.
+
+I mean, let's turn this into a positive, though.
+
+The feeling of constantly having to learn and expand
+
+or knowledge is ultimately an extremely rewarding experience.
+
+My biggest take away from this video is that experience is the biggest leverage
+
+that you can have when it comes to working in the software engineering industry.
+
+My roadmap is a very practical guide on how you can get experience as fast
+
+as possible. In computer science.
+
+There's a ton of things
+
+that you will need to learn, but my roadmap is a very practical guide
+
+on how you can get experience as fast as possible so you can get a job.
+
+I hope this roadmap was valuable to you and helped
+
+inspire you to either learn programing or get into the industry.
+
+If you want something a little bit more laser focused and an industry.
+
+Well, I have a full stack developer roadmap or a back end
+
+developer roadmap, so make sure you check that out on my channel piece out Coders.
+

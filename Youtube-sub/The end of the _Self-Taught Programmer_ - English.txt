@@ -1,1011 +1,506 @@
-1
-00:00:00,160 --> 00:00:06,200
 so I have some unfortunate news for
 
-2
-00:00:02,240 --> 00:00:09,599
 everyone um the days of learning HTML
 
-3
-00:00:06,200 --> 00:00:13,679
 CSS JavaScript and Landing a 100K a year
 
-4
-00:00:09,599 --> 00:00:15,440
 job within 6 months are sadly over but
 
-5
-00:00:13,679 --> 00:00:18,279
 to be honest I'm not sure they ever
 
-6
-00:00:15,440 --> 00:00:20,760
 existed in the first place however the
 
-7
-00:00:18,279 --> 00:00:23,240
 point is uh Landing a job as a self-
 
-8
-00:00:20,760 --> 00:00:26,199
 toop programmer is becoming exceedingly
 
-9
-00:00:23,240 --> 00:00:29,320
 more difficult than it has ever been in
 
-10
-00:00:26,199 --> 00:00:32,160
 the past the landscape of the tech
 
-11
-00:00:29,320 --> 00:00:35,040
 industry has significantly changed ever
 
-12
-00:00:32,160 --> 00:00:37,600
 since I got my first job uh back in
 
-13
-00:00:35,040 --> 00:00:39,719
 2016 matter of fact when I got my first
 
-14
-00:00:37,600 --> 00:00:43,079
 programming job back in
 
-15
-00:00:39,719 --> 00:00:44,719
 2016 I didn't have much experience and I
 
-16
-00:00:43,079 --> 00:00:48,680
 certainly didn't have like a killer
 
-17
-00:00:44,719 --> 00:00:51,399
 portfolio to show anybody um the extent
 
-18
-00:00:48,680 --> 00:00:53,600
 of my experience included some classes
 
-19
-00:00:51,399 --> 00:00:56,199
 that I had taken in high school and some
 
-20
-00:00:53,600 --> 00:00:58,760
 really crappy Java applications that I
 
-21
-00:00:56,199 --> 00:01:01,760
 had written but somehow someway I still
 
-22
-00:00:58,760 --> 00:01:05,720
 managed to land a part-time coding job
 
-23
-00:01:01,760 --> 00:01:07,520
 with relatively no effort now granted I
 
-24
-00:01:05,720 --> 00:01:09,720
 did land this job through a string of
 
-25
-00:01:07,520 --> 00:01:12,479
 connections I made which kind of just
 
-26
-00:01:09,720 --> 00:01:15,560
 goes to show how powerful networking can
 
-27
-00:01:12,479 --> 00:01:18,040
 be but still if I were trying to get a
 
-28
-00:01:15,560 --> 00:01:21,320
 job in this market with the amount of
 
-29
-00:01:18,040 --> 00:01:23,880
 experience I had back in 2016 I would
 
-30
-00:01:21,320 --> 00:01:26,400
 probably have a better chance at winning
 
-31
-00:01:23,880 --> 00:01:28,200
 the lottery because the reality is the
 
-32
-00:01:26,400 --> 00:01:30,680
 market is just terrible right now I had
 
-33
-00:01:28,200 --> 00:01:32,159
 someone recently reach out to me who had
 
-34
-00:01:30,680 --> 00:01:34,799
 just finished their computer science
 
-35
-00:01:32,159 --> 00:01:36,799
 degree they had uh done an internship at
 
-36
-00:01:34,799 --> 00:01:39,640
 meta but they were significantly
 
-37
-00:01:36,799 --> 00:01:43,200
 struggling to just get call backs from
 
-38
-00:01:39,640 --> 00:01:45,200
 recruiters so if people with degrees and
 
-39
-00:01:43,200 --> 00:01:47,960
 with experience working at Big tech
 
-40
-00:01:45,200 --> 00:01:49,920
 companies are struggling you can only
 
-41
-00:01:47,960 --> 00:01:52,880
 imagine how hard it is for those people
 
-42
-00:01:49,920 --> 00:01:55,079
 who were told by influencers like me
 
-43
-00:01:52,880 --> 00:01:57,320
 that it's possible to get a job in
 
-44
-00:01:55,079 --> 00:01:59,560
 programming without a college degree and
 
-45
-00:01:57,320 --> 00:02:01,520
 to be clear I'm not trying to scare you
 
-46
-00:01:59,560 --> 00:02:03,680
 if if you are self-taught you can still
 
-47
-00:02:01,520 --> 00:02:05,680
 break into the industry but it's
 
-48
-00:02:03,680 --> 00:02:08,200
 important that we acknowledge that the
 
-49
-00:02:05,680 --> 00:02:11,120
 industry is in a pretty rough spot right
 
-50
-00:02:08,200 --> 00:02:13,040
 now layoffs are happening left and right
 
-51
-00:02:11,120 --> 00:02:16,200
 and a lot of developers are struggling
 
-52
-00:02:13,040 --> 00:02:19,000
 to find jobs and while I do believe that
 
-53
-00:02:16,200 --> 00:02:21,519
 the market will get better I'm not
 
-54
-00:02:19,000 --> 00:02:24,959
 entirely convinced that it will ever
 
-55
-00:02:21,519 --> 00:02:27,120
 return to its previous levels which is
 
-56
-00:02:24,959 --> 00:02:29,160
 why I say you will have to work
 
-57
-00:02:27,120 --> 00:02:31,800
 significantly harder than what you would
 
-58
-00:02:29,160 --> 00:02:34,319
 have done in the past to compete with
 
-59
-00:02:31,800 --> 00:02:36,840
 all the other competition out there and
 
-60
-00:02:34,319 --> 00:02:39,480
 when I say all the other competition I
 
-61
-00:02:36,840 --> 00:02:41,560
 don't have any statistics to back the
 
-62
-00:02:39,480 --> 00:02:43,680
 idea that the market is
 
-63
-00:02:41,560 --> 00:02:45,640
 oversaturated but it does feel a bit
 
-64
-00:02:43,680 --> 00:02:47,800
 oversaturated okay I mean with all the
 
-65
-00:02:45,640 --> 00:02:50,519
 coding boot camps turning out grads
 
-66
-00:02:47,800 --> 00:02:53,080
 every 10 months and all the influencers
 
-67
-00:02:50,519 --> 00:02:54,760
 promoting learning how to code and with
 
-68
-00:02:53,080 --> 00:02:57,239
 all the hype around computer science
 
-69
-00:02:54,760 --> 00:03:00,599
 over the past few years it feels like
 
-70
-00:02:57,239 --> 00:03:03,000
 the supply of developers has gone way up
 
-71
-00:03:00,599 --> 00:03:05,959
 meaning that if you want to break into
 
-72
-00:03:03,000 --> 00:03:08,799
 the industry you will have to do things
 
-73
-00:03:05,959 --> 00:03:11,519
 to really stand out from everyone else
 
-74
-00:03:08,799 --> 00:03:13,360
 so what do I mean by this well simply
 
-75
-00:03:11,519 --> 00:03:15,959
 put you're going to have to have the
 
-76
-00:03:13,360 --> 00:03:19,400
 type of experience that employers are
 
-77
-00:03:15,959 --> 00:03:22,200
 looking for from the get-go so I want to
 
-78
-00:03:19,400 --> 00:03:24,239
 walk through an example with you let's
 
-79
-00:03:22,200 --> 00:03:26,760
 take a look at the average entrylevel
 
-80
-00:03:24,239 --> 00:03:29,319
 developer job posting so this is for a
 
-81
-00:03:26,760 --> 00:03:30,239
 full stack entry-level react developer
 
-82
-00:03:29,319 --> 00:03:32,400
 position
 
-83
-00:03:30,239 --> 00:03:34,000
 and these qualifications are generated
 
-84
-00:03:32,400 --> 00:03:36,239
 from Google because they're stripped
 
-85
-00:03:34,000 --> 00:03:38,080
 directly from the original job posting
 
-86
-00:03:36,239 --> 00:03:39,680
 now right off the bat the first thing
 
-87
-00:03:38,080 --> 00:03:42,599
 you may notice about this entry-level
 
-88
-00:03:39,680 --> 00:03:44,599
 posting is that they want two years of
 
-89
-00:03:42,599 --> 00:03:47,360
 experience which mind you is something
 
-90
-00:03:44,599 --> 00:03:50,239
 that isn't an atypical ask for entry
 
-91
-00:03:47,360 --> 00:03:52,640
 level positions nowadays and with proper
 
-92
-00:03:50,239 --> 00:03:55,200
 laying out of your resume you can look
 
-93
-00:03:52,640 --> 00:03:57,480
 like you have 2 years of experience even
 
-94
-00:03:55,200 --> 00:03:59,200
 if you spent those two years learning
 
-95
-00:03:57,480 --> 00:04:01,799
 this is something that we'll go over in
 
-96
-00:03:59,200 --> 00:04:04,439
 a minute other than that you will see
 
-97
-00:04:01,799 --> 00:04:09,840
 that you need experience with JavaScript
 
-98
-00:04:04,439 --> 00:04:12,079
 react Redux HTML CSS rest apis
 
-99
-00:04:09,840 --> 00:04:14,280
 authentication mechanisms knowing how to
 
-100
-00:04:12,079 --> 00:04:17,199
 optimize react projects continuous
 
-101
-00:04:14,280 --> 00:04:20,239
 integration Technologies and agile and
 
-102
-00:04:17,199 --> 00:04:22,880
 scrum knowledge and then the very last
 
-103
-00:04:20,239 --> 00:04:24,639
 Point here a computer science degree now
 
-104
-00:04:22,880 --> 00:04:26,840
 I don't want this to scare you too much
 
-105
-00:04:24,639 --> 00:04:29,440
 because if you display a high level of
 
-106
-00:04:26,840 --> 00:04:32,120
 Competency in the above points this can
 
-107
-00:04:29,440 --> 00:04:34,560
 be overlooked in some instances but the
 
-108
-00:04:32,120 --> 00:04:36,759
 reality is that if you're competing with
 
-109
-00:04:34,560 --> 00:04:39,160
 somebody who is equally as good as you
 
-110
-00:04:36,759 --> 00:04:41,320
 and they have a computer science degree
 
-111
-00:04:39,160 --> 00:04:43,160
 they're going to get the job which is
 
-112
-00:04:41,320 --> 00:04:45,280
 why I said in the beginning of this
 
-113
-00:04:43,160 --> 00:04:48,360
 video you're going to have to do things
 
-114
-00:04:45,280 --> 00:04:50,960
 that really stand out from all the other
 
-115
-00:04:48,360 --> 00:04:53,199
 competition so if you really want to
 
-116
-00:04:50,960 --> 00:04:55,440
 stand out you can look at this job
 
-117
-00:04:53,199 --> 00:04:58,000
 posting or other job postings like this
 
-118
-00:04:55,440 --> 00:05:00,199
 one as sort of the recipe for you
 
-119
-00:04:58,000 --> 00:05:02,800
 getting into the industry now you will
 
-120
-00:05:00,199 --> 00:05:04,560
 likely never work for this company but
 
-121
-00:05:02,800 --> 00:05:07,240
 the idea is that we can find job
 
-122
-00:05:04,560 --> 00:05:09,880
 postings for jobs that we're interested
 
-123
-00:05:07,240 --> 00:05:12,280
 in and use them as a template for the
 
-124
-00:05:09,880 --> 00:05:15,039
 type of project we can build that will
 
-125
-00:05:12,280 --> 00:05:17,120
 help us get another job later down the
 
-126
-00:05:15,039 --> 00:05:19,520
 road so you can take this text stack and
 
-127
-00:05:17,120 --> 00:05:21,680
 the processes laid out in this posting
 
-128
-00:05:19,520 --> 00:05:24,960
 and use this text stack and the
 
-129
-00:05:21,680 --> 00:05:28,199
 processes to create full stack real
 
-130
-00:05:24,960 --> 00:05:30,160
 world use case applications okay to
 
-131
-00:05:28,199 --> 00:05:33,680
 really stand out as a self-taught
 
-132
-00:05:30,160 --> 00:05:36,280
 developer today it is pivotal that you
 
-133
-00:05:33,680 --> 00:05:39,759
 display a high level of Competency in
 
-134
-00:05:36,280 --> 00:05:41,600
 the way that real companies develop real
 
-135
-00:05:39,759 --> 00:05:43,680
 software so that when you start
 
-136
-00:05:41,600 --> 00:05:46,280
 interviewing for a company you will look
 
-137
-00:05:43,680 --> 00:05:49,000
 like the type of candidate that will hit
 
-138
-00:05:46,280 --> 00:05:51,160
 the ground running and how do you gain
 
-139
-00:05:49,000 --> 00:05:53,600
 experience into building real world
 
-140
-00:05:51,160 --> 00:05:56,080
 software as a self-taught developer with
 
-141
-00:05:53,600 --> 00:05:58,800
 no job experience well you do that by
 
-142
-00:05:56,080 --> 00:06:01,440
 building real world full stack
 
-143
-00:05:58,800 --> 00:06:03,639
 applications most product or service
 
-144
-00:06:01,440 --> 00:06:06,000
 driven companies prioritize the
 
-145
-00:06:03,639 --> 00:06:09,120
 development and maintenance of full
 
-146
-00:06:06,000 --> 00:06:12,759
 stack crud applications which is why it
 
-147
-00:06:09,120 --> 00:06:15,360
 is an extremely safe bet to build these
 
-148
-00:06:12,759 --> 00:06:17,680
 types of projects by building these
 
-149
-00:06:15,360 --> 00:06:20,039
 types of projects from the ground up you
 
-150
-00:06:17,680 --> 00:06:23,000
 will gain a large depth of programming
 
-151
-00:06:20,039 --> 00:06:26,560
 experience which you can use to create a
 
-152
-00:06:23,000 --> 00:06:29,039
 beefed up resume so let's run through an
 
-153
-00:06:26,560 --> 00:06:31,400
 example let's say this is the type of
 
-154
-00:06:29,039 --> 00:06:34,039
 job I'm going for the one that lists out
 
-155
-00:06:31,400 --> 00:06:37,000
 all these qualifications the very first
 
-156
-00:06:34,039 --> 00:06:38,919
 step is to come up with a project idea
 
-157
-00:06:37,000 --> 00:06:42,639
 and because this is for the sake of
 
-158
-00:06:38,919 --> 00:06:46,319
 learning this project idea absolutely
 
-159
-00:06:42,639 --> 00:06:49,120
 does not have to be unique okay so pick
 
-160
-00:06:46,319 --> 00:06:52,160
 a hobby like reading you can build a
 
-161
-00:06:49,120 --> 00:06:55,319
 very robust CR app around the idea of
 
-162
-00:06:52,160 --> 00:06:57,840
 book reviewing book rating sharing books
 
-163
-00:06:55,319 --> 00:06:59,759
 with friends so on and so forth matter
 
-164
-00:06:57,840 --> 00:07:01,919
 of fact this idea already exist exist
 
-165
-00:06:59,759 --> 00:07:04,479
 it's a platform known as Goodreads you
 
-166
-00:07:01,919 --> 00:07:06,800
 can take good reads build it from the
 
-167
-00:07:04,479 --> 00:07:09,680
 ground up with a slightly uh tweaked
 
-168
-00:07:06,800 --> 00:07:11,560
 feature set and then Rebrand it as your
 
-169
-00:07:09,680 --> 00:07:13,919
 own so for this example let's say we
 
-170
-00:07:11,560 --> 00:07:16,560
 have our project idea building a good
 
-171
-00:07:13,919 --> 00:07:18,759
 reads type of application let's go
 
-172
-00:07:16,560 --> 00:07:21,680
 through how we can gain experience in
 
-173
-00:07:18,759 --> 00:07:23,800
 the other qualifications listed out in
 
-174
-00:07:21,680 --> 00:07:27,039
 this posting so first off we'll build
 
-175
-00:07:23,800 --> 00:07:29,160
 our front end using react typescript and
 
-176
-00:07:27,039 --> 00:07:30,840
 the Redux Library so we can check off
 
-177
-00:07:29,160 --> 00:07:33,000
 the these bullet points here and by
 
-178
-00:07:30,840 --> 00:07:36,240
 using react we'll naturally gain
 
-179
-00:07:33,000 --> 00:07:38,680
 experience into HTML with jsx which is
 
-180
-00:07:36,240 --> 00:07:41,240
 similar enough and then we'll also gain
 
-181
-00:07:38,680 --> 00:07:43,639
 experience into CSS we can gain
 
-182
-00:07:41,240 --> 00:07:47,080
 JavaScript experience by deploying an
 
-183
-00:07:43,639 --> 00:07:50,000
 API of some sorts using an AWS service
 
-184
-00:07:47,080 --> 00:07:52,400
 let's say such as AWS Lambda and because
 
-185
-00:07:50,000 --> 00:07:55,919
 we'll need some sort of database for our
 
-186
-00:07:52,400 --> 00:07:58,080
 API to fetch and save data records we'll
 
-187
-00:07:55,919 --> 00:08:00,639
 create a database maybe something like
 
-188
-00:07:58,080 --> 00:08:02,840
 mongod DB and and again host it with
 
-189
-00:08:00,639 --> 00:08:05,440
 Amazon we can Implement some login page
 
-190
-00:08:02,840 --> 00:08:07,599
 in the app that uses the type of Json
 
-191
-00:08:05,440 --> 00:08:09,919
 authentication that this job posting
 
-192
-00:08:07,599 --> 00:08:11,879
 mentions and as for agile and scrum we
 
-193
-00:08:09,919 --> 00:08:14,440
 can spend a few hours doing some
 
-194
-00:08:11,879 --> 00:08:16,400
 research into how companies follow scrum
 
-195
-00:08:14,440 --> 00:08:19,039
 practices and then follow those
 
-196
-00:08:16,400 --> 00:08:22,080
 practices while creating our portfolio
 
-197
-00:08:19,039 --> 00:08:24,840
 project matter of fact learning these
 
-198
-00:08:22,080 --> 00:08:26,759
 agile and scrum practices should be done
 
-199
-00:08:24,840 --> 00:08:29,360
 before you dive into the creation of
 
-200
-00:08:26,759 --> 00:08:31,360
 your portfolio project as they are
 
-201
-00:08:29,360 --> 00:08:33,839
 essentially project management
 
-202
-00:08:31,360 --> 00:08:36,360
 techniques that can significantly help
 
-203
-00:08:33,839 --> 00:08:38,399
 you with the overall development of your
 
-204
-00:08:36,360 --> 00:08:40,519
 project while at the same time giving
 
-205
-00:08:38,399 --> 00:08:43,680
 you Real World Experience into how
 
-206
-00:08:40,519 --> 00:08:45,760
 companies use agile to develop their
 
-207
-00:08:43,680 --> 00:08:47,760
 software and finally we can use
 
-208
-00:08:45,760 --> 00:08:50,399
 something like GitHub actions to
 
-209
-00:08:47,760 --> 00:08:53,240
 automatically deploy our release builds
 
-210
-00:08:50,399 --> 00:08:56,360
 giving us some highlevel exposure to how
 
-211
-00:08:53,240 --> 00:08:59,240
 cic CD works so in theory we could build
 
-212
-00:08:56,360 --> 00:09:01,959
 and deploy this application using the
 
-213
-00:08:59,240 --> 00:09:05,000
 practices I've just mentioned and extend
 
-214
-00:09:01,959 --> 00:09:08,640
 that over a 6 to 12 month time frame of
 
-215
-00:09:05,000 --> 00:09:11,240
 coding deploying coding deploying and if
 
-216
-00:09:08,640 --> 00:09:13,760
 you worked on a full stack application
 
-217
-00:09:11,240 --> 00:09:16,399
 of this sorts following this plan I've
 
-218
-00:09:13,760 --> 00:09:19,800
 just laid out for again 6 to 12 months
 
-219
-00:09:16,399 --> 00:09:22,519
 by adding new features refining existing
 
-220
-00:09:19,800 --> 00:09:25,240
 features fixing bugs and actually
 
-221
-00:09:22,519 --> 00:09:27,160
 deploying it to the public Not only
 
-222
-00:09:25,240 --> 00:09:29,760
 would you gain the type of experience
 
-223
-00:09:27,160 --> 00:09:32,360
 that real companies value you would have
 
-224
-00:09:29,760 --> 00:09:34,760
 killer points to mention on your resume
 
-225
-00:09:32,360 --> 00:09:37,480
 you would have projects that not even
 
-226
-00:09:34,760 --> 00:09:40,360
 the average computer science student has
 
-227
-00:09:37,480 --> 00:09:43,560
 on their resume because the thing is
 
-228
-00:09:40,360 --> 00:09:45,880
 most people list very basic projects on
 
-229
-00:09:43,560 --> 00:09:49,279
 their resume that they developed within
 
-230
-00:09:45,880 --> 00:09:50,640
 one to two weeks so as for the resume
 
-231
-00:09:49,279 --> 00:09:53,160
 here is how you could create an
 
-232
-00:09:50,640 --> 00:09:55,519
 entry-level developer rume with the
 
-233
-00:09:53,160 --> 00:09:58,040
 project idea that I've just gone over
 
-234
-00:09:55,519 --> 00:09:59,920
 now this is a fake resume it's not real
 
-235
-00:09:58,040 --> 00:10:02,360
 and it should just serve as as an
 
-236
-00:09:59,920 --> 00:10:04,320
 example or as a model for the type of
 
-237
-00:10:02,360 --> 00:10:06,160
 resume that you could create so if
 
-238
-00:10:04,320 --> 00:10:08,480
 you're interested in downloading this
 
-239
-00:10:06,160 --> 00:10:10,720
 rume head to the link in the description
 
-240
-00:10:08,480 --> 00:10:12,760
 to sign up for my newsletter and upon
 
-241
-00:10:10,720 --> 00:10:15,519
 signing up for my newsletter you'll gain
 
-242
-00:10:12,760 --> 00:10:18,399
 access to download this resume for free
 
-243
-00:10:15,519 --> 00:10:20,760
 you also gain access to my free ebook 02
 
-244
-00:10:18,399 --> 00:10:22,880
 full-time programmer in five steps
 
-245
-00:10:20,760 --> 00:10:25,279
 anyways that is the highlevel overview
 
-246
-00:10:22,880 --> 00:10:28,279
 of the type of work that you will need
 
-247
-00:10:25,279 --> 00:10:30,800
 to do to land a job in this market as a
 
-248
-00:10:28,279 --> 00:10:33,320
 self-d do programmer and even if you're
 
-249
-00:10:30,800 --> 00:10:35,920
 not a self toop programmer you could
 
-250
-00:10:33,320 --> 00:10:37,880
 greatly benefit from building these
 
-251
-00:10:35,920 --> 00:10:40,639
 types of projects anyways thank you for
 
-252
-00:10:37,880 --> 00:10:44,560
 making it this far in the video and I
 
-253
-00:10:40,639 --> 00:10:44,560
 will catch you in the next one
+

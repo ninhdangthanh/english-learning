@@ -1,0 +1,690 @@
+finally i get to make this video i've
+
+seen this video being made by many many
+
+tech youtubers and um finally i can make
+
+it because it's been exactly 10 years
+
+that i've been coding
+
+which means from 2012
+
+to
+
+2022 today
+
+year 2012 the year of initiation i
+
+joined the robotics club in school where
+
+we had to build a robot to compete in a
+
+competition called crc i was not a big
+
+fan of manual labor because
+
+using any hand tools would potentially
+
+break my beautiful nails so that was out
+
+of the question there was only one thing
+
+left for me programming the robot's
+
+brain now
+
+i didn't even know what programming was
+
+back then i just read the instructions
+
+and tried to make it work so that we can
+
+control our robot with the joystick
+
+what i used to do that was their own
+
+simplified language called robot c
+
+of course our team won the whole thing
+
+the whole competition but that's also
+
+because we were competing against 14
+
+year olds
+
+and we were 19 at the time so
+
+2012 was also the year i started college
+
+at university of waterloo and i took my
+
+first cs course called designing
+
+functional programs so i wrote code like
+
+this no loops no variables but lots of
+
+recursion so what i learned
+
+no one is too dumb for computer science
+
+year 2013
+
+in 2013 i became a finance wannabe you
+
+have to pronounce it finance not finance
+
+so i was a finance wannabe freshman year
+
+is the year of doing things just to pad
+
+your pitiful resume
+
+you know it i know it
+
+no need to lie to me
+
+my best work experience at this point so
+
+far mcdonald's where i
+
+handled concurrent micro transactions in
+
+a fast-paced environment
+
+so clearly i had to start a side project
+
+and coincidentally i built something
+
+that handled concurrent transactions in
+
+a high speed environment
+
+like i made a trading bot
+
+the site had people betting on events
+
+like whether the gold price would reach
+
+x amount by the end of the week and you
+
+know most people did it for fun and
+
+games but i had to ruin their fun by
+
+actually mathematically modeling the
+
+statistical likelihood of the outcome
+
+and bet on that
+
+i sound smart right
+
+not really i just copied a wikipedia
+
+article because there's a formula
+
+and that's it that's all i did
+
+so did i make money
+
+yes was it luck
+
+absolutely i never even hedged my
+
+positions
+
+now back in university i took elementary
+
+algorithm design and data something like
+
+that where i learned about linked lists
+
+for the first time
+
+and object-oriented programming i took
+
+that course where i learned how to
+
+finally organize my code in classes and
+
+then also i took the class called logic
+
+and computation which i learned
+
+absolutely nothing
+
+all that jazz helped me land an
+
+internship at scotiabank uh doing what
+
+you guessed it automating option pricing
+
+with black shoals model
+
+if that means nothing to you don't worry
+
+it doesn't mean anything to me too
+
+just buzz words
+
+if you do understand good job
+
+no one asked
+
+what i learned you can't rely on others
+
+to just hand you things if you want
+
+something worth getting you'll have to
+
+be proactive or else everyone else would
+
+also have it then
+
+year 2014
+
+computer literacy
+
+this was the year of demystifying
+
+computers i took data structures and
+
+data management
+
+aka how to lead code which is great
+
+because i probably wouldn't be able to
+
+get my next internship
+
+without it if it wasn't for that course
+
+and that next internship was citadel and
+
+holy cow did i learn a lot at citadel uh
+
+because i was clueless right for some
+
+reason i had to build web servers from
+
+scratch in c plus uh i had to implement
+
+web sockets from scratch meaning i had
+
+to construct the data frames with like
+
+opcodes and stuff i was so lost at first
+
+my manager just gave me a networking
+
+textbook and an os textbook so i just
+
+learned enough
+
+just enough to complete my project right
+
+so tcp udp bit manipulation logs and
+
+currency all just to implement some
+
+server and a web interface to display
+
+tiny numbers quickly for traders who
+
+barely look at them
+
+what i learned finally understood how a
+
+simple text file can turn into a program
+
+how bits turn into data and how programs
+
+turn into production ready software
+
+year 2015 that year i finally became a
+
+silicon valley baby boy by landing an
+
+internship at linkedin while i was there
+
+i wrote some c
+
+code that never got deployed and i quote
+
+from
+
+your code was not only useless but it
+
+was toxic it held back our team for a
+
+whole quarter
+
+anyways i got a return offer and a
+
+stellar review great experience five out
+
+of five would do it again
+
+after the internship
+
+i decided to do some research assistant
+
+work for my favorite operating system
+
+professor
+
+i even got my face to be on the paper
+
+totally undeserved so i was sick of
+
+doing the same thing
+
+so i wanted to try some data science so
+
+i went to intern at facebook i learned
+
+sql i learned how to make pretty graphs
+
+i touched mark zuckerberg's hand
+
+and then he put me on a blacklist
+
+um
+
+yeah that's it
+
+basically i don't think i coded at all
+
+maybe a little bit of python scripting
+
+but mostly just sql stuff it was quite
+
+refreshing actually
+
+what i learned
+
+anything is learnable nothing is out of
+
+reach as long as you just sit down be
+
+patient and read from the beginning
+
+i never did distributed systems low
+
+latency networking i never did data
+
+analytics but i just learned
+
+year 2016 rebellion
+
+ah senior year
+
+i took one of the hardest courses in our
+
+school apparently it was called computer
+
+graphics
+
+it wasn't that hard conceptually
+
+it was just a lot of work
+
+basically during the whole course i
+
+rendered so many pictures of balls and
+
+more balls and balls of different colors
+
+balls of different transparency levels
+
+balls of different glossiness
+
+i made dragon balls um so my last
+
+internship was at microsoft
+
+they promised it would be a product
+
+management type job but i ended up just
+
+prototyping windows server security
+
+products using powershell
+
+what i learned
+
+absolutely nothing
+
+nothing
+
+year 2017
+
+passion meets career
+
+so i was on track
+
+to getting a prosperous career in tech
+
+with my resume but somehow between 2016
+
+and
+
+something went terribly wrong and i
+
+suddenly wanted to become a youtuber
+
+so i worked at buzzfeed as a data
+
+scientist hoping that i can appear in
+
+some of their videos
+
+my actual job was to try to understand
+
+facebook videos and how to grow their
+
+facebook pages but at some point they
+
+told me i should stop trying to appear
+
+in so many videos
+
+then i became depressed
+
+because it didn't make me famous
+
+anyway after that
+
+uh i decided to go back to facebook
+
+as a data scientist telling myself that
+
+i will never do youtube again funny how
+
+life works because i did join the
+
+facebook's video creator team
+
+so that was cool
+
+and also
+
+that's when my youtube channel blew up
+
+what i learned the things you learn and
+
+the skills you gain that are completely
+
+unrelated to each other
+
+often actually complement each other
+
+surprisingly
+
+like for example my obsession with
+
+videos
+
+helped me understand the facebook video
+
+platform intimately as a data scientist
+
+which helped my job
+
+year 2018 burnout
+
+i really enjoyed working at facebook
+
+because it was related to videos i live
+
+and breathe video platforms that's me
+
+but i was also growing on youtube a lot
+
+so my focus was split you know i i
+
+didn't stop to think about what i really
+
+wanted in life
+
+i just did things
+
+grew my channel chased numbers and got
+
+burnt out
+
+i didn't quote a single line as a data
+
+scientist
+
+so nothing there
+
+what i learned
+
+one of the best skills to work on in
+
+your life is the ability to be
+
+self-aware and understand yourself
+
+just like coding sports or video games
+
+it all comes down to practice
+
+the more you work on trying to
+
+understand yourself the more you'll be
+
+literate in your own emotions
+
+and having that understanding of
+
+yourself will allow you to make way
+
+better decisions
+
+year 2019 rebirth
+
+so i needed to press reset on my life
+
+and think about
+
+what kind of life i wanted to live
+
+i wanted to chill
+
+so i chose to be a software engineer
+
+i was scared um i haven't coded in so
+
+long and my last software job was in
+
+2015 right my last internship at
+
+linkedin
+
+so i did the typical lee code grind huge
+
+impostor syndrome
+
+applied to two big companies got
+
+extremely lucky and got both offers
+
+i was so so relieved so much of my
+
+mental health quickly got better
+
+basically
+
+year 2020 disillusionment
+
+i never worked as a software engineer
+
+full-time so i thought i would have to
+
+really work hard to play catch-up
+
+but then i learned that everyone else
+
+was as clueless as i was coincidentally
+
+once again i was mostly working in c
+
+plus plus
+
+same thing every time i know i did a lot
+
+of infra work even though i was in a
+
+product team but i also did a lot of
+
+analysis as well
+
+because it was a product team so you had
+
+to do analysis to kind of justify your
+
+projects
+
+to see if it's even worth pursuing
+
+so for stuff like that
+
+the fact that i came from facebook as a
+
+data scientist it really came in handy
+
+and
+
+and also my presentations were always
+
+beautiful because i used to be a data
+
+scientist
+
+what i learned
+
+in the end work is just work your
+
+technical abilities and your expertise
+
+don't matter as much as you think what
+
+matters more is your grit
+
+and just if you can get stuff done
+
+so just be a doer and make things you're
+
+proud of and the rest will come
+
+coding youtube filmmaking it doesn't
+
+matter they're all the same
+
+you're building something
+
+year 2021
+
+moving on
+
+this year my youtube channel became
+
+pretty big i can't really call it a
+
+hobby anymore but um the crazy thing is
+
+i'm loving it more than ever before
+
+and the craziest thing is
+
+i wanted to be a youtuber when i was
+
+like 15
+
+and it actually came true
+
+i am so grateful that i have this
+
+youtube channel
+
+it gives me so much flexibility allows
+
+me to express myself creatively
+
+and it gives me access to some pretty
+
+impressive people in the tech world
+
+all because i make silly videos on the
+
+internet right
+
+it's crazy to think that i probably
+
+wouldn't have made it as a youtuber if
+
+it weren't for my coding videos
+
+if it weren't for me being a programmer
+
+so i got really really lucky
+
+i am very lucky
+
+but i also worked hard
+
+so what i've learned
+
+there are lots of ways to be successful
+
+and also success is defined differently
+
+for everyone
+
+a good rule of thumb
+
+is to pursue projects and opportunities
+
+that you can learn from
+
+that you can grow from
+
+because in the end successful outcomes
+
+are pretty much luck
+
+so if you want to succeed it's a numbers
+
+game like rolling the dice
+
+so keep rolling the dice you can't
+
+control the outcomes of your dice rolls
+
+but you can control what dice you use
+
+and the more you work on yourself the
+
+more the dice become weighted to your
+
+advantage
+
+so eventually you'll hit jackpot as long
+
+as you keep rolling the dice
+
+you'll achieve success whatever that
+
+means
+
+for you specifically
+
+anyways that's it for the video
+
+see ya
+
