@@ -1,0 +1,209 @@
+Sure, here's the revised and formatted version of your document with added punctuation and line breaks to make the sentences more meaningful:
+
+---
+
+I built an automated 24/7 live stream where the viewers decide what two AI characters argue about.
+
+And in today's video, I'm going to show you how I built this, as well as some issues that I ran into.
+
+"How can you support capitalism?"
+
+Listen, SpongeBob, you live in a pineapple under the sea.
+
+Something I'll always remember is Twitch Plays Pokemon, all the way back in 2014.
+
+And now that generative AI has completely taken over everything, this concept of a viewer-controlled stream has just exploded with AI-generated SpongeBob, Family Guy, or Seinfeld.
+
+So, I thought of an idea.
+
+It would be cool if you could create a software where two AIs that represent a character are arguing against each other on a specific topic and have their voices reflect what they're talking about.
+
+And if we livestream this on Twitch and let the users decide who the characters are or what they're arguing about, it'd be a lot more fun and interactive that way.
+
+Perfect.
+
+How do we get started, though?
+
+First, we need to create two instances of an AI chat model running.
+
+We then think of two random characters, for example, SpongeBob and Mario.
+
+We will then need to get as much information on these characters as possible.
+
+So, we'll go online, hopefully Wikipedia, and get a full extensive history to build up their knowledge of what they'll base their opinions on.
+
+This will then be chopped up into segments and then embedded within a vector database.
+
+We will have AI also generate two opposing views based on a subject and then query this information in both AIs to gather their opinion.
+
+Then, using another AI, we'll generate a script that will be read over by both characters.
+
+The AI voice cloner will run in parallel and be able to get the voiceover while the script is generating.
+
+The lines will be generated and organized in a sequence to seem like they're talking back and forth.
+
+There's a lot of long waits in response to making this work, including the data gathering, the voice generation, and even the script generating.
+
+For the text generation, I'm going to use OpenAI, as they actually just released the GPT-4 Turbo that has over a 128k token window.
+
+This will make it easy for us to do off of our computer to make things go faster and... Hopefully in parallel.
+
+I got the Wikipedia article for SpongeBob and I'm just going to paste in the system message here.
+
+"Oh hi there.
+
+Golly, that's a big question.
+
+Well, you know, Bikini Bottom. We kind of have our own little economy. Capitalism sure does encourage folks to work hard, innovate, and it's all about the program.
+
+I'm doing a SpongeBob accent right now.
+
+It's just funny thinking about SpongeBob actually saying this, so already it's beyond hilarious.
+
+Let's just set up a Python project.
+
+On my channel, I'm always creating insane projects like automating TikTok accounts or giving trading bots that I built 10,000.
+
+Building projects is the best way to learn.
+
+So, if you want to learn, I would highly recommend you check out Zero to Mastery, which I found to be one of the most efficient and supportive ways for you to learn in-demand tech skills and actually get hired, or like me, if you just want to build some awesome projects.
+
+I learned how to use LangChain to develop parts of this app with a built-in LLM powered Q&A app using LangChain to understand how I can integrate it within my own app and with a large catalog of courses, as well as portfolio projects for you to build, there's a lot you can do than just a to-do app to put on your portfolio.
+
+And you can seriously go down a deep rabbit hole if this is something you want to get a really deep understanding of.
+
+Like, for example, if you want to understand TensorFlow or PyTorch to start fine-tuning your models.
+
+If you know absolute zero about code, there are courses designed to get you started.
+
+I like this career pathfinder that helps you determine what your roadmap would be based on the interests you have.
+
+And these aren't separate courses that you have to buy individually.
+
+It's all one cost.
+
+It gives you access to everything in their catalog, which are all updated to be ready and relevant for 2024.
+
+And it's not even 2024 yet.
+
+On my channel, I like to build projects or create videos that help inspire you to make something cool.
+
+But if you really want to learn how you can do it, I couldn't recommend Zero to Mastery enough.
+
+If you click on the link in the description below, you can help support the channel as well as invest in your career in tech, all with a 30-day money-back guarantee if it just isn't for you.
+
+Thank you Zero to Mastery for being a long-time sponsor of this channel, as well as let me copy and paste your code.
+
+I actually think this might be one of the hardest parts about this project.
+
+Finding a way to get all of the information.
+
+And after doing a search online, I couldn't find a way to get this information in one centralized place through like an API or something.
+
+So, I'm gonna have to resort to the old-fashioned way of doing things.
+
+Scraping data.
+
+I'm gonna write a quick script that lets me do a web search for a character and fandom where we can get information related to the character by fans.
+
+Since we have the 128K version of GPT-4, we might not even need a vector database for this, so let's just make a check to see if the text being inserted isn't over 128k tokens.
+
+So let's find a way to create a script for them to talk.
+
+I'll be using LangChain to create a chain of conversation that they can have with each other.
+
+LangChain was really overwhelming at first, but I caught up quickly using the Zero to Mastery's LLM project video and was able to jump in fine.
+
+This is how my script works.
+
+I prompt bot 1 to say an opening line.
+
+This makes the conversation sound like the bot is making an observation about a subject right off the bat.
+
+This message is then passed to bot 2, who replies with their opinion on the subject.
+
+This then gets passed to bot 1, who has context of what they said previously, and we loop over this.
+
+It's five or six times, and this actually gives us the text that we need to run this through the text-to-voice processor so that they can actually argue in a voice rather than just text.
+
+"Hey there, Tony.
+
+I'm totally stoked to discuss capitalism with you, even though it's kind of out of my usual zone of jellyfishing and serving crabby patties at the Krusty Krab."
+
+"Listen, SpongeBob, you're a good kid.
+
+I get it.
+
+You're optimistic.
+
+You flip your burgers, and you think capitalism is this big crabby patty cook-off where the best chef wins."
+
+Honestly, I had to cut it down a little bit, but I mean, pretty freaking funny.
+
+We have to find a way to get a clean sample of their voice so that we can prompt it into the voice cloner.
+
+How do we do that though?
+
+Well, I think I found a solution that will work using diarization.
+
+This is able to recognize speaker to each word in a transcript.
+
+So I will query a character compilation and then run the audio file through the diarization.
+
+So there might be a ton of characters that aren't related to ours in this video, but we'll query all of the lines mentioned by one of the characters that shows up the most, which I assume is our main character.
+
+As of this video, the current state of AI voices is at Tordoise or Coqui.
+
+How do I say that dang word?
+
+So I'm first going to try out with some of the open-source versions.
+
+So I'm going to first try out Bark.
+
+I also realized that with PyTorch I can let them know to use my CUDA cores on my NVIDIA 4090, thanks to the Zero to Mastery cheat sheet, so thank you for that.
+
+"You need to listen to me good.
+
+Stop talking about capitalism like it's a good thing."
+
+It took a little bit long and I'm overall not too happy with it, especially if I want to run a lot of these in parallel to make it go faster.
+
+Instead, I'm going to use an API service for much faster results.
+
+One of the most popular paid options is 11 Labs, but honestly, if I wanted to do as many voices as I wanted to do, I would need to be an enterprise-level user.
+
+And look at this setup.
+
+Nothing enterprise about it.
+
+One of the most powerful open-source versions of the text-to-voice model is XTTS and actually just released a version two as of like a couple of weeks ago, as of this video and the maintainers of this model, Koki AI, have Koki Studio, which, um, I had to go on Discord and ask.
+
+Supported the XTTSV2, which it does.
+
+So let's test out SpongeBob and Tony's first lines.
+
+"Hey there, Tony.
+
+I'm totally stoked to discuss capitalism with you."
+
+"It's funny because SpongeBob sounds like a woman's voice.
+
+I wonder if it thought that's what it was."
+
+"Hey there, Tony.
+
+I'm totally stoked to discuss capitalism with you."
+
+"I mean, it comes out pretty funny.
+
+Um, honestly, it's not bad for what it is.
+
+I'm happy with it.
+
+Let me try Tony now."
+
+"Listen, SpongeBob.
+
+You're a good kid, I get it.
+
+You're optimistic, you flip your burgers, and you think capitalism is this big,

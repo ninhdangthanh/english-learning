@@ -14,10 +14,10 @@ stuff giống như it, đại diện cho thứ trước đó
 disingenuous: không thành thật
 call-out: lời kêu gọi
 critique: phê bình
+critical=critiquing=critique
 formulate: hình thành
 disaster: thảm hoạ
 annoying: khó chịu
-critical=critiquing
 frustration or confusion: thất vọng và bối rối
 pivot away: xoay đi, thay đổi
 weird: kì lạ
