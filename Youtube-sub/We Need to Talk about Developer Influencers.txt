@@ -1,0 +1,41 @@
+So in this video, I want to talk about my journey as a dev influencer, my experience in content creation around programming, and maybe some other topics.
+
+About two years ago, when I first started, I was really burnt out with the projects and other things I was working on at the time. Online, I always struggled to find the "why" instead of the "how." I knew how to use TypeScript, but I didn't know why. This sparked my inspiration to create content that focused on inspiring rather than just teaching.
+
+I started on Tech Talk, literally holding the camera myself and pointing it at the screen to show what I was talking about. This type of content is where it all started. Eventually, I wanted to make this content better, so I learned how to edit, do compositions with After Effects, and even 3D modeling. Each video had to be better than the last. All of this was on the side while I was working as a software engineer at the company I built with two friends over five years ago.
+
+About a year ago, I met Will, who helped a ton on the channel and now works full-time on it. I'm really, really happy about that. Around the summertime of this year, I made the tough decision to become a full-time creator. My business partners and I discussed this and came to an agreement that was beneficial for all of us. Everything was looking great.
+
+However, this is where I reached a moral dilemma. Working at a software development job gave me the experience I could pour into my YouTube channel. Now that I don't have this job anymore, is it my job as a dev influencer to talk about code when I don't even code anymore? Many dev tech influencers feel the same way, experiencing imposter syndrome, talking about code but not coding as often or as well.
+
+When I make videos like "how I learned to code" or "how to write cleaner code," the context is shifting from providing valuable insight as a real software developer to reiterating possibly outdated or surface-level knowledge. This is where the term "dev influencers" comes into play, often used condescendingly to refer to creators who post dev-related content. A lot of criticisms and complaints are not really different from what regular influencers face.
+
+A big critique for devs specifically is their background and authenticity. While doing research, I saw a comment on Reddit asking if every YouTube programming channel is a noob in disguise. The channel Tokyo Ad Tech confirmed that much of the content out there is surface-level and often reiterated. The problem isn't that beginner-level content exists but that there's a lot of "educational theater" meant more to gain metrics than to be an educational resource.
+
+One of my favorite channels, 2Monkeypaw, discussed this idea in detail. The tech, software engineering, and programming YouTube community tend to regurgitate the same content, repackaged with different titles and thumbnails. While fresh takes, opinions, and styles are valuable, the underlying value of these talking-head videos is generally the same.
+
+This realization made me understand that I'm just playing the YouTube algorithm game as well. Creators need to do this to justify their time making videos. Many excellent content creators get upset or burnt out because their videos don't perform well, despite the time, effort, and sometimes money invested.
+
+If you're a content creator giving advice on coding without constantly working at programming, your stuff gets outdated fast and can seem disingenuous. In software engineering, you learn a lot by doing the job, which is different from learning through research for content creation.
+
+This isn't a call-out to dev influencers but more a critique of the algorithms we use daily to drive views, engagement, and watch time. One easy way to grow fast on YouTube is to cover every single update immediately, which can result in opinions or reactions that are too early to formulate.
+
+In the dev community, this polarizing back-and-forth creates division and confusion within the audience. At the end of the day, people just want to learn how to code. Theo made a video called "I'm Burnt Out" that resonated with me, as he juggles both working and YouTube, risking burnout.
+
+Software engineering and YouTube are both demanding jobs. Balancing a YouTube channel with a software engineering role often results in disaster for creators. The more videos you make, the more you rely on keeping your numbers up, which is a tough balance.
+
+My channel, Coding with Lewis, has faced criticisms. Some people find my short-form content annoying, which I understand. But discussing the idea of me not having a programming job anymore while still making content that offers advice is worth critiquing. What's my actual purpose in making these videos?
+
+For the last three or four months, I've been taking my channel in a different direction. My goal is to make entertaining content that inspires you to learn to code or build awesome projects. This involved coding again on my channel, beyond surface-level copy-pasting. My videos aim more towards entertainment now.
+
+With the criticisms mentioned, I want to stay clear of advice-style videos. While my past videos are well-researched and honest, I don't think I have the credibility to continue this style of content considering my current position. I want to avoid saying things like "Every programmer should learn this."
+
+Despite the effort and quality we put into our videos, I see why my actions cause division, frustration, or confusion. I'm sorry about that. If you've been watching for the last few months, nothing will change drastically on the channel, but there will be a pivot away from advice content.
+
+I get hate comments about my appearance, intelligence, and sometimes death threats, which are weird. But something I'll never accept is not being honest with my community. When I get something wrong, I'll reply in the comments to clear it up or remove the video if necessary.
+
+Being in this position is a privilege I don't take for granted. When I get called out, like for calling VScode lightweight, I deserve it. My past is transparent, and I'm not the best programmer, but honesty is the bare minimum for the people who support my channel.
+
+This video isn't to start drama or target specific people. It's a reflection on my journey and the criticisms often placed on channels like mine. The creators mentioned are incredible, and meeting them has been a pleasure.
+
+List your favorite creators below, and let's avoid targeting individuals. If you think my channel can improve, I'd love to hear it in the comments. Thank you for an amazing year, and I'm excited to show you what's in store for 2024.
