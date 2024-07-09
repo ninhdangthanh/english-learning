@@ -20,9 +20,27 @@ kind of have: kiểu như có
 beyond: vượt ra
 catalog: mục lục
 fine-tuning: tinh chỉnh
+
 determine: quyết tâm
 surpose: cho là
 quite a bit: khá nhiều
 Scraping data: quét dữ liệu
 optimistic: lạc quan
 assume: cho rằng
+oppose: phản đối
+topologies: cấu trúc liên kết
+provisioning: cung cấp
+due to: bởi vì
+during: suốt trong thời gian
+disjointed: rời rạc
+Durable/Durability: độ bền
+intervals: khoảng thời gian
+regular: thường xuyên
+rewind: tua lại
+subsequence: tiếp theo
+consequence: hậu quả, kết quả
+araise/araises: đứng lên, nổi lên 
+arises: phát sinh
+pace: nhịp độ, tốc độ
+Enroll: tham gia
+ensemble: quần thể
