@@ -20,3 +20,15 @@ but rather: đúng hơn là
 
 You Dont Need Microservices
 
+spec: thông số kĩ thuật
+freak out: bối rối
+which is mind-blowing: một điều đáng kinh ngạc
+adopt serverless or not: sử dụng serverless hay không
+intense: mãnh liệt
+from scratch: từ đầu
+the sake: lợi ích
+turning point: bước ngoặc
+makes sense: hợp lý
+aims: nhằm
+aims to address: nhằm mục đích giải quyết
+smash = press: nhấn vào
