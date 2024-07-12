@@ -41,3 +41,4 @@ explicitly stated: tuyên bố rõ ràng
 sort of: đại loại, có vẻ
 It sort of comes off as desperate: nó có vẻ tuyệt vọng
 competence: năng lực
+likelyhood: khả năng xảy ra
