@@ -20,6 +20,7 @@ apologist: người bào chữa
 treat: đối xử
 evil: xấu xa
 delight: hài lòng
+
 tunnel: xa, đường hầm
 solely: chỉ để
 everything in between: mọi thứ liên quan
@@ -45,6 +46,7 @@ How long: mất bao lâu
 chuckled: cười khúc khích
 guess what: đoán xem
 striving: phấn đấu
+
 take time away: mất đi thời gian
 wealth: giàu
 take naps: ngủ trưa
