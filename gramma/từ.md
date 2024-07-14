@@ -243,3 +243,64 @@ Liên từ tương quan nối hai đơn vị từ tương đương với nhau, l
 - **Neither - nor:** She is neither rich nor famous. (Cô ấy không giàu cũng không nổi tiếng.)
 - **Not only - but also:** He is not only a good teacher but also a great friend. (Anh ấy không chỉ là một giáo viên giỏi mà còn là một người bạn tuyệt vời.)
 - **Both - and:** She speaks both English and Spanish. (Cô ấy nói cả tiếng Anh và tiếng Tây Ban Nha.)
+
+
+
+# Cách dùng liên từ kết hợp (Coordinating Conjunctions)
+
+Liên từ kết hợp dùng để nối hai (hoặc nhiều hơn) đơn vị từ tương đương nhau. Các đơn vị từ này có thể là từ, cụm từ, hoặc mệnh đề. Trong tiếng Anh, các liên từ kết hợp phổ biến nhất là: **for, and, nor, but, or, yet, so** (FANBOYS).
+
+## 1. For
+### Ý nghĩa: Vì, bởi vì (diễn tả lý do hoặc nguyên nhân)
+- **Example:** 
+  - I went to bed early, for I was very tired. (Tôi đi ngủ sớm vì tôi rất mệt.)
+  
+## 2. And
+### Ý nghĩa: Và (thêm thông tin)
+- **Example:**
+  - She likes to read books and listen to music. (Cô ấy thích đọc sách và nghe nhạc.)
+
+## 3. Nor
+### Ý nghĩa: Cũng không (dùng trong câu phủ định)
+- **Example:**
+  - He neither smiled nor looked at me. (Anh ấy không cười cũng không nhìn tôi.)
+
+## 4. But
+### Ý nghĩa: Nhưng (diễn tả sự tương phản)
+- **Example:**
+  - I want to go, but I have to work. (Tôi muốn đi, nhưng tôi phải làm việc.)
+
+## 5. Or
+### Ý nghĩa: Hoặc (diễn tả sự lựa chọn)
+- **Example:**
+  - You can have tea or coffee. (Bạn có thể uống trà hoặc cà phê.)
+
+## 6. Yet
+### Ý nghĩa: Tuy nhiên (diễn tả sự tương phản)
+- **Example:**
+  - He is rich, yet he is not happy. (Anh ấy giàu, nhưng anh ấy không hạnh phúc.)
+
+## 7. So
+### Ý nghĩa: Vì vậy (diễn tả kết quả)
+- **Example:**
+  - It was late, so we went home. (Đã muộn nên chúng tôi về nhà.)
+
+## Cách dùng trong câu
+### 1. Nối hai từ
+- **Example:**
+  - She is smart and beautiful. (Cô ấy thông minh và xinh đẹp.)
+
+### 2. Nối hai cụm từ
+- **Example:**
+  - We went to the store and bought some fruit. (Chúng tôi đã đến cửa hàng và mua một ít trái cây.)
+
+### 3. Nối hai mệnh đề độc lập
+- **Example:**
+  - He wanted to go for a walk, but it was raining. (Anh ấy muốn đi dạo, nhưng trời đang mưa.)
+
+### Lưu ý:
+- Khi nối hai mệnh đề độc lập, thường có dấu phẩy (,) trước liên từ kết hợp.
+  - **Example:** I wanted to call you, but I forgot. (Tôi muốn gọi cho bạn, nhưng tôi đã quên.)
+
+- Không dùng dấu phẩy khi nối hai từ hoặc cụm từ.
+  - **Example:** She is talented and hardworking. (Cô ấy tài năng và chăm chỉ.)
