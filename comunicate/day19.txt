@@ -1,0 +1,44 @@
+Want A Software Job Quicker_ Don't Be A Web Developer
+
+conjunction: liên kết
+stakeholder: cổ đông
+plenty: nhiều
+revolves: xoay quanh
+the company's claim to fame: tuyên bố nổi tiếng của công ty
+incidents: sự cố
+system outage: hệ thống ngừng hoạt động
+front of the mind: trước tâm trí, luôn được quan tâm
+revenue: doanh through
+matter: quan trọng, vấn đề
+vulnerable: dễ bị tổn thương
+threat: mối đe dọa
+phishing: lừa đảo
+diverse: phong phú
+
+
+7 Must-know Strategies to Scale Your Database 
+
+driving users away: khiến người dùng từ bỏ
+surge: dâng trào
+peak load: tải cao điểm
+retail/retailer: bán lẻ, người bán lẻ
+to pull up: để kéo lên
+extremely: cực kỳ
+compute on the fly: tính toán nhanh chóng
+resource-intensive: nguồn lực chuyên sâu
+normalization/denormalization: chuẩn hóa, không chuẩn hóa
+rapid growth: tăng trưởng nhanh chóng
+further upgrades: nâng cấp thêm
+address: giải quyết
+seamless: liền mạch
+validate/invalidation: thẩm định/vô hiệu hóa
+even though: mặc dù
+
+
+Concurrency Vs Parallelism!
+
+juggle: xử lý, tung hứng
+illusion: ảo giác
+In contrast: ngược lại
+closely related: liên quan chặt chẽ
+by structuring program: bằng cách cấu trúc chương trình
