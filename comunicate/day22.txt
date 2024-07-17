@@ -1,0 +1,28 @@
+KISS, SOLID, CAP, BASE: Important Terms You Might Not Know!
+
+distinguish: phân biệt
+can span: có thể vượt qua
+external perspective: góc nhìn bên ngoài
+unified: thống nhất
+ubiquitous: phổ cập, có mặt mọi nơi
+address: giải quyết
+composition: thành phần
+decomposition: phân hủy
+evenly: đồng đều
+attracts: thu hút
+respective: tương ứng
+resides: cư trú
+character/characteristics: tính cách, đặc trưng
+interleaved: xen kẽ
+topology: cấu trúc liên kết
+relays: chuyển tiếp
+peer: đồng nghiệp/ngang hàng
+fog: sương mù
+eventual: cuối cùng
+stand for: viết tắt của
+resilience: khả năng phục hồi
+segrege/segregetion: phân chia, tách biệt
+aims: mục đích
+tolerance: chịu đựng
+acronym: viết tắt
+extension: sự mở rộng
