@@ -18,6 +18,7 @@ hone: trau dồi
 boldness: táo bạo
 creative: sáng tạo
 appreciation: sự đánh giá
+
 sort of: đại loại
 aside: ngoài, qua một bên
 map them out to: vạch chúng ra để

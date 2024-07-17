@@ -16,6 +16,7 @@ character/characteristics: tính cách, đặc trưng
 interleaved: xen kẽ
 topology: cấu trúc liên kết
 relays: chuyển tiếp
+
 peer: đồng nghiệp/ngang hàng
 fog: sương mù
 eventual: cuối cùng
@@ -26,3 +27,11 @@ aims: mục đích
 tolerance: chịu đựng
 acronym: viết tắt
 extension: sự mở rộng
+interfering: can thiệp
+acquiring/acquire: có được, giành được
+exclusive: loại trừ
+exclusive lock: khóa độc quyền
+gone: đi mất, đi qua
+restricts: hạn chế
+mitigate: giảm nhẹ
+arise: phát sinh
