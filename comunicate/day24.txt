@@ -15,3 +15,9 @@ genre: thể loại
 flashier: hào nhoáng hơn
 engaging: hấp dẫn
 turn the company around: xoay chuyển tình thế cty
+crack: bẻ khóa
+tricky: khó khăn
+allow/allowance: cho phép/trợ cấp
+compliance=adhere/adhering: tuân thủ
+simulation: mô phỏng
+simultaneously: đồng thời
