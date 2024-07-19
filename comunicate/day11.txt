@@ -5,9 +5,9 @@ announcement: thông báo
 accomplish: hoàn thành
 rush to the office: vội vàng tới văn phòng
 heading home: về nhà
-barely: vừa đủ
+barely: hầu như không...
 barely have time: hầu như không có đủ thời gian
-barely finish: vừa mới hoàn thành
+barely finish: hầu như không hoàn thành
 mess: bừa bộn
 supposed: giả sử
 launched: thành lập
