@@ -13,7 +13,7 @@ varying: thay đổi
 varying level: mức độ khác nhau
 guard/safeguard: bảo vệ
 narrow/narrow down: chật hẹp/ thu hẹp lại
-undertaken: thực hiện
+undertaken: thực hiện, đảm nhận
 drawback: hạn chế
 time intensive: tốn nhiều thời gian
 adoption: áp dụng, tiếp cận
