@@ -10,7 +10,8 @@ stuck: mắc kẹt
 enroll: tham gia, ghi danh
 broker: người mua giới
 enrich: làm giàu
-relicate: nhân bản
+relicate: tái hiện
+relocate: di dời
 massive: to lớn
 tolenrance: sức chịu đựng
 
