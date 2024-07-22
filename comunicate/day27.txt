@@ -26,3 +26,4 @@ compromise: thỏa hiệp
 varying access level: mức độ truy cập khác nhau
 interchangeably: có thể thay thế cho nhau
 unambiguously: một cách rõ ràng
+thrill/thrilled: sợ hãi/hồi hộp
