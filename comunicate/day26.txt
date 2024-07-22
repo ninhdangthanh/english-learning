@@ -18,6 +18,7 @@ artifact: hiện vật
 overly ambitious: quá tham vọng
 upfront: trả trước
 solid/solidify/solidity: rắn chắc/ làm cứng lại/ sự vững chắc
+
 can't stand your job: không thể chịu đựng công việc
 brushing up: nâng cao
 transcript: bảng điểm

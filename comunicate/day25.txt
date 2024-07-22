@@ -18,8 +18,10 @@ argument: lý lẽ
 permanently: Vĩnh viễn
 stay away: tránh xa
 considerable: đáng kể
+
 unless: trừ khi
 appreciate/appreciated: đánh giá/đánh giá cao
+appropriate: phù hợp
 courage: can đảm
 upset: buồn bã
 species: giống loài

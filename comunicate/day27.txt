@@ -1,0 +1,28 @@
+invocation: lời kêu gọi
+discrepancy: sự khác biệt
+blowing up/blow up: thổi lên/nổ tung
+spin: quay tròn
+invoke/invoked: gọi, triệu tập
+reminder: nhắc nhở
+likely: rất có thể, có khả năng
+likelyhood: khả năng xảy ra
+celebrate/celebratory: kỉ niệm
+remain: duy trì
+remains/remainder: còn lại/phần còn lại
+add redundancy: thêm dự phòng
+reassemble: tập hợp lại
+assemble: tập hợp
+resent: bực bội
+
+every single time: mỗi lần
+interfere: can thiệp
+controlversal: gây tranh cãi
+theorem: định lý
+arithmetic: môn số học
+temporal: thời gian
+beyond: vượt ra
+equipped: đã trang bị
+compromise: thỏa hiệp
+varying access level: mức độ truy cập khác nhau
+interchangeably: có thể thay thế cho nhau
+unambiguously: một cách rõ ràng
