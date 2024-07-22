@@ -28,5 +28,10 @@ appointment: cuộc hẹn
 equip/equipment: trang bị/thiết bị
 spec: thông số kỹ thuật
 one debt to society later: một món nợ cho xã hội sau này
-frustrated:
-objectively
+frustrated: bực bội
+objectively: một cách khách quan
+objective: khách quan
+offensive: phản cảm
+offensively: một cách xúc phạm
+pseudo: giả
+probability: xác xuất
