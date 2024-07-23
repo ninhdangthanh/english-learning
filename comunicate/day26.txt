@@ -15,7 +15,7 @@ literally: theo đúng nghĩa đen
 stale: cũ
 demoralizing: làm mất tinh thần
 artifact: hiện vật
-overly ambitious: quá tham vọng
+overly ambitious/ambition: quá tham vọng
 upfront: trả trước
 solid/solidify/solidity: rắn chắc/ làm cứng lại/ sự vững chắc
 
@@ -31,7 +31,7 @@ figure out: tìm ra
 i figure: tôi nghĩ
 adjacent role: vai trò liền kề
 along: dọc theo, cùng
-passive: đam mê
+passive: thụ động
 turn me down/turned me down: từ chối tôi/ làm tôi thất vọng
 tangible output: đầu ra hữu hình
 time boxed: đóng hộp thời gian

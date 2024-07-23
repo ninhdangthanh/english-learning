@@ -1,6 +1,7 @@
 velocity: vận tốc
 subjective: chủ quan
-subject: chủ đề
+subject: chủ thể
+subjection: sự khuất phục
 beat that: đánh bại nó
 drag your feet: kéo chân bạn
 dipped a bit: nhúng vào một chút
@@ -26,6 +27,7 @@ courage: can đảm
 upset: buồn bã
 species: giống loài
 disappoint/disappointment: sự thất vọng
+appoint: bổ nhiệm
 appointment: cuộc hẹn
 equip/equipment: trang bị/thiết bị
 spec: thông số kỹ thuật
@@ -37,3 +39,4 @@ offensive: phản cảm
 offensively: một cách xúc phạm
 pseudo: giả
 probability: xác xuất
+probalty: xác thực
