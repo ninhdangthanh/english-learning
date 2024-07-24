@@ -1,7 +1,7 @@
 complex: tổ hợp
 elegant: thanh lịch
 keep in mind: ghi nhớ
-resumption: nối loại
+resumption: nối lại
 emphasizes: nhấn mạnh
 interoperability: khả năng tương tách
 defects: khiếm khuyết
