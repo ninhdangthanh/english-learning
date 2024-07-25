@@ -40,4 +40,4 @@ nurturing: nuôi dưỡng
 consecutive: liên tiếp
 appeal: bắt mắt, hấp dẫn
 devote: tận tâm
-barrier: rào chắn
+barrier/hurdle: rào chắn

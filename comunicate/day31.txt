@@ -10,10 +10,10 @@ purely: hoàn toàn
 pillars: trụ cột
 trade system: hệ thống thương mại/buôn bán
 paradigm: mô hình
-
 incurring: phát sinh
 curring: uốn cong
 clash: xung đột
+
 surround=arround: xung quanh, vây quanh
 what sort: loại gì
 pronounced: phát âm
@@ -22,6 +22,31 @@ predecessor: người tiền nhiệm
 penalty: hình phạt
 congestion: tắt nghẽn
 square/square one: quảng trường, hình vuông
+chore: việc vặt
+master of perspective: bậc thầy về quan điểm
+factor/factors: các nhân tố
+transient: tạm thời
+joy: vui sướng = fun
+reput=reputation: danh tiếng
+
+pride: kiêu hãnh
+upstairs: tầng trên, tầng lầu
+depress/depression: chán nản
+husband: người chồng
+spare time: thời gian rảnh
+pumped up: bơm lên
+painful: đau đớn
+i kind of got over: tôi gần như đã vượt qua
+collapsed: sụp đổ
+billboard: bảng quảng cáo
+charity: từ thiện
+got out of: thoát ra, thoát khỏi
+outcomes: kết quả
+drastically: quyết liệt = intense
+resemble/resemblance: giống nhau
+percept/perception: nhận thức
+less: ít hơn
 
 https://www.youtube.com/watch?v=ai8cf0hZ9cQ
 https://www.youtube.com/watch?v=784JWR4oxOI
+https://www.youtube.com/watch?v=KEWV5yaj_2o
