@@ -1,0 +1,10 @@
+sensible: hợp lý
+misuse: lạm dụng
+deallocated: giải phóng
+malform/malformed: dị dạng
+interpolation: nội suy (ví dụ như format! có {} trong rust)
+inflicted: đã gây ra
+annotations: chú thích
+thesis defense: bảo vệ đồ án
+a spot: một điểm
+planet/planets: hành tinh, những hành tinh
