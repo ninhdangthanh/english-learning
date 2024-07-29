@@ -8,3 +8,27 @@ annotations: chú thích
 thesis defense: bảo vệ đồ án
 a spot: một điểm
 planet/planets: hành tinh, những hành tinh
+contingency: dự phòng
+no memory overhead: không có bộ nhớ thừa
+invariant: bất biến
+delicate: tinh tế
+emulate: bắt chước
+emulated: mô phỏng
+
+ergonomic: công thái học
+suffers: chịu đựng
+trampoline: nhún nhảy
+scary: đáng sợ
+invent/reinvent: phát minh/tái tạo lại
+interplay: sự tương tác
+charge of: phụ trách
+stretch/stretches: kéo dài
+hustle: chen lấn
+conversion: sự chuyển đổi
+think otherwise: nghĩ khác đi
+notably: đáng chú ý
+semiconductor: chất bán dẫn
+a symbol: biểu tượng
+occupies the: chiếm đóng
+conventional: thông thường
+universal/universally: phổ biến
