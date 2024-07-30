@@ -12,7 +12,7 @@ affiliate: liên kết
 backbones: xương sống
 border: ranh giới
 thumbnail: hình nhỏ
-explode: nổ tung
+explode/explosive: nổ tung
 swag: sự phong phú
 rough/rough: thô sơ
 strange: lạ lùng

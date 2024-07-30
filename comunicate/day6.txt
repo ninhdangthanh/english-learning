@@ -9,7 +9,7 @@ survice: sống sót
 anyway: dù sao đi nữa
 reserved: kín đáo
 formulate: xây dung
-emerge: hiện ra
+emerge: hiện ra, nổi lên
 approximately: khoảng
 closer/closest: gần hơn, gần nhất
 denomalize: biển đổi
