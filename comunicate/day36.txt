@@ -1,0 +1,20 @@
+superior: cấp trên
+landed: hạ cánh
+sunshine: ánh sáng mặt trời
+carry: mang theo
+infamous: tai tiếng
+comfort: an ủi
+confine/confined: hạn chế
+publicize/publicized: công bố/được công bố
+risk-taking had pay off: việc chấp nhận rủi ro đã được đền đáp
+likewise: tương tự như vậy
+glad: vui mừng
+sunny: nhiều nắng
+advise=advice: tư vấn, lời khuyên
+constructive: mang tĩnh xây dựng
+perceived: lĩnh hội
+
+notion/notioned: khái niệm/đã lưu ý
+breakthrough: đột phá 
+reallocated: phân bổ lại
+engated/engatment: than gia
