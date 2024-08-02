@@ -1,7 +1,7 @@
 caveat: cảnh báo
 bother: làm phiền
 nasty: bẩn thiểu
-meansured: có nghĩa là
+meansured: có nghĩa là / đo lường
 tend=clined: có khuynh hướng
 compart/compartment: phân chi
 compartmentalize: phân chia từng ngăn
@@ -13,4 +13,19 @@ further: hơn nữa
 punish/punished: trừng phạt
 possibly: có khả năng
 fence=barrier=hurdle: rào chắn, hàng rào
+
 addict/addicted: con nghiện
+reliance/relliance: sự phụ thuộc
+resillience: khả năng phục hồi
+magnetic disk: đĩa từ
+magnetic: từ tính
+excess: thặng dư, thừa
+consolidate: hợp nhất
+sensor: cảm biến
+eviction: trục xuất, thu hồi
+failover: chuyển đổi dự phòng
+never mind: đừng bận tâm
+fizzy water: nước có ga
+meditation room: phòng thiền
+elevator upstairs: thang máy tầng trên
+freakish/freakishly: kỳ lạ, kì quái
