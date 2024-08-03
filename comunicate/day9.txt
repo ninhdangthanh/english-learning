@@ -33,5 +33,5 @@ conception: quan niệm
 misconception: quan niệm sai lầm
 
 involve: liên quan
-evolve: tiến hóa
-revolve: cách mạng
+evolve/evolution: tiến hóa
+revolution: cách mạng
