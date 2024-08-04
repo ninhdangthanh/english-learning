@@ -29,3 +29,8 @@ fizzy water: nước có ga
 meditation room: phòng thiền
 elevator upstairs: thang máy tầng trên
 freakish/freakishly: kỳ lạ, kì quái
+
+quite a few: khá ít
+quite a bit: khá ít
+much: nhiều
+little: ít
