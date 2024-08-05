@@ -10,8 +10,14 @@ condition: điều kiện
 denied: từ chối
 denial: sự phủ nhận
 vital: thiết yếu
+
 obscurity: sự tối tăm
 counterproductive: phản tác dụng
 convicted: bị kết án
 crime: tội phạm, tội ác
 celebrated: tôn vinh
+came up: đã xuất hiện
+specialize: chuyên môn hóa
+demanding: đòi hỏi
+characterize: đặc trưng
+extract: trích xuất
