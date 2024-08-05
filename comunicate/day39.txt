@@ -1,3 +1,17 @@
 dozens: hàng chục/tá
 appearance: vẻ bề ngoài
 major/majority: lớn lao/số đông
+enlarge: phóng to
+equivalent: tương đương
+assumption: giả thiết
+flaw: khuyết điểm
+corrupt/corruption: tham nhũng
+condition: điều kiện 
+denied: từ chối
+denial: sự phủ nhận
+vital: thiết yếu
+obscurity: sự tối tăm
+counterproductive: phản tác dụng
+convicted: bị kết án
+crime: tội phạm, tội ác
+celebrated: tôn vinh
