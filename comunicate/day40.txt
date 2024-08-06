@@ -1,0 +1,26 @@
+outweight: lớn hơn
+debit: ghi nợ
+curated = selected: được tuyển chọn
+tuned: điều chỉnh
+distro: bản phân phối
+incantation: câu thần chú
+greet: tuyệt vời
+bounce: nảy lên, bóng nảy
+novel: cuốn tiểu thuyết
+supposed to you: được cho là với bạn
+observe/observer: quan sát/người quan sát
+violate/violates/violated: xâm phạm, vi phạm
+precision: độ chính xác
+colistion: cuộc xung đột, va chạm
+ingredients: thành phần
+
+blazing fast: rõ nhanh
+arrange/rearrange: xắp sếp/xắp sếp lại
+traverse: đi qua
+carry: mang
+carry a way: mang đi
+tweeking: chỉnh sửa
+trekking: đi bộ đường dài
+consist: bao gồm
+Consistence: nhất quán
+actor: diễn viên

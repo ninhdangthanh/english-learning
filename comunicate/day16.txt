@@ -8,7 +8,7 @@ some sort: một số loại
 extent: mức độ, phạm vi
 There are all kinds of people: có đủ loại người
 make things up: bịa đặt
-intuition: trực giác, cảm nhận
+intuition/intuitive: trực giác, cảm nhận
 brought up: đề cập
 was bullshitting them: đang nói nhảm về chúng
 nervous and confused: lo lắng và bối rối

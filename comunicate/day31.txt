@@ -4,7 +4,7 @@ impose/imposed: áp đặt
 prone to error: dễ bị lỗi
 drag: lôi kéo
 acquired: mua
-imperative: mệnh lệnh
+imperative: mệnh lệnh, bất buộc
 pure: nguyên chất
 purely: hoàn toàn
 pillars: trụ cột
