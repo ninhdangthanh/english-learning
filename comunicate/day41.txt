@@ -1,0 +1,25 @@
+discipline: kỷ luật
+Durability: độ bền
+Proficiency: khả năng
+comforted: được an ủi
+journalists: nhà báo
+accompany: đồng hành
+discrete: rời rạc
+detect: phát hiện
+rubbish: rác
+deduce: suy ra
+no fluff, just the good stuff: không thừa thải, chỉ những thứ tốt đẹp
+dry: khô khan
+
+fascinated: lôi cuốn
+chasing the shiny: đuổi theo sự hào nhoáng
+repetition: sự lặp lại
+no nonsense: không có gì vô nghĩa
+actionable: có thể hành động
+prevalent: phổ biến
+tricking: lừa đảo
+apperentaly: rõ ràng
+survive: tồn tại, sống sót
+next one: tiếp theo
+dinosaur: khủng long
+
