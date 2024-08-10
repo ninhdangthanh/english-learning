@@ -42,7 +42,7 @@ billboard: bảng quảng cáo
 charity: từ thiện
 got out of: thoát ra, thoát khỏi
 outcomes: kết quả
-drastically: quyết liệt = intense
+drastic/drastically: quyết liệt = intense
 resemble/resemblance: giống nhau
 percept/perception: nhận thức
 less: ít hơn

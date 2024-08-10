@@ -1,4 +1,4 @@
-junkie: đam mê
+junkie: đam mê, nghiện
 distill: chắt lọc
 exclusive: loại trừ, độc quyền
 conducted: tiến hành, chỉ đạo
