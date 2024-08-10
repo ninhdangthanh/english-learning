@@ -1,4 +1,4 @@
-superior: cấp trên
+superior: cấp trên, vượt trội
 landed: hạ cánh
 sunshine: ánh sáng mặt trời
 carry: mang theo
