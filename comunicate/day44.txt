@@ -1,0 +1,17 @@
+crystal: tinh thể
+notable: đáng chủ ý
+notion: khái niệm
+assess/assessment: đánh giá
+thorough: kỹ lưỡng
+promptly: nhanh chóng
+scheme: cơ chế
+sophisticated: cầu kì
+foster: nuôi dưỡng, khích lệ
+explanation: giải thích
+commitment: cam kết
+serial compute: tính toán nối tiếp
+digest: bản tóm tắt
+retaining: giữ lại
+armed: vũ trang
+defer: trì hoãn
+propose=proposition
