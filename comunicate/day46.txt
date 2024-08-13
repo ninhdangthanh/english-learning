@@ -1,0 +1,13 @@
+grace/gracefully: duyên dáng
+lecture: bài giảng
+tear: xé
+generous: hào phóng
+formular: công thức/kiểu như xây dựng
+revive: hồi sinh
+patching: vá lỗi
+sanitize: vệ sinh
+forgery: làm giả
+constant: không thay đổi
+có thể là liên lục như constantly
+severity: mức độ nghiêm trọng 
+bump up: va chạm lên
