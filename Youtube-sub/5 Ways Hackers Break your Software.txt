@@ -1,0 +1,225 @@
+Here's a revised version of the text with punctuation, line breaks, and minor adjustments for clarity:
+
+---
+
+The world will lose $10.5 trillion annually to cybercrime by 2025.
+
+That is an astonishing amount of money.
+
+…but how do these cybercrimes happen?
+
+With hundreds of programming languages, thousands of frameworks, and millions of lines of code… there’s always a bug that can be costly.
+
+Software is a lot like us humans—versatile, intelligent—but deeply insecure.
+
+In this video, I am going to describe 5 ways that software can be vulnerable and be attacked by those who have intentions that can be questionable.
+
+My name is Lewis, and I am a software… (glitch to 1st)
+
+---
+
+### SQL Injection
+
+One of the central sources of truth for any application is its database.
+
+Databases is a very broad term; there are even many different types of databases…
+
+I have videos describing this if you’re interested.
+
+However, the primary way of interacting with this database is through a language called SQL—Structured Query Language for short.
+
+A common application would have an architecture like this: (show diagram)
+
+A user on a website will have a form, which will send the information to the server. The server then takes that input from the user, retrieves it from the database, and returns it to the client.
+
+Let’s go a little deeper.
+
+Let’s say our form has a search bar where a user can search for names in our database.
+
+When I insert the name “Lewis” into the database, the information is sent to the database.
+
+So, I have to write server code to talk to the database and get the results for the user.
+
+I create this SQL statement where I search the users table for the name that equals the input like this:
+
+Whenever I enter:
+
+- Lewis
+- Sally
+- Will
+
+It will look for those values.
+
+Awesome.
+
+There is absolutely NOTHING wrong with this statement… Did you read the title? I don’t really need to foreshadow this, do I?
+
+What if instead of putting another name, I put in a certain SQL statement? If I put in OR (1=1), it pulls the entire database because of the true value—1=1.
+
+This is SQL Injection, and it’s extremely dangerous.
+
+In 2007, 7-Eleven lost over 4.2 million debit and credit card numbers due to a SQL injection attack.
+
+There are easy ways to avoid this attack:
+
+1. **Sanitize your inputs**: Sanitizing can mean many things, but essentially, it ensures that the input from users is seen as one data type and not one that can affect your code.
+  
+2. **Use an Object-Relational Mapping package**: This package turns your SQL statements into an easy-to-use API. These are not necessarily vulnerability-free, but are often maintained to avoid this.
+
+3. **Set correct permissions for your database user**: If you limit the database user’s access to only a small amount of data, even if an SQL injection occurs, they won’t be able to access critical data.
+
+---
+
+### Cross-Site Scripting
+
+Have you ever noticed that almost every single application you use nowadays is on the web?
+
+It’s probably how you are seeing my handsome face on your screen right now.
+
+On the web, websites are organized and laid out using a Markup Language called HTML.
+
+If you right-click and inspect, you can see it on any website you visit.
+
+HTML is made up of tags that organize text across your screen… but how can text in a tag hurt you?
+
+(Show an h1 tag saying something mean)…well, that’s one way.
+
+The real danger lies in the `<script>` tag, which runs JavaScript code that is inside it.
+
+Let’s say I made a blog that was pretty popular and allowed anyone to comment…
+
+I want everyone to add a little bit of flair to their comments, so I allow my users to style their comments with HTML.
+
+After I come back… I see an alert that I don’t remember putting there…
+
+Ok, no biggie… wait… why is everything looking so weird?
+
+Since I allowed users to insert HTML, they were able to add a `<script>` tag, which can do things like grab all of your cookie or local storage information, change comments, or potentially contact my server.
+
+This ran because it was assumed that the website I was visiting was trusted.
+
+In 2005, a MySpace user named Samy wrote a `<script>` tag that would automatically add you as a friend and place you in the “hero” section.
+
+This had an exponential effect, gathering over 1 million friends in 24 hours.
+
+There are ways to prevent this, such as:
+
+1. **Preventing your users from using markup**: Restrict your users to trusted tags. Many frameworks that you might use probably already have this covered.
+  
+2. **Secure your cookies**: Many web applications tie session cookies to the IP address of the user who originally logged in, then only permit that IP to use that cookie.
+
+---
+
+### Snyk AD
+
+When you are building a project, you will have dependencies to other applications that have other dependencies, which might be vulnerable…
+
+…but thanks to today’s sponsor, Snyk, you can develop your apps faster with the peace of mind that you are keeping your application secure for your users.
+
+Snyk scans your code and your application dependencies against its massive vulnerability database to keep your apps secure at every moment.
+
+Setup is extremely easy, as Snyk can integrate with your IDE, repository, or CI/CD pipeline, so you don’t accidentally push that scary code to production.
+
+I’ve been using Snyk in my GitHub repositories to privately alert me and submit a pull request when a known vulnerability is found in one of my dependencies.
+
+Even better, it works with Docker images too, so you can find vulnerabilities in every area of the tech stack.
+
+Click the link in the description to find out why top companies like AWS, Google, Twilio, and more are using Snyk to secure their infrastructure.
+
+They are smart cookies, so I would trust them.
+
+---
+
+### DDoS
+
+You have probably heard of this one before, as you might have tried to visit a site or game that just launched and became overwhelmed by the number of users.
+
+However, that experience can be used maliciously.
+
+A direct Denial-of-Service attack is a malicious way to disrupt the traffic of a server by overwhelming it with your own traffic.
+
+Imagine trying to turn at an intersection while millions of cars are driving by.
+
+What makes this attack tough to combat is the distributed aspect of it; these computers are sometimes bots or other computers being controlled remotely.
+
+This makes it hard for the server to identify who the imposters are among us.
+
+A DDoS isn’t a vulnerability itself, but it is often used as a way to discover vulnerabilities or exploit them.
+
+Usually, these types of attacks are complex and can be isolated to the layer they are targeting.
+
+There are many creative ways that DDoS attacks are carried out, so it’s really hard to be 100% bulletproof against them. However, there are preventative measures.
+
+In 2018, GitHub was hit with a DDoS attack that clocked in at 1.35 terabits per second for 20 minutes, which means that 202 terabytes were sent…
+
+That’s like sending 540 million images in 20 minutes… wow…
+
+Here are two things you can do to ensure you are at least prepared for something like this:
+
+1. **Know your network’s traffic**: How much volume do you typically get? Try to scout out any suspicious traffic that might be coming from random IPs.
+
+2. **Take advantage of cloud platforms to load balance your traffic**: A giant data center is going to be better than your measly little server.
+
+---
+
+### Log4J
+
+This one was discovered recently and was a nuclear BOMB on the internet.
+
+Log4J is a logging utility for the Java Programming Language. It’s used to log information for developers to see across their applications.
+
+When it was announced that there was a DEADLY vulnerability affecting it… people freaked out.
+
+This was something that could affect MILLIONS… perhaps BILLIONS… since Java likes to shove it in our faces and all.
+
+Java has something called the Java Naming and Directory Interface (JNDI for short) that lets you get resources from another server.
+
+When developing an app, this comes in super handy because you can quickly download code that you can plug into your application.
+
+Similar to SQL injection and Cross-Site Scripting, if a user were to input a JNDI lookup as input and the logger logged it, it would execute that lookup, allowing a hacker to pull their resources and execute it in your app.
+
+When this was discovered, there were 10 million attempts an hour to exploit this vulnerability.
+
+The most important thing you can do now to protect yourself is to update to the newest version of Log4J.
+
+That way, you are up to date.
+
+---
+
+### Cross-Site Request Forgery
+
+Let’s say I have an awesome website where I can add and delete pictures of really cool cats that I like.
+
+I also have the feature to let people comment about how cool these cats might be.
+
+The way I programmed this in the backend is that if I send a POST request to the URL `coolcats.com/delete-cat` with my cookie attached for authentication and the ID of the cat I want to delete, this means it is 100% secure, right?
+
+…Did you still fall for my foreshadowing trick?
+
+When I click on a link that was in the comments, I go back to my app and see ALL of my cats are gone… why??
+
+In the link that I clicked in the comments, there was a hidden request made to the endpoint that I created, which, since I was already logged in, automatically included the authentication token.
+
+I have been pwned yet again.
+
+In 2020, Tik
+
+Tok fixed a CSRF vulnerability in its application that could have allowed attackers to delete a user’s videos or make them public.
+
+To protect yourself from a CSRF attack:
+
+1. **Use Cross-Site Request Forgery tokens in your request**: These tokens will check if a POST request came from the user or a malicious site.
+  
+2. **Check the HTTP referrer header**: This will ensure that the request was made from the correct site.
+
+---
+
+These are some common ways hackers get into your system.
+
+However, the most important thing you can do to keep yourself safe is to have a security mindset at all times.
+
+When you are developing, you must remember that everything you do has a weakness, and it’s your job to make sure those weaknesses aren’t used against you.
+
+---
+
+Let me know if you'd like any further adjustments or additions!
