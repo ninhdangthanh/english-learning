@@ -10,11 +10,11 @@ scars: vết sẹo
 leeway: sự nới lỏng
 touch point: điểm chạm
 cooperation: sự hợp tác
-
 reservation: đặt chỗ
 capacity: dung tích, công xuất, năng lực
 reconcile: hòa giải
 summing: tổng hợp
+
 exterminate: tiêu diệt
 grand: vĩ đại
 grant: khoản trợ cấp
@@ -23,3 +23,12 @@ taboo: điều cấm kị
 adjacent: kề cận
 coincidence: sự trùng hợp ngẫu nhiên
 manufacture: sản xuất
+credential: thông tin xác thực
+identity: danh tính
+exchange: trao đổi
+asset: tài sản
+learn about: tìm hiểu
+protected: được bảo vệ
+so: như vậy là
+for example: chẳng hạn
+grant permission: cấp quyền
