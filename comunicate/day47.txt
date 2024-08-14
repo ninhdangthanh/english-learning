@@ -10,7 +10,16 @@ scars: vết sẹo
 leeway: sự nới lỏng
 touch point: điểm chạm
 cooperation: sự hợp tác
+
 reservation: đặt chỗ
 capacity: dung tích, công xuất, năng lực
 reconcile: hòa giải
 summing: tổng hợp
+exterminate: tiêu diệt
+grand: vĩ đại
+grant: khoản trợ cấp
+grant me: ban cho tôi
+taboo: điều cấm kị
+adjacent: kề cận
+coincidence: sự trùng hợp ngẫu nhiên
+manufacture: sản xuất
