@@ -12,3 +12,19 @@ invisible: vô hình
 insecure: không an toàn
 stagnant: trì trệ
 subtantially: về cơ bản
+
+own: riêng
+aside: sang một bên
+processor: trình xử lý
+colon: hai chấm
+about to: sắp
+workflow: qui trình làm việc
+location: địa điểm
+các dòng sau: following line
+be done: được thực hiện
+do: thực hiện/làm
+as long as it exists: miễn là nó tồn tại
+run out of: dùng hết
+eviction policy: chính sách loại bỏ
+said/tell: cho biết
+free: giải phóng
