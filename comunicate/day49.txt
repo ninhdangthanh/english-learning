@@ -2,3 +2,11 @@ assignment: phân công
 assignments: bài tập
 submission: sự trình bày
 prime: xuất sắc
+parody: sự nhái lại
+portable: cầm tay
+deemed: được coi là
+worthly: xứng đáng
+emerging: đang nổi lên
+emerging technologies: công nghệ mới nổi
+incorporate/incorporating: kết hợp
+peak: đỉnh cao
