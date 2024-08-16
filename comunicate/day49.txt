@@ -1,0 +1,4 @@
+assignment: phân công
+assignments: bài tập
+submission: sự trình bày
+prime: xuất sắc
