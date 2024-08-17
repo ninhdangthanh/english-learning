@@ -10,3 +10,33 @@ emerging: đang nổi lên
 emerging technologies: công nghệ mới nổi
 incorporate/incorporating: kết hợp
 peak: đỉnh cao
+probation: thử thách/thử việc
+coverage: bảo hiểm
+upcoming trends: xu hướng sắp tới
+
+in fact: trên thực tế
+cloud computing: điện toán đám mây
+deny: phủ nhận
+blokchain flatform: nền tảng blockchain
+praised: đã ca ngợi
+mobility: tính di động
+since then: kể từ đó
+spurring interest: thúc đẩy sự quan tâm
+witness: chứng kiến
+privacy: quyền riêng tư
+keep an eye: để mắt
+
+reputation: uy tín
+investment fund: quỹ đầu tư
+cryptocurrency exchange: sàn giao dịch tiền điện tử
+batch processing: xử lý hàng loạt
+electronics: điện tử
+electricity: điện
+satellite: vệ tinh
+nature: bản chất
+strict: nghiêm ngặt
+obtained: thu được
+early: đầu, sớm
+so far: cho đến nay
+long term: lâu dài
+unique: độc đáo
