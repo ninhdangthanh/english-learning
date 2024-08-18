@@ -28,6 +28,6 @@ used to: đã từng
 overloaded: quá tải
 security hole: lổ hổng bảo mật
 the logger: nhật kí
-aperture/hole: lổ hổng
+aperture/hole: lổ hổng, hố, hang
 trap: cái bẫy
 get into: xâm nhập/truy cập
