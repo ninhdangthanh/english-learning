@@ -1,6 +1,6 @@
 assignment: phân công
 assignments: bài tập
-submission: sự trình bày
+submission/submissions: sự trình bày/nộp bài
 prime: xuất sắc
 parody: sự nhái lại
 portable: cầm tay
