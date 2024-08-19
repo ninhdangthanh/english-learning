@@ -19,3 +19,12 @@ match: khớp
 it's time to: đã đến lúc để
 get out of it: thoát khỏi nó
 remote registry: sổ đăng kí từ xa
+
+vocational: nghề nghiệp
+transcription: phiên âm
+radically: triệt để
+miserable: khổ sở
+bound: ràng buộc
+boundless: vô biên, vô cùng
+ramp up: tăng tốc
+prizes: giải thưởng
