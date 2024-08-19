@@ -2,6 +2,8 @@ swear to god: thề với chúa
 prototyping: tạo mẫu
 religion: tôn giáo
 bare mental: kim loại trần
+bare: trần trụi
+barely: hầu như không
 transport: vận chuyển
 on it: trên đó
 take you quite far: đưa bạn đi khá xa
