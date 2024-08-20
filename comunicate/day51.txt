@@ -21,6 +21,8 @@ I have to be on the phone: tôi phải trực điện thoại
 fear: lo ngại
 worry: lo lắng
 regardless: bất kể
+regard: về
+regards: trân trọng
 no matter: bất kể, không vấn đề gì
 number of times: số lần
 Hey, maybe you should: Này, có thể bạn nên
