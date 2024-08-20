@@ -10,10 +10,10 @@ Comments section: phần bình luận
 communication: giao tiếp
 communicaty: cộng đồng
 self-introduction: tự giới thiệu
-
 stay away: tránh xa
 so basicly: Vậy thì về cơ bản
 i think so: tôi nghĩ đại loại thế
+
 indicate/indicates: chỉ ra, biểu thị
 identify: nhận dạng
 identical/identity: giống hệt nhau/danh tính
@@ -22,3 +22,8 @@ so i am: nên tôi đang
 right place: đúng nơi
 chat: trò chuyện
 the only thing: điều duy nhất
+emotions: cảm xúc
+feeling: cảm giác
+Brave/Bravely: can đảm, dũng cảm
+as: vì
+As long as: miễn là
