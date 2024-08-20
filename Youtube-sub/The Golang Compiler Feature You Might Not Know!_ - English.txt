@@ -1,0 +1,35 @@
+
+What we all know is that Golang is amazing, but we also forget some cool features from time to time—especially when it comes to compiling your code. I want to create, not a series, but a couple of videos about these forgotten features that can make your life much easier. Right? And nobody talks about it, so I'm going to do it. I'm going to dive headfirst into the pile and show you how it's done.
+
+But before we continue, if you're not yet subscribed, you know the drill. Consider subscribing because 50% of my viewers are still leeching for no reason at all. So, if you want to subscribe to my channel, give me a thumbs up, and leave some questions in the comments. Also, jump into the Discord community and learn how to be a Golang professional 24/7. 
+
+And a shameless self-plug: if you want to learn how to build complete, production-ready Golang applications, hey, check out the link below and get 33% off my HDMX Temple Tailwind Golang course. Anyway, let's continue here.
+
+So, basically, I have this very simple application here. The main function is going to print. And what we are going to do is, from time to time, if you build these applications, you might have different environments—build environments, right? Maybe on your local machine, you want to execute certain code, and in production, you want to execute different code. 
+
+Most of the time, you're going to have an environment variable that swaps between different configurations: if it's dev, do this; if it's prod, do that; if it's staging, do something else. You know what I mean? But there is actually a very cool trick in Golang that you can use when compiling your code. It will basically compile only certain files and execute only certain functions based on these files. 
+
+Let me demonstrate this. Let's say we have an application, and we want to... People are sending me messages—guys, I need to get away from this! If you want to focus, turn off your cell phone because it's annoying, right? 
+
+So, basically, we're going to make two files here. I'm going to create a file and call it `foo_dev.go`. What we're going to do is this: we're going to say `// +build dev`—I think something like that. Is that going to work? We don't know. Then we're going to create a package called `main`, and let's make a function here—let's call it `f`. It's going to return a string, and we are going to return something like "from the dev file" or something like that. Right? Boom! Normally, this should work just like that. 
+
+So, these are the tags we need to specify. It's going to hint to the compiler, "Yo, listen, this only needs to be built in the dev environment." So, what this does is it checks your files, and everything with `dev` appended to the underscore is going to compile based on this tag. Amazing, right? 
+
+We're going to do the same thing: create a new file, call it `foo_prod.go`, and then do some lazy coding—copy, paste, just like that. We're going to change this to `prod`, and the return will be from the `prod` file. This is how it's done. I'm also going to show you a real-world example of a production use case to explain why this could be handy. 
+
+So, we basically have a `foo` function here. The only difference is that it prints "from the dev file" and "from the prod file." Now, in our main function, we're going to call this function, right? We're going to say `f()`, just like that. Actually, we need to use `fmt.Print(f())`, right? Boom! Of course, VSCode is lagging, so we all should move to the Z editor. But because I don't have a Mac, I'm right where I am. I could also use Vim, but then I'm spending three weeks building my configuration file, which I don't want to do. 
+
+So, now we're going to build this. How do we do this? I think it's going to be `go build -tags`, and this is very important—`-tags=dev`. Then we're going to build the whole thing. That should work. Press enter, and now we have this `foobar` binary. Now we can say `./foobar`, and you can see "wake up!" That's what you need to do—wake up! And this is from the dev file. If you want to build for production, we do the same, but with `-tags=prod`, and it tells us it's from the prod file. 
+
+The cool thing is you can have a bunch of code, logic files, whatever, and you just specify these build tags. Golang will not compile these unless the tag matches. This helps keep your binary smaller, which is fine, but it's also very handy for different environments: staging, production, whatever. 
+
+Okay, so let's check it out—it's very simple, but you need to know it. If you don't get reminded of this, you won't remember. The cool part is that I've been writing Golang for almost ten years, and I only recently started using this. I may have known it in the back of my mind, but now I'm in love with it. You know what I mean?
+
+Cool! So, what's a good use case? Let me go back to `fanmate`, which is the application. What is `fanmate`? Well, let me show you here—it's basically an online application where you can chat with people. Yeah, guys, it's your fantasy—I'm not going to lie; you can do whatever you want.
+
+So, let me show you this here. Look at this—static dev and static prod. The only thing this does is serve the public directory in the dev environment. In the production build, we have an embedded file server. Why? Because in the dev environment, we don't want static files compiled into a binary since Tailwind can't hot reload. But in production, we can embed the whole public folder, and all our static assets are compiled into our binary.
+
+For me, this is one of the best use cases. You guys probably know some cool stuff you can do with this too. So, basically, build this unless it's dev—it's just another syntax you can use.
+
+Alright, that's it, guys. I hope you got something out of this video—very simple, but a small reminder of what you can do with this stuff and why you need to wake up. Thanks for watching, and I'm looking forward to seeing you in one of my live streams or future videos. Love you all!
+
