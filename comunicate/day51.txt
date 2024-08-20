@@ -1,6 +1,7 @@
 kicked in: bị đá vào
 probably: có lẽ
 accommodation and flights: chỗ ở và chuyến bay
+accomodate: thích nghi
 commute: đi lại
 whether: liệu có nên
 leniency: khoan dung
