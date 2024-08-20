@@ -32,3 +32,5 @@ curly braces: {}
 parentheses: ()
 square brackets: []
 punctuation: dấu câu
+minus: trừ đi
+underscore: dấu _ gạch dưới
