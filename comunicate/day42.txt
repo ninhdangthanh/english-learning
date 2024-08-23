@@ -7,7 +7,7 @@ occasion: dịp
 schema think: sơ đồ suy nghĩ
 swallow: nuốt == ingest
 prospect: tiềm năng
-admission: nhận vào
+admission: nhận vào, nhâp học
 smooth/smoothly: mượt mà
 corporate: doanh nghiệp
 collaborate: hợp tác

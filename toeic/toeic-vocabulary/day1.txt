@@ -19,6 +19,8 @@ seat: ghế ngồi, chỗ ngồi
 rather slow: chậm hơn
 extensive: rộng rãi, sâu rộng
 
+delicious: thơm ngon
+tasty: ngon
 coffee tastes: mùi vị cà phê
 paycheck: tiền lương
 promotion: khuyến mãi

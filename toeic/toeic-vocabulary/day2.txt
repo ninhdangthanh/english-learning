@@ -1,0 +1,49 @@
+clinic: phòng khám
+artist: nghệ sĩ
+accompany: đi cùng, đi kèm
+financial statement: báo cáo tài chính
+lowered: hạ xuống
+outsell: bán chạy hơn
+well-being: hạnh phúc
+closure: đóng cửa
+interior: nội thất
+monthly publication: ấn phẩm hàng tháng
+dispute: tranh luận
+miscommunication: thông tin sai lệch
+the majority: đa số
+specialize in: chuyên về
+complacent: tự mãn
+aggressive: hung dữ
+
+appliances and equipment: đồ dùng và thiết bị
+patrons: khách hàng (của nhà hàng)
+cafeteria: căn tin/quán ăn tự phục vụ
+sinks, ovens, and stove: bồn rửa, lò nướng và bếp
+venue: địa điểm
+Driving directions: chỉ đường lái xe
+installment: trả góp
+civic groups: nhóm dân sự
+prominent=stand out
+distributors: nhà phân phối
+screw: vặn ốc
+acquiring: có được, thu được, mua được
+achievement: thành tích
+contest: cuộc thi
+metropolitan: đô thị
+
+crowded: đông đức
+wreck: phá hỏng
+flavor: hương vị
+duty: nhiệm vụ
+involved/involvement: liên quan / sự tham gia
+playgrounds: sân chơi
+indoor or outdoor: trong nhà hoặc ngoài trời
+harvest: mùa gặt, thu hoạch
+prompt/promptly: nhắc nhở/kịp thời
+accordingly: tương ứng
+improper: không thích hợp
+purchased: đã mua
+minor violations: vi phạm nhỏ
+uniform: đồng phục
+bathroom: phòng tắm
+dry: khô
