@@ -13,6 +13,7 @@ painless: không đau
 mature: thiên nhiên, tính chất
 impact: tác động
 trivial: tầm thường
+
 take a step back: lùi lại một bước
 escape: bỏ trốn
 endless: vô tận
