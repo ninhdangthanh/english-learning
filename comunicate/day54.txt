@@ -8,8 +8,14 @@ in the sense that: theo nghĩa là
 conservative: bảo thủ
 definite: xác định
 cautiously: một cách thận trọng
+
 long enough: đủ lâu
 enough durable: đủ bền
 separate: riêng
 according to standard: theo chuẩn mực/tiêu chuẩn
 collection of articles: bộ sưu tập các bài viết
+pass through: lọt qua
+enumerate: liệt kê
+fingerprint: dấu vân tay
+for inclusion: để đưa vào
+factors: nhân tố, yếu tố
