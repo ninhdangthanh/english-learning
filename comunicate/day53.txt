@@ -27,3 +27,4 @@ educated: có học thức
 mechanism: cơ chế
 blind: mù
 lie: lừa
+regulation: qui định
