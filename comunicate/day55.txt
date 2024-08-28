@@ -20,6 +20,13 @@ journaling: ghi nhật kí
 held: cầm
 deemed: được coi là
 
+monitoring and observability: giám sát và quan sát
+set alert: thiết lập cảnh báo
+control panel: bảng điều khiển
+Key Features: tính năng chính
+establish: thiết lập
+pull: kéo
+
 
 
 term: thuật ngữ
