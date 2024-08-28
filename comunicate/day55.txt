@@ -8,6 +8,7 @@ In short: tóm lại
 charging: sạc
 proprietary: độc quyền
 labor: nhân công
+
 grocery: cửa hàng tạp hóa
 madness: điên rồi  
 temperature: nhiệt độ
@@ -15,8 +16,9 @@ sanitize: vệ sinh, dọn dẹp
 element: yếu tố
 reorg=reorganize
 truncate: cắt ngắn
-
-
+journaling: ghi nhật kí
+held: cầm
+deemed: được coi là
 
 
 
