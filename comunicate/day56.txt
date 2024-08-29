@@ -14,3 +14,14 @@ brightness: độ sáng
 circulate: lưu hành, lưu thông
 voluntarily: tự nguyện
 nervous: lo lắng
+
+wearable: đeo được
+appliance: gia dung
+protect: bảo vệ
+microcontroller: bộ vi điều khiển
+resource constraints: hạn chế tài nguyên
+non-blocking operations: hoạt động không chặn
+health and fitness: sức khỏe và thể chất
+supply chain and logistics: chuỗi cung ứng và hậu cần.
+on the spot: tại chỗ
+still have: vẫn còn
