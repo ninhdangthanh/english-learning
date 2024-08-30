@@ -1,0 +1,57 @@
+Tokyo is an asynchronous runtime for the Rust programming language that provides the building blocks needed for writing efficient and scalable network applications.
+
+To get started with Tokyo, we can create a new project using Cargo and add the Tokyo crate to the `Cargo.toml` file.
+
+With Tokyo installed, we can create an instance of the Tokyo runtime in our main function. Next, we call our run function, which returns a future. We'll discuss futures in more detail later on, but you can think of them as similar to promises in Node.js or other languages. We can then pass this future into the `block_on` function of the runtime.
+
+The future executes and calls the code inside the run function, which will sleep for one second. Pretty simple.
+
+This is a really basic example of using the `async` and `await` keywords, but not much is happening here. We could have quite easily done this synchronously. Let's add something else to spice it up a little.
+
+Now, our run function is going to call two other functions: first, our `sleeper` function, which is basically the same code we had before; and our `reader` function, which loads a data file, reads to the end, and tells us how many bytes are in that file.
+
+When we run this code, we can see that, again, it's running synchronously—nothing special.
+
+Let's make a change and actually wrap these two functions in the `join` function of the Tokyo module. In the output, we can now see that both functions occurred at the same time, a.k.a. concurrently. To further illustrate this point, let's go ahead and do this again but call the reader function ten times. Pretty cool.
+
+For reference, here's how long this takes if we perform this synchronously: almost double the amount of time due to the lack of concurrency. So that's pretty great—maybe we should just be using Tokyo for everything, right? Well, not exactly. Tokyo is good for non-blocking I/O, which is when an application is waiting on operations such as reading from a file or network data. However, there are situations where the bottleneck of an application is CPU- or performance-bound.
+
+Tokyo uses a single thread for its main event loop. Therefore, if any tasks are performing heavy CPU-based operations, this will actually slow down the other asynchronous tasks that are running.
+
+To demonstrate this, I've gone ahead and added a Fibonacci calculation to each of the functions, which is expensive on the CPU. By adding in this calculation, we've dramatically increased the runtime of our application.
+
+Fortunately, there is a way to get the performance back. We can use the task model of the Tokyo framework to spawn a task that will run in a different thread. And just like that, we're performing efficiently again.
+
+Oh, I forgot to mention a little quality-of-life improvement. We can actually use the `#[tokio::main]` macro instead of creating a new instance of the runtime. This turns our main function into an async function that returns a future. Neat.
+
+Okay, so now you're a master of asynchronous Rust. It's probably time to discuss futures and how they differ from promises.
+
+So, it may not be very visible from the code that we've written, but we've been interacting with a type known as futures this whole time. A future represents a computation that will be completed in the future. They are the essential building blocks of asynchronous code. When compared to other languages, they are most like a promise, but with one major difference: they are lazy.
+
+This means they don't execute as soon as you create them, but instead, only once they are explicitly polled by the Tokyo runtime, which is typically when the `await` keyword is used.
+
+Let's highlight this with an example. Let's call our `sleeper` function twice, using the `await` keyword each time. Here, we get a log output for each execution of the function. Now, if we remove the `await` keyword from the first sleeper call, there's only a single execution that takes place—the first execution never happens. The compiler does give us a warning, which is nice to see.
+
+While this might seem odd, there's a good reason for this approach: it improves the performance of the runtime as it avoids having to constantly check whether a future is ready to execute.
+
+But what if you want to execute the future but not wait around for its completion—sort of like a fire-and-forget? Well, we can do this using the `tokio::spawn` method.
+
+Futures are returned implicitly whenever we use the `async` keyword, which basically acts as syntactical sugar. It also allows you to use the `await` keyword, which can only be called inside an async function.
+
+Now that we've covered the basics of Tokyo and futures, it's worth a brief look at some of the other features that the package provides. I'll be doing more in-depth videos on each of these in the future, so consider subscribing if you don't want to miss them.
+
+The Tokyo `sync` module provides functionality for communication and synchronization across concurrent tasks. It provides both async counterparts to the synchronization types of the standard library, such as mutexes, read-write locks, and semaphores, and also provides some novel types used for cross-task communication, known as channels. These are similar to channels that you would find in other languages such as Go but essentially allow data to be sent from one asynchronous task to another.
+
+The `net` module provides low-level network primitives for working with TCP and UDP sockets asynchronously. Some examples of the provided types are a TCP listener for accepting TCP connections as a server, or a TCP socket for making connections to a server.
+
+The Tokyo `task` module provides asynchronous green threads. Green threads are similar to operating system threads but are much more lightweight and are managed by the Tokyo runtime instead. These are similar to Go's goroutines, Kotlin's coroutines, or Erlang/Elixir's processes.
+
+The `fs` module provides asynchronous APIs for working with the file system. It includes functions for reading and writing files, as well as for managing directories, symbolic links, and permissions.
+
+The `process` module provides asynchronous process management. It includes functions for spawning child processes as well as communicating with them through pipes. Using the `process` module, one can spawn other processes and wait for them in an asynchronous, non-blocking manner.
+
+The `signal` module provides asynchronous handling of operating system signals, such as interrupts, allowing for graceful termination of an application.
+
+The `time` module provides asynchronous APIs for working with time. It includes functions for delaying execution as well as scheduling periodic tasks. The module also has support for setting timeouts on futures using the `timeout` function, which can be useful for the cancellation of long-running executions. The `tokio::test` macro provides the ability to test asynchronous code concurrently. By using the macro with a test case, we're able to use the `async` and `await` keywords with our test functions.
+
+With all of this functionality provided by the Tokyo framework, it's possible to create I/O-based applications that are both performant and scalable. I hope this video helped encourage you to play around with asynchronous programming in Rust and inspired you for your next project.
