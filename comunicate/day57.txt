@@ -10,3 +10,16 @@ backbone: xương sống
 scaffolding: giàn giáo
 is the inclusion: là sự bao gồm
 spinning up: quay lên
+
+indent: thụt lề
+manifest: biểu hiện
+accounted: đã được tính
+argue/arguably: tranh cãi/có thể nói là
+manner: thái độ, cách cư xử
+authority: ủy quyền
+adjust setting: điều chỉnh cài đặt
+tell us: cho chúng ta biết
+not really: không hẳn vậy
+a single stream: một luồng duy nhất
+regain: lấy lại
+and so on: và cứ như vậy
