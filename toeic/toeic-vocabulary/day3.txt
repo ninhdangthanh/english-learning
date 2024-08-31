@@ -1,0 +1,47 @@
+weight: can nặng
+ancient: cổ đại
+presentation: bài thuyết trình
+precious: quý giá
+behalf: thay mặt
+reserve/conserve: dự trữ, đặt chỗ/bảo tồn
+reservation: đặt chỗ
+locate/located: định vị, xác định vị trí
+accelerate: tang tốc
+celebrate: kỉ niệm, lễ ăn mừng
+border: ranh giới
+aside: sang một bên
+institution: tổ chức
+adults: người lớn
+accompany: đi cùng
+
+hardship: khó khăn
+cash prize: giải thưởng tiền mặt
+find out: tìm ra
+brand: thương hiệu
+stadium: sân vận động
+baggage: hành lý
+fuel: nhiên liệu
+passengers: hành khách
+converse: nói chuyện
+convert/conversion: chuyển đổi
+orientation: định hướng
+delighted: vui mừng
+proficient/proficiency: thành thạo
+excellent: xuất sắc
+
+appointment: cuộc hẹn
+disapointed/disapointment: thất vọng
+gain/gaining: nhận được/đạt được
+commute/commuter: đi lại/ người đi làm
+crowded: đông đúc
+achievements: thành tựu
+employs bus driver: thuê tài xế xe bus
+respite: sự nghĩ ngơi
+invoice: hóa đơn
+composed: sáng tác
+relatively: tương đối
+recycle: tái chế
+juggle/juggling: tung hứng
+division: phân công
+technology division: bộ phận công nghệ
+rate/rated: đánh giá/được đánh giá
