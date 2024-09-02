@@ -10,7 +10,17 @@ engine: công cụ, động cơ
 space: không gian
 faint match: khớp mờ nhạt
 diagram: lược đồ
+
 not like: không giống
 even when: ngay cả khi 
 typical: điển hình
 play a role: đóng vai trò
+glory: hoàng kinh, vinh quang
+romantic: lãng mạng
+empower: trao quyền
+along with: cùng với
+back to: trở lại là	 
+return: trở về
+which is: đây là
+overall: nói chung
+past few year: những năm gần đây
