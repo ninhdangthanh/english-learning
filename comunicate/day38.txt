@@ -3,7 +3,7 @@ bother: làm phiền
 nasty: bẩn thiểu
 meansured: có nghĩa là / đo lường
 tend=clined: có khuynh hướng
-compart/compartment: phân chi
+compart/compartment: phân chia
 compartmentalize: phân chia từng ngăn
 realality/realistically: thực tế
 weed out: loại trừ
@@ -31,6 +31,6 @@ elevator upstairs: thang máy tầng trên
 freakish/freakishly: kỳ lạ, kì quái
 
 quite a few: khá ít
-quite a bit: khá ít
+quite a bit: khá nhiều
 much: nhiều
 little: ít
