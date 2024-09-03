@@ -1,0 +1,40 @@
+Sure! Here's the revised text:
+
+ACID stands for Atomicity, Consistency, Isolation, and Durability—the four key properties that ensure reliable database transactions, even when things go wrong. If you work with databases, understanding ACID is essential.
+
+In this video, we'll break down each property and see how they keep data safe and sound. Let's dive in!
+
+**Atomicity** means a transaction is an all-or-nothing deal. If any part of the transaction fails, the entire process is rolled back as if it never happened. Transaction management systems often use logging mechanisms to enable this rollback feature.
+
+Imagine you're building a banking app that transfers $100 from Alice to Bob. This involves updating two things: subtracting $100 from Alice's balance and adding $100 to Bob's. Atomicity ensures that both updates either happen together or not at all. If something fails midway, the transaction management system will use the logs to undo any partial changes, preventing lost or extra money. The transaction is indivisible, like an atom.
+
+**Consistency** ensures that a transaction follows all the rules and leaves the database in a valid state. Any data written during a transaction must be valid according to constraints, triggers, and other rules we’ve set up. The database system itself enforces consistency by automatically checking for constraint violations during transactions.
+
+For example, let's say we have a rule that user account balances can't go negative. If a transaction tries to withdraw more money than a user has, the database system will detect this consistency violation and cancel the transaction to maintain database integrity. Consistency stops invalid data from disrupting the database.
+
+**Isolation** concerns how concurrent transactions interact with each other. Even if many transactions are running simultaneously, isolation makes it seem like each transaction has the database all to itself.
+
+The highest level of isolation is called "serializable," which makes transactions run one after another as if they were in a single line. This provides the strongest consistency but can slow things down because each transaction has to wait its turn. To speed things up, databases often offer lower isolation levels that allow more transactions to run simultaneously. However, these lower levels can sometimes lead to inconsistencies, like dirty reads, non-repeatable reads, and phantom reads.
+
+A dirty read happens when a transaction sees data that was changed by another transaction that hasn't been committed yet. Imagine a bank account with $100. Transaction T1 withdraws $20 but doesn't commit. If Transaction T2 reads the balance before T1 commits, it will see $80. But if T1 rolls back, that $80 balance never truly existed—it's a dirty read.
+
+The "read committed" isolation level prevents dirty reads by ensuring a transaction can only see committed data. However, it can still have non-repeatable reads, where a transaction reads the same data twice and gets different results because another transaction changed the data in between.
+
+For example, say you check your bank balance and see $100. Then, another transaction withdraws $20 and commits. If you check your balance again in the same transaction, you'll see $80—that’s a non-repeatable read.
+
+"Read committed" can also have phantom reads, where a transaction re-runs a query and gets different results because another transaction added or deleted rows that match the search criteria.
+
+Imagine a transaction that lists all bank transfers under $100. Meanwhile, another transaction adds a $50 transfer and commits. If the first transaction reruns its query, it will see the $50 transfer that wasn't there before—a phantom read.
+
+The "repeatable read" isolation level prevents non-repeatable reads by giving each transaction a consistent snapshot of the data, but it can still have phantom reads. Lower isolation levels trade some consistency for better performance. It's up to you to choose the right balance for your application, weighing speed against potential inconsistencies.
+
+**Durability** means that once a transaction is committed, it's permanent—even if your database crashes or loses power right after. Durability is usually achieved by writing transaction logs or using write-ahead logging (WAL) to persist changes to disk before confirming the commit. In distributed databases, durability also means replicating data across multiple nodes. So if one node goes down, you don't lose any committed transactions—they're safely stored on other nodes.
+
+To quickly sum up:
+
+- Atomicity rolls back failed transactions.
+- Consistency follows the rules.
+- Isolation prevents interference.
+- Durability ensures that commits stick.
+
+If you like our videos, you might also enjoy our system design newsletter. It covers topics and trends in large-scale system design, trusted by 500,000 readers. Subscribe at blog.bytebytego.com.

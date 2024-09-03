@@ -1,0 +1,54 @@
+
+Hello everyone! In this video, I'm going to discuss database transactions and why they are such a crucial concept in database systems.
+
+In the next few minutes, I'll cover what a transaction is, demonstrate it using a practical example, and explain why transactions are so essential in databases.
+
+Let's dive right into it and first talk about what a transaction is. Let me start by scrolling down a bit here to make some room.
+
+Now, to explain what a transaction is simply, you can think of it as a unit of work in database language. Sometimes, you'll hear the shorthand term "TX" when people refer to transactions.
+
+So, if we consider this as a unit of work, let's just draw a box around it.
+
+Within this unit of work, there could be multiple changes on various rows across different tables that occur simultaneously. For instance, suppose we have two different tables and want to perform two operations. In the first table, we want to do an insert, and in the second table, we want to do an update.
+
+In this example, these two operations together constitute a transaction. An important aspect of a transaction is that these actions must either succeed or fail as a whole.
+
+What I mean is, in this scenario, you can't successfully insert data into one table while failing to update the other. That's known as a partial failure scenario, and it's not permissible for something to be considered a transaction. You cannot have this partial failure; it must be all or nothing.
+
+Now, let's scroll down and explain this with a practical example. Below, I have a bank account table, and in this table, we have two bank accounts. One has a balance of $200, and the other has a balance of $800, as we see here.
+
+Let's say we want to perform a fund transfer. We want to move the $200 from the first account to the second account. How would we do this? We need to do two separate actions. First, we need to decrement $200 from the first row to move that $200 out, and then we need to increment the second account by $200.
+
+You can see what I mean by all or nothing because there are two distinct actions occurring. In this case, it's happening in the same table, but that's not always the case. There might be multiple tables involved, or a third element where you want to create a transfer request in another table. However, in this example, we have only two actions, and they must succeed or fail together.
+
+You can't have a scenario where you only decrement the first row without incrementing the second, as it would cause a mismatch. If you don't decrement the first account but increment the second, the balance here would become $1000, while the first account would still have $200. This would effectively give the owner of the second account $200 for free, which is not allowed for something to be considered a transaction.
+
+Using the same model as before, if we draw a box around this as a transaction (or TX for short), you'd have two operations: one is a decrement of $200 on the first account, and the second is an increment of $200 on the second account. These two actions must either both succeed or both fail. You cannot have a situation where one succeeds and the other fails or any combination thereof.
+
+This is an example of what a transaction is. When people talk about transactions, a few related concepts often come up, such as the term ACID (A-C-I-D). And no, I don't mean the stuff that burns; ACID stands for something else in database terms.
+
+The "A" in ACID stands for Atomicity, or simply Atomic. This refers to the concept I mentioned earlier, where it's an all-or-nothing operation. You can't have partial success or failure; everything must either succeed or fail. This is a guarantee if your database adheres to the ACID principles.
+
+The "C" stands for Consistency. Consistency means that operations performed on your database must be done predictably and can only modify data in permitted ways. For example, you can't decrement a balance below zero, as that would be an inconsistent operation, violating the constraints or rules of that table.
+
+The "I" in ACID stands for Isolation. Isolation means that one transaction cannot impact the outcome of another transaction. There are different ways to implement this, with locks being a common method. The concept here is that if there are two different transactions attempting to modify data simultaneously, only one can succeed. You can't have concurrent updates on the same row under an ACID-compliant system.
+
+Finally, the "D" in ACID stands for Durability. Durability ensures that if there's a power outage, loss of state, or any other disruption, no data is lost. When something is considered a transaction, it must satisfy all four principles: Atomicity, Consistency, Isolation, and Durability.
+
+Now that we understand what transactions are, let's briefly touch on why this concept is so important. It's enlightening to consider what would happen if these principles weren't in place, or if the concept of transactions didn't exist. How would you modify two different accounts simultaneously?
+
+Let's erase what we have here to illustrate my point. Imagine we're back at the beginning with $200 in this account and $800 in that one.
+
+If you're not using a transaction, how would this work? You'd have some program—let's choose a different color, purple sounds good—that tries to update these two rows independently. That's what a non-transactional update would look like.
+
+What would this program do? First, it would go to this row and subtract $200. Then, it would go to the second row and try to add $200.
+
+This seems fine at first glance, but what if there's a failure? What if the second transaction fails? What state are you left in? You're left in a state where the balance was subtracted from the first account, now at zero, but the second account wasn't incremented, still at $800. Essentially, your customer lost $200 that vanished.
+
+You might think, "We can just add a new transaction or retry it," but that brings a host of problems. Retries take time, and meanwhile, the first account has already been updated with the decremented value. Later, perhaps seconds later, you're still trying to correct the action on the second row, but other operations on these accounts may have occurred in the meantime.
+
+This is the problem with not using transactions: partial failure scenarios are very real, and dealing with them is complicated. You need to fix what failed or retry the actions that weren't completed during your operation.
+
+This is why ACID or transactions are such powerful concepts. Instead of handling these actions independently, you can decrement and increment in one go, ensuring both actions are updated correctly. That's what transactions are and why they're so crucial in database systems.
+
+If you liked this video, I have many more on cloud technologies and database technologies. I'll put some suggestions here on the right. If you enjoyed this, please don't forget to like and subscribe so you don't miss out on my next video. Thanks so much, folks, and I'll see you next time.
