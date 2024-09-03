@@ -8,4 +8,15 @@ refers: ám chỉ, tham khảo
 guarantee: sự đảm bảo
 sounds good: nghe có vẻ ổn
 during operation: quá trình vận hành
+
 nature of tx: bản chất của giao dịch
+keep: giữ
+deal: thỏa thuận
+midway: giữa chừng
+atom: nguyên tử
+wait it turn: chờ đến lượt
+hasn'n been.....yet: chưa
+search criteria: tiêu chí tìm kiếm
+inconsistence: mâu thuẫn
+sum up: tóm lại
+large-scale: quy mô lớn
