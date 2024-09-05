@@ -1,0 +1,42 @@
+Hey friends, welcome back to the channel.
+
+Today, we're going to have a quick look at stack and heap memory and see how your code and your variables are stored in memory when your application is running.
+
+Now, getting a good understanding of what your code is doing in memory can be really helpful for working out why things have different scopes.
+
+The memory of your application is stored in three main parts. The first part is machine code. This is where your application is converted into instructions that your computer can understand.
+
+The next two parts are the stack and the heap.
+
+Now, to understand the stack, you need to first understand the stack data structure. The stack data structure is a little bit like a stack of books. You can take things off the top of the stack, and you can put things on the top of the stack, but you can't access anything from the middle or the bottom. All you can do is add things to the top and take them off in that order.
+
+In applications, we have what’s called the call stack. The call stack has a couple of responsibilities. The first is to keep track of the method that control should be returned to after the current method has finished executing. So, whenever you call a method in your code, that method is going to be added to the call stack, and each subsequent method is just going to be added to the call stack until they finish executing.
+
+The second responsibility of the call stack is to keep track of the local variables in your method. In a minute, I'll cover where the other variables are stored in memory.
+
+Now, the heap, unlike the stack, allows you to store items in memory in any order. You're not limited to just taking the top item from the stack; you can access memory from anywhere. But with this added flexibility comes some complexity. Adding items to the heap has a higher overhead than adding items to the stack.
+
+Generally, the heap is used whenever you have data that's going to outlive what's on the call stack. For example, if you have a variable that needs to be accessed across different methods, or some data that needs to persist after a method has finished executing, then that will live on the heap.
+
+There are some general rules that you can apply to figure out where your variables are stored in memory. In a previous video, I talked about how we have value types and reference types.
+
+Value types just store the value, so data types like int will be stored as a single value in memory. But reference types store a pointer to a value. Reference types have two parts: the pointer (which is an address to a location in memory) and the actual value. The values for reference types are always stored on the heap.
+
+For value types, where they’re stored really depends on where you declare them. When you create a local variable in a method, that variable is stored on the call stack with the method, and you can't access it outside of the method. Once the method has finished executing, that block of memory on the call stack is dropped, and the local variable is no longer available.
+
+If you declare a reference type variable inside a method, the pointer will be stored on the call stack, but the value for your reference type variable will live on the heap. When the method finishes, the pointer will be gone, but the value remains on the heap.
+
+Not all value types are stored on the stack. For example, global variables will always be stored on the heap because they need to be accessed from different areas in your code. Similarly, variables inside a class live on the heap because the class itself is on the heap.
+
+Since reference types only store a pointer to memory, what happens to the memory block after your method finishes executing? That's where the garbage collector comes in. The garbage collector goes around and looks at the heap, finds memory that’s no longer being used, and cleans it up.
+
+So, general rules are: reference types always live on the heap, while value types can live on the stack or the heap, depending on where they’re declared. Static variables are always on the heap because they need to be accessible throughout your code.
+
+In some languages, such as C#, we have anonymous functions. These are functions without a name, created inside another method, and they can access variables declared in the calling method. For the anonymous function to access these variables, they need to be temporarily stored on the heap, since you can only read what’s on top of the stack.
+
+Another exception is asynchronous methods. When you run code asynchronously, it runs on a different thread, and each thread has its own call stack. Since threads can finish independently, the results of asynchronous methods are stored on the heap so they can be accessed later.
+
+That’s my quick overview of stack and heap memory. If you liked this video, please like and subscribe, and check out my video on Bitwise Operators and why we use them.
+
+Thank you for watching. I’ll see you in the next video.
+
