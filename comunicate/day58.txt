@@ -18,3 +18,16 @@ oppose: phản đối
 whether: cho dù, liệu
 shuffles: xáo trộn
 cipher: mật mã
+
+placed: được đặt
+hence: kể từ đây
+downstream: hạ lưu
+warehouse operation: vận hành kho
+driven: điều khiển
+event driven: hướng sự kiện
+order gets placed: đơn hang được đặt
+loose coupling: liên kết lỏng lẻo
+fallback: dự phòng
+volatile: bay hơi
+abundant: dồi dào
+scarce: khan hiếm
