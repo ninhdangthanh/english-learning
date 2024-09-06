@@ -25,3 +25,6 @@ nullary: vô nghĩa
 auxiliary: phụ trợ
 literature: văn học
 paired: ghép đôi
+look: xem
+outlive: song sót lâu hơn
+on: nằm trên
