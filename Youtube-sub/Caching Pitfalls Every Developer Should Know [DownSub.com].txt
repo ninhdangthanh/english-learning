@@ -1,0 +1,60 @@
+Today, we’re going to talk about **caching**—a key concept in **system design** that is crucial for **performance**, but can also cause issues if not managed properly.
+
+Before diving into what can go wrong, let's quickly **recap** the basics of caching and why it matters.
+
+Simply put, caching works like a memory layer that **stores copies** of frequently accessed data. It’s a strategy to **speed up** systems by keeping data readily available, reducing the need to fetch it from slower **databases** every time it's requested.
+
+For example, consider a **database** with user profiles. A cache for this database might store the most **popular profiles** so that when someone views a profile, it loads instantly instead of querying the database on each view.
+
+Now, even with these performance gains, caching also introduces new **challenges**. Let’s explore the common problems that can occur.
+
+First up, let’s discuss **Cache Stampede**. Imagine a web server using Redis to cache pages for a **set duration**. These pages require extensive **database calls** and take several seconds to render. 
+
+With caching, the system stays **responsive** under high load, as resource-heavy pages are served from the cache. However, under **extreme traffic**, if a cached page expires, multiple threads across the web cluster may try to refresh the expired page **simultaneously**. This flood of requests could overwhelm the databases, potentially causing **system failure** and preventing the page from being re-cached.
+
+So, how can we prevent **stampedes**? Here are a few key strategies:
+
+One solution is **locking**. Upon a cache miss, each request attempts to acquire a **lock** for that cache key before **recomputing** the expired page. If the lock is not acquired, there are some options:
+
+1. The request can **wait** until another thread recomputes the value.
+2. The request can return a "not found" response immediately, letting the client handle the situation with a **back-off retry**.
+3. The system can **maintain a stale version** of the cached item to be used temporarily while the new value is recomputed.
+
+Locking requires an additional write operation for the lock itself, and implementing it correctly can be **challenging**.
+
+Another solution is to **offload recomputation** to an external process. This can be done either proactively, when a cache key is **nearing expiration**, or reactively, when a cache miss occurs. This method adds another **moving part** to the architecture that requires **careful maintenance** and monitoring.
+
+A third approach is **probabilistic early expiration**. In this strategy, each request has a small chance of proactively **triggering recomputation** of the cache value before its expiration. As the expiration time approaches, the likelihood of this happening increases. This **staggered refreshing** mitigates the impact of stampedes, as fewer processes will expire at once.
+
+Moving on to **Cache Penetration**. This occurs when a request is made for data that doesn’t exist in the **cache or the database**. As a result, unnecessary load is placed on the system, which tries to retrieve **non-existent** data. If the request volume is high, this can destabilize the entire system.
+
+To mitigate cache penetration, implement a **placeholder value** for non-existent keys. This way, follow-up requests for the same missing data hit the **placeholders** in cache rather than hitting the database repeatedly. Setting an appropriate **TTL** for these placeholders prevents them from occupying cache space indefinitely.
+
+However, this approach requires careful **tuning** to avoid excessive cache resource consumption, especially in systems with many lookups for non-existent keys. Another solution is using **bloom filters**, a space-efficient probabilistic data structure for quickly checking whether elements are in a set before querying the databases.
+
+Here’s how bloom filters work: when new records are added to storage, their **keys** are recorded in the bloom filter. Before fetching records, the application checks the bloom filter first. If the key is absent, the record doesn’t exist, allowing the application to return a **null value** immediately. However, positive key presence doesn’t guarantee existence—a small percentage of cache reads may still result in misses.
+
+We have a video on **bloom filters** if you want to learn more.
+
+Finally, we come to the **Cache Crash**. Imagine the entire cache system suddenly fails. What happens? Without the cache layer, every request now hits the **database** directly. This sudden **traffic spike** can easily overwhelm the databases, jeopardizing overall system stability. 
+
+What’s worse? Users might start obsessively refreshing the page, **compounding** the problem.
+
+A close cousin to the Cache Crash is the **Cache Avalanche**. This can happen in two scenarios:
+
+1. When a large chunk of cached data expires all at once.
+2. When the cache **restarts**, leaving it cold and empty.
+
+In both cases, a flood of requests hits the databases at the same time, overwhelming the system, much like hundreds of people trying to cram through a single tiny door after a **fire alarm**.
+
+So, how do we handle these challenges? First, implement a **circuit breaker**, which temporarily blocks incoming requests when the system is clearly overloaded. This prevents a **total meltdown** and buys time for recovery.
+
+Next, deploy **highly available cache clusters** with redundancy. If parts of the cache fail, other parts can remain operational, reducing the severity of full crashes. 
+
+Lastly, don’t overlook **cache prewarming**—especially after a cold start. Here, essential data is proactively **populated** in the cache before it's put into service, avoiding sudden hits on the databases.
+
+As we wrap up, let’s distinguish between cache **stampedes** and cache **avalanches**, as they sound similar. A cache stampede happens when many requests simultaneously hit the same **expired cache entry**, overwhelming the database as it tries to refresh a single data point. The cache avalanche, on the other hand, is a broader issue where numerous requests for **different data** flood the system after a cache **clears or restarts**, straining resources.
+
+And that concludes our walkthrough of common **caching pitfalls** and how to navigate them.
+
+If you enjoy our videos, you may also like our **system design newsletter**, which covers topics and trends in large-scale system design. **Trusted by 500,000 readers.**
