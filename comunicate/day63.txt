@@ -8,3 +8,14 @@ bloom: hoa, nở rộ
 probabilistic: xác xuất
 conclusively: một cách dứt khoát
 distinguish: phân biệt
+
+fostering: nuôi dưỡng
+reactively: phản ứng
+architecture: kiến trúc
+trigger: kích hoạt
+occupying: chiếm đóng
+indefinited: vô thời hạn
+lookup: tra cứu
+alarm: báo, báo thức
+buy time: kéo dài thời gian
+walkthrough: hướng dẫn
