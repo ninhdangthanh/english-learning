@@ -1,0 +1,54 @@
+
+Rust libraries may never exist, and it's for this exact reason that when you build anything in Rust, you need to download like a thousand crates in Cargo and spend the next decade of your life compiling your project. 
+
+Now, the rabbit hole on this one goes deep, so stick around until the end. I'm Lowle, learning. I make videos on YouTube about programming and software security.
+
+Rust is one of my favorite programming languages. I'm a security researcher, and I honestly believe that the features in Rust, like the borrow checker and runtime access checks, will usher in a new era of safer software. 
+
+Every major system in the world is written in C. That's the Linux kernel and a bunch of other really foundational software. While C is extremely fast, it offers programmers too many opportunities to shoot themselves in the face from a security standpoint. Despite the dozens of skill issue arguments and the dozens of security features that seem to get added to the C language and the C standard libraries on a daily basis, it still remains that 70% of security vulnerabilities originate from memory issues in C.
+
+At the same time, I completely acknowledge that Rust isn't the most straightforward language to learn. The syntax is a little messy, and sometimes the compiler gets mad at you. Then the compile time takes forever.
+
+So why is that? Why does Rust take forever to compile, and why are the binaries so huge? Fortunately, libraries could fix all of this, but unfortunately, Rust libraries don't actually exist and may never exist. 
+
+Before you tell me about Cargo and how Cargo crates are libraries you download, hold your horses. Cargo is a package manager, and it does manage libraries, but these libraries aren't the same as libraries in languages like C.
+
+Let me explain. Every program you write in C, for example, depends on the GNU C library or libc. Functions that you use in every piece of code, like open, read, write, or close, are already written for you and, more importantly, they're already compiled for you. 
+
+libc exists as a shared object that lives on your file system as a file, which your loader can reach into for functions it needs to run the program at runtime. The reason C is able to do this, specifically in Linux, is because of the definition of the ELF application binary interface (ABI) defined for the ELF file format. This ABI adheres to function calls in a way that is compatible with C. 
+
+This ABI exposes an interface for your program—an ELF—to reach into another ELF and find any function it needs. The ELF ABI specifies a table of functions, or a symbol table, that a program can parse to find a function exported by that program. This is exactly how libc exposes function calls. This ABI also guarantees that data defined in one program is in the same order and location as another, so struct X with elements A, B, and C will always be in that order—A, B, and C. 
+
+This allows interoperability between not just functions but data in libraries as well. 
+
+Now, this is where it starts to get a little crazy. Rust does not, at this time, have a stable ABI or an application binary interface to share information across multiple binaries. 
+
+So, Cargo packages exist, but Rust libraries don't. All the Cargo package is, is a blob of source code that you locally compile, and it combines all of that code into one big blob inside a singular ELF. Effectively, anytime you compile a Rust program, you are compiling every Cargo package together, required for that project, and smashing them all into a single binary—hence the high compile times and hence the high binary sizes. 
+
+So, how do we fix this? The answer is not simple. Organizing an ABI for a language spec like C's ELF is pretty simple, mainly because C is just a high-level abstraction around assembly. There isn’t too much information to hide—just basic types and function calls.
+
+Rust, on the other hand, is a different beast. Structs in Rust aren’t guaranteed to be in any particular order across program boundaries. As long as A and B are in the structure, it’s fine. Also, generics create a whole other world of problems because they're statically dispatched and built at compile time. Rust's compile-time static analyzers, like the borrow checker, also present challenges. 
+
+For example, if I pass a mutable reference into a compiled binary, how can the borrow checker ensure that the reference is used safely?
+
+Now, I know what a lot of you are probably thinking: "Wait, doesn't Rust have a C ABI explicitly for this reason?" Yes, Rust does allow you to create types and functions exposed using the ELF ABI via the `repr(C)` syntax. `repr(C)` tells the Rust compiler to do what C does—order the structure like C would, create symbols like ELF would, and create a foreign function interface to call through. 
+
+So, doesn't that solve the problem? 
+
+No, not really. Using `repr(C)` doesn’t allow any of Rust's unique features to cross the application boundary. We can't expose functions with Rust's exotic types through `repr(C)`. Additionally, any function call that crosses the `repr(C)` interface is unsafe and disables the borrow checker. `repr(C)` is great for converting Rust code into a C library, but not for creating Rust-to-Rust binary objects.
+
+Now, luckily, I’m not the only one talking about this problem. There are people much smarter than me who have open merge requests into the Rust-lang master to produce their own ABIs. This problem will require the entire Rust community to get on board, probably with one ABI that is the most feature-complete and makes the most sense before we can make meaningful progress.
+
+You can check out a pull request by Josh Triplet, which exposes the feature for an experimental feature gate to create a new ABI called Krabby, or crab API, which is pretty funny.
+
+The motivation here is that today, developers building projects incorporating multiple languages or calling a library written in one language from another often have to use the C ABI (`repr(C)`) as the lowest common denominator for cross-language function calls. As a result, such cross-language calls use unsafe C representations, even for types both languages understand, like passing UTF-8 strings.
+
+Furthermore, higher-level data types, such as `Option` in Rust, currently require translations into C ABI-compatible types, discouraging the use of such types in cross-language interfaces. 
+
+Again, we don’t have a way of communicating generic types like `Option<T>` or `Result<T, E>`. 
+
+So, go check out this pull request—it's really interesting. The entire world of ABIs and how to make systems more interoperable is fascinating to me.
+
+Let me know what you think in the comments. Will Rust libraries ever exist? Will shared objects rule the world? And will Rust always compile into these gigantic amorphous monoliths?
+
+If you liked this video, do me a favor—hit like, hit subscribe, and check out this other video about an internet-enabled... well, you’ll see.
