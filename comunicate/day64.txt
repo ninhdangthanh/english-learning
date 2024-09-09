@@ -6,3 +6,29 @@ smash them: đập vỡ chúng
 dispatch: gửi đi
 brush: chải
 eager: háo hức
+wildcard: kí tự đại diện
+take advantage: tận dụng lợi thế
+intimidate: đe dọa
+get rid of: loại bỏ
+podcast: bản tin
+glad: vui mừng
+harmless: vô hại 
+patch: vá
+
+magnetic: từ tính
+strip: dải
+magnetic strip: dải từ tính
+prison: nhà tù
+pay-paid: trả
+buy-bought: mua
+proceed/proceeded: tiếp tục/tiến hành
+went by: đã đi qua
+lawsuit: vụ kiện tụng
+completely: hoàn toàn
+vulnerable: dễ bị tổn thương
+precedent: tiền tệ
+escape: bỏ trốn, thoát ra
+union: liên minh 
+enforce: thực thi
+
+https://www.youtube.com/watch?v=4YOpILi9Oxs
