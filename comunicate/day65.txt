@@ -10,5 +10,14 @@ not really: không hẳn vậy
 gate: cổng
 experiment: thử nghiệm
 cross-language: đa ngôn ngữ
+
 ever exist: từng tồn tại
 giant: khổng lồ
+dramatically: đáng kể
+stems: nguồn gốc, thân cây
+notably: đáng chú ý
+conservative: thận trọng
+imposes: áp đặt
+symbol: biểu tượng, kiểu kí hiệu
+iconic: mang tính biểu tượng
+retain: giữ lại
