@@ -1,0 +1,30 @@
+In this video, we're going to compare the differences between CPUs and GPUs. Let's jump in.
+
+A CPU (Central Processing Unit) is the primary component of a computer that handles all types of computation tasks required for the operating system and applications to run. It tries to do so with minimal latency and is often referred to as the "brains" of the computer.
+
+Some of the main internal components of a CPU include the Arithmetic and Logic Unit (ALU), which is responsible for carrying out arithmetic and logic operations. This includes basic calculations like addition, subtraction, multiplication, and division, as well as logical operations. The ALU is critical for the execution of most processing tasks within the CPU.
+
+The Control Unit orchestrates the operations of the CPU by directing the flow of data between the CPU and other components of the computer. The cache is a small-sized type of volatile memory that provides high-speed data storage and access to the CPU. It is used to temporarily store frequently accessed data and instructions from the main memory, such as RAM (Random Access Memory).
+
+The memory, though not part of the CPU, is used to store data and instructions that the CPU needs to access frequently while performing tasks. Modern CPUs also have multiple cores. For instance, you may have heard of a 16-core CPU, meaning it has 16 cores, each capable of performing a different job simultaneously.
+
+So, what is a core? Each core of a CPU is designed to be a self-contained, independent processing unit capable of executing instructions independently from other cores. This modularity allows CPUs with multiple cores to handle more tasks simultaneously, increasing the overall efficiency and performance for multitasking and parallel processing applications.
+
+The rise of computer graphics and animation led to the first compute-intensive workloads that CPUs were not designed to handle. For example, video game animations required processing data to display thousands of pixels, each with its own color, light intensity, and movement.
+
+This is where the GPU (Graphics Processing Unit) comes in. As the name suggests, it was originally invented to help render images on display devices. Mechanically, a GPU is similar to a CPU, as it is made up of many of the same components, such as the ALU, Control Unit, and cache. However, a GPU can handle very high throughput due to its enormous number of ALUs. In addition, GPUs also include hundreds, if not thousands, of cores that manage several processing threads simultaneously.
+
+Since GPUs excel in repetitive and highly parallel computing tasks, people soon realized they could be used for more than just rendering graphics. GPUs are now widely applied in fields like machine learning, financial simulation, large scientific computations, and, of course, advancing artificial intelligence.
+
+If we compare the core differences between CPUs and GPUs: 
+
+- A CPU is a generalized component that handles the main processing functions of a computer, while a GPU is a specialized component optimized for parallel computing.
+- CPUs run processes serially (one after another), while GPUs run processes in parallel (at the same time).
+- In terms of design, CPUs have fewer but more powerful cores, whereas GPUs have many more cores, which are typically less powerful than CPU cores.
+- The emphasis for CPUs is on low latency, whereas for GPUs, it is on high throughput.
+
+Regarding use cases, CPUs are used in general-purpose computing devices, while GPUs are used for high-performance computing devices.
+
+A key understanding is that a CPU can never fully be replaced by a GPU. A GPU complements the CPU architecture by allowing repetitive calculations within an application to run in parallel, while the main program continues to run on the CPU. The fundamental difference is that CPUs are ideal for performing sequential tasks, meaning one task at a time, while GPUs use parallel processing to compute tasks simultaneously with greater speed and efficiency.
+
+I hope this explanation clarifies the differences between CPUs and GPUs. If you want more in-depth technical solutions, make sure to like and subscribe, and don't forget to check out Tech Prep. It's the best place to find the most up-to-date technical interview questions and answers. Thanks for watching, and I'll see you in the next one!

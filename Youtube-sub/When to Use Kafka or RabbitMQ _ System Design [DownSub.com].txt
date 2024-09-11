@@ -1,0 +1,34 @@
+
+So, in this video, we're going to be talking about the difference between Kafka and RabbitMQ, or more broadly, stream processing systems and traditional message queues. 
+
+With distributed systems, a common mistake is thinking that these two systems are interchangeable. However, they actually serve very different purposes, and using one when you should be using the other can lead to many problems down the road. 
+
+Let's take a look at the main differences in their design. Kafka is inherently a stream processing system. It is designed for handling a continuous stream of events and distributing them to a variety of consumers. Kafka has very high throughput and retains all the messages until their time-to-live expires. Even messages that have already been consumed can be replayed later. Kafka is also "fan-out" by default, meaning if multiple consumers are connected to the same queue, each consumer will receive a copy of every record.
+
+Traditional queues, such as RabbitMQ, on the other hand, are designed for message queuing. They are built to take in messages, hold them until they are ready for processing, and then deliver them to the processor. Traditional queues can handle complex message routing, which is especially useful when routing messages based on properties to specific queues. Traditional queues generally have each message destined for one consumer. So, unlike Kafka, where multiple consumers get the same message, in a traditional message queue, each message is routed to exactly one consumer, not all.
+
+Traditional message queues are built for moderate data volumes. They are still very fast, but they don’t handle the same high throughput that Kafka does. 
+
+Those are some high-level differences in how these two systems are designed. Now, let’s dive into the finer details of what makes them the way they are. 
+
+The first aspect we'll explore is consumer patterns. As mentioned earlier, Kafka operates on a fan-out model, while traditional message queues do not. For instance, if we have three consumers connected to one queue and send three messages, in Kafka, each consumer would receive all three messages. On the other hand, with RabbitMQ, each consumer would receive one of the three messages. 
+
+Both Kafka and RabbitMQ support this opposite approach (where messages are routed to multiple consumers), but setting it up in RabbitMQ is more complicated and doesn’t scale as easily. Kafka’s fan-out model is excellent for scenarios where events need to be distributed across multiple dependent services. For example, events can be sent to logging services, used for data analytics, and sent for real-time updates to users simultaneously. 
+
+On the other hand, RabbitMQ is more suitable when you have messages that need processing. For example, if you have two processors, each message needs to be processed by only one of the processors. You could scale these processors to hundreds of replicas without any issues because RabbitMQ efficiently distributes each message to only one processor.
+
+If you're looking for more examples of distributed queues in real-world scenarios, check out our systems end-to-end course on interviewpen.com, where we provide numerous in-depth examples of how these systems are applied. 
+
+Next, let’s look at message routing. With Kafka, message routing is handled entirely by the producer. Kafka setups consist of multiple queues organized into topics and partitions, and the producer decides which queue its data goes to. This design allows Kafka clusters to handle high throughput, as they do not need to spend resources on routing messages. The producer can send messages to one or multiple queues based on message properties. If we prefer not to fan out and instead distribute messages across multiple partitions and consumers, the producer can hash the message to decide which partition to send it to. This decentralized routing enables better Kafka cluster scalability since there’s no single point where all messages must be routed.
+
+However, this model has a drawback: once a message is produced, there’s no way to control where it goes. RabbitMQ introduces exchanges, which receive all messages and route them to different queues. An exchange can route messages to one or more queues based on their properties and can also duplicate messages across queues for a fan-out approach. This gives consumers more control over what messages they consume. In situations without fan-out, this model allows for better load balancing between consumers, especially for tasks with variable processing times.
+
+Now, let’s summarize when you should use Kafka or RabbitMQ. Kafka is designed to process uniform messages that require little processing time. It's ideal for streaming events where data needs to be distributed across multiple systems. Kafka excels when fanning out messages to multiple independent systems and is incredibly fast, making it perfect for high-throughput needs. 
+
+Traditional message queues, like RabbitMQ, are better suited for long-running tasks where processing time may vary. They handle complex routing well, which is useful in certain scenarios. Traditional queues are also ideal for sporadic or bursty data flows, whereas Kafka is optimized for consistent data streams.
+
+The last topic we'll cover is acknowledgments. If a consumer fails to process a message, we need a way to retry and send that message to another consumer. Kafka does not have traditional acknowledgments but instead relies on offsets. Kafka logs the offset, indicating how many messages each consumer has processed. When a consumer disconnects before committing its offset, Kafka can reassign the data to another consumer, which picks up from the last committed offset.
+
+RabbitMQ, on the other hand, uses traditional acknowledgments. A consumer pulls messages from the queue, processes them, and sends an acknowledgment once the work is done. If an acknowledgment isn’t received in time, RabbitMQ will send the message to another consumer. These models achieve similar goals, but RabbitMQ’s acknowledgment model works better for long-running tasks where tasks must be marked as either completed or failed.
+
+In conclusion, Kafka is excellent for stream processing, event buses, and real-time communication. It’s particularly effective when you need to fan out messages to multiple consumers. RabbitMQ, however, is better for traditional job queue systems, handling sporadic data bursts, and decoupling microservices, where tasks must be processed individually by different workers.
