@@ -26,6 +26,8 @@ talent acquisition: thu hút nhân tài
 deconstruct: phá hủy
 construct: xây dựng
 coverage: phạm vi phủ sóng
+freshness and timeliness: sự tươi mới và kịp thời
+arrival of: xự xuất hiện của
 
 
 transmission: lây truyền
