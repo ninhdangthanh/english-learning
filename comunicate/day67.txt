@@ -1,6 +1,3 @@
-fewer: ít hơn
-many more: nhiều hơn
-In terms of: về mặt
 less powerful: yếu hơn
 common/general-purpose: đa năng, mục đích chung
 handle/process: xử lý
@@ -10,8 +7,6 @@ reality: thực tế
 steeper: dốc hơn, độ dốc hơn
 leaving me: khiến tôi, cho tôi
 embarking: bước lên
-adventure: cuộc phiêu lưu
-Ultimately: cuối cùng
 
 resist: kháng cự
 outright: hoàn toàn, không giấu giếm
@@ -19,8 +14,6 @@ keen on: quan tâm đến
 keep on: tiếp tục
 relative/relatively: tương đối
 protocol suite: bộ giao thức
-fulfill: thực hiện
-fulfilled/fulfillment: hoàn thành/sự hoàn thành
 obligation: nghĩa vụ
 talent acquisition: thu hút nhân tài
 deconstruct: phá hủy
@@ -29,10 +22,16 @@ coverage: phạm vi phủ sóng
 freshness and timeliness: sự tươi mới và kịp thời
 arrival of: xự xuất hiện của
 
-
-transmission: lây truyền
-transit: quá cảnh
-transiet: tạm thời
-transition: chuyển tiếp
-transform: chuyển đổi
-move: di chuyển
+interchange: trao đổi, hoán đổi
+care about: quan tâm
+serve: phục vụ
+routing: định tuyến
+moderate: vừa phải
+consumer patterns: mẫu người tiêu dùng
+fan out: quạt ra, phân luồng
+on the orther hand: mặt khác
+drawback: nhược điểm
+variable: biến đổi
+but instead of: mà thay vào đó
+in time: trong thời gian, kịp thời
+decouple: tách

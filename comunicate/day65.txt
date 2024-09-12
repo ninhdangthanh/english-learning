@@ -21,3 +21,17 @@ imposes: áp đặt
 symbol: biểu tượng, kiểu kí hiệu
 iconic: mang tính biểu tượng
 retain: giữ lại
+
+transmission: lây truyền
+transit: quá cảnh
+transiet: tạm thời
+transition: chuyển tiếp
+transform: chuyển đổi
+move: di chuyển
+fewer: ít hơn
+many more: nhiều hơn
+In terms of: về mặt
+adventure: cuộc phiêu lưu
+Ultimately: cuối cùng
+fulfill: thực hiện
+fulfilled/fulfillment: hoàn thành/sự hoàn thành
