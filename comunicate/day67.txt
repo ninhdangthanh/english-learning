@@ -1,0 +1,17 @@
+Arithmetic: số học
+control unit: bộ điều khiển
+parallel and multitasking: song song và đa nhiệm
+the rise: Sự gia tăng, tăng trưởng
+in-depth: chuyên sâu
+light intensity: cường độ ánh sáng
+Mechanically: về mặt cơ học
+render: hiển thị
+serially: nối tiếp, tuần tự
+fewer: ít hơn
+many more: nhiều hơn
+In terms of: về mặt
+less powerful: yếu hơn
+common/general-purpose: đa năng, mục đích chung
+handle/process: xử lý
+place/placed: nơi/ được đặt
+
