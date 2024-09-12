@@ -1,17 +1,32 @@
-Arithmetic: số học
-control unit: bộ điều khiển
-parallel and multitasking: song song và đa nhiệm
-the rise: Sự gia tăng, tăng trưởng
-in-depth: chuyên sâu
-light intensity: cường độ ánh sáng
-Mechanically: về mặt cơ học
-render: hiển thị
-serially: nối tiếp, tuần tự
 fewer: ít hơn
 many more: nhiều hơn
 In terms of: về mặt
 less powerful: yếu hơn
 common/general-purpose: đa năng, mục đích chung
 handle/process: xử lý
-place/placed: nơi/ được đặt
+place/placed: nơi, vị trí/ được đặt
+actually: thực ra
+reality: thực tế
+steeper: dốc hơn, độ dốc hơn
+leaving me: khiến tôi, cho tôi
+embarking: bước lên
+adventure: cuộc phiêu lưu
+Ultimately: cuối cùng
+resist: kháng cự
+outright: hoàn toàn, không giấu giếm
+keen on: quan tâm đến
+keep on: tiếp tục
+relative/relatively: tương đối
+protocol suite: bộ giao thức
+fulfill: thực hiện
+fulfilled/fulfillment: hoàn thành/sự hoàn thành
+obligation: nghĩa vụ
+talent acquisition: thu hút nhân tài
 
+
+transmission: lây truyền
+transit: quá cảnh
+transiet: tạm thời
+transition: chuyển tiếp
+transform: chuyển đổi
+move: di chuyển
