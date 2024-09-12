@@ -12,6 +12,7 @@ leaving me: khiến tôi, cho tôi
 embarking: bước lên
 adventure: cuộc phiêu lưu
 Ultimately: cuối cùng
+
 resist: kháng cự
 outright: hoàn toàn, không giấu giếm
 keen on: quan tâm đến
@@ -22,6 +23,9 @@ fulfill: thực hiện
 fulfilled/fulfillment: hoàn thành/sự hoàn thành
 obligation: nghĩa vụ
 talent acquisition: thu hút nhân tài
+deconstruct: phá hủy
+construct: xây dựng
+coverage: phạm vi phủ sóng
 
 
 transmission: lây truyền
