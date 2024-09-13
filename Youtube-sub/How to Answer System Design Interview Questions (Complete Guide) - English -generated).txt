@@ -1,0 +1,34 @@
+Let’s talk about how to answer system design questions. One of the interviews you'll likely need to prepare for if you're applying for a technical role—like software engineer or technical program manager—is a system design interview.
+
+Before we dive into how to answer a system design question, let's discuss its purpose. This interview evaluates your ability to design a system or architecture to solve a complex problem in a real-world setting. Keep in mind that it doesn’t aim to test your ability to create a 100% perfect solution. Instead, it assesses your ability to design the blueprint of an architecture, analyze a complex problem, discuss multiple solutions, and weigh the pros and cons to reach a workable solution.
+
+Now that we know what this interview is and what it’s testing for, let’s talk about how to approach it. Unlike a coding interview, a system design interview usually involves open-ended design problems, meaning it's helpful to use a framework to organize your thoughts quickly and answer systematically (pun intended). After all, you're being asked to solve a problem that would take a whole team of engineers to solve in the real world, and you need to do it in only 45 minutes. 
+
+A framework helps us manage time, communicate clearly, and build towards a productive outcome logically. Once you're familiar with this framework, you can apply it to every system design interview question. So, what’s the framework? There are five steps:
+
+**Step 1: Define the problem space.**  
+Here, we understand the problem and define the scope of the design. It’s your job to ask lots of questions to shrink the scope of the problem from broad and vague to narrow and specific, considering system constraints. Avoid jumping into the design without doing this first. Clarify both functional and non-functional requirements—what’s in and out of scope. Be sure to state your assumptions and decisions to your interviewer so they know where you are. Think of it as taking your interviewer on a guided tour—explain every step of the journey. Also, consider whether you’re creating the system from scratch. Who are our clients or consumers? Do we need to talk to pieces of the existing system? What are those pieces?
+
+Then, think about the non-functional requirements of the system design. These might be linked to business objectives or user experience—for example, availability, consistency, speed, security, reliability, and cost. If you’ve identified many design constraints, focus on the most critical ones. Explain your reasoning to the interviewer and check in with them; they might be interested in a specific system aspect. If they nudge you in one direction, follow it. Don’t get bogged down trying to nail every requirement—you still need to move on to answering the question. 
+
+Next, you might estimate the amount of data you’re dealing with so you can do quick calculations, like calculating storage size or bandwidth requirements. This helps you choose components and gives an idea of what scaling might look like later. You can also assume user volume and behavior, but always check with your interviewer if these assumptions match their expectations.
+
+**Step 2: Design the system at a high level.**  
+This is where we lay out the system’s fundamental pieces and illustrate how they work together to achieve the desired functionality, keeping in mind the constraints from Step 1. You don’t need to dive into the details yet. Start by designing APIs, which act as contracts defining how clients access your system’s resources. Each system requirement should translate to one or more APIs. Choose the type of APIs you want to use (e.g., REST, SOAP, GraphQL, or RPC) and explain why. Also, consider the request parameters and response types. These APIs will be the foundation of your system’s architecture.
+
+After the APIs, think about how the client and web server will communicate. Then, use all these decisions to create a high-level design diagram, which should act as a blueprint of your design and highlight critical pieces to meet the functional requirements. Use this diagram to show the interviewer how the data and control flow look in your system. Avoid discussing scalability yet; that will come later.
+
+**Step 3: Deep dive into the design.**  
+Now, you can examine system components and their relationships in more detail. The interviewer may prompt you to focus on a particular area, but don’t rely on them to guide the conversation. Start by discussing how non-functional requirements impact your design choices. For example, if the system needs fresh data, consider speeding up data ingestion, processing, and queries. If the data storage requirement is large, consider partitioning the database to balance storage and query traffic. You may also need load balancers to distribute read/write traffic. 
+
+There’s no single correct answer here. What’s most important is presenting different design options, discussing their pros and cons, and explaining why one option is preferred over another given the circumstances.
+
+**Step 4: Identify bottlenecks and scaling opportunities.**  
+After a deep dive into the system's components, zoom out and consider whether the system can operate under various conditions and support growth. Some questions to consider: Is there a single point of failure? How can we improve robustness and system availability? Is the data valuable enough for replication? How important is it to keep data versions consistent? Do we need multi-geo data centers to improve data locality for a global service? Are there edge cases, like peak usage, that could degrade performance or break the system? How do we scale the system to support 10 times more users? 
+
+As we scale, we may need to upgrade components or migrate to another architecture. This is where knowledge of concepts like horizontal sharding, content delivery networks (CDN), caching, rate limiting, and SQL/NoSQL databases becomes valuable.
+
+**Step 5: Review and wrap up.**  
+Finally, it’s time to summarize. List your major decisions, their justifications, and any trade-offs in space, time complexity, etc. Check that your design satisfies all requirements, although you should be doing this throughout the interview. You could also identify directions for further improvement.
+
+This interview typically lasts 45 minutes, with five minutes reserved for introductions and questions for the interviewer. Good luck!
