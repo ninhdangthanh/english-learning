@@ -31,6 +31,7 @@ autonomy: tự chủ
 Frequency of attendance at the office: tần xuất có mặt ở văn phòng
 She doesn't have to be so difficult: Cô ấy không cần phải khó khăn như vậy
 
+exclamation: dấu !
 curly braces: {}
 parentheses: ()
 square brackets: []
