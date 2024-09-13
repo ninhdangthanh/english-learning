@@ -1,0 +1,32 @@
+
+Let's talk about how to choose a database in a system design interview.
+
+In these interviews, you will often have to decide which database to use. These databases are categorized into SQL and NoSQL types, each with their own strengths and weaknesses, and should be selected appropriately based on the use case.
+
+First, let's define both SQL and NoSQL databases. SQL stands for Structured Query Language. SQL databases are table-based, while NoSQL databases can be document, key-value, graph, or wide-column stores. SQL databases are vertically scalable, whereas NoSQL databases are horizontally scalable.
+
+Let's start with the strengths of SQL databases. First, SQL databases are relational databases, which means they allow easy querying of relationships between data across multiple tables. Table relationships are important for effectively organizing and structuring different kinds of data.
+
+Second, the data is well-structured, reducing the room for potential errors. This is because SQL schemas require the data model and format to be defined before storing anything.
+
+Third, SQL databases are ACID compliant. This means that transactions are Atomic, Consistent, Isolated, and Durable. SQL transactions are groups of statements that are executed atomically, meaning either all are executed, or none are. If any statement in the group fails, the entire transaction fails.
+
+With all these strengths, SQL sounds great. But what are its weaknesses?
+
+First, while structured data may reduce errors, it also means that columns and tables must be created in advance. As a result, SQL databases take more time to set up compared to NoSQL databases. They are also not well-suited for storing and querying unstructured data where the format is unknown.
+
+Second, SQL databases are difficult to scale horizontally due to their relational nature. For read-heavy systems, provisioning multiple read-only replicas is simple. However, for write-heavy systems, the usual solution is to vertically scale the database, which is typically more expensive than adding additional servers.
+
+Now, let's discuss the benefits of NoSQL databases.
+
+First, NoSQL databases are more flexible and easier to set up, as they do not support table relationships. Data is typically stored in documents or as key-value pairs. NoSQL is a better choice for storing unstructured data.
+
+Second, because NoSQL databases are better at handling unstructured data, they can also shard this data across different data stores, enabling distributed databases. This makes horizontal scaling much easier, allowing vast amounts of data to be stored without needing to purchase a single costly server.
+
+But NoSQL databases have weaknesses too.
+
+First, NoSQL databases are typically designed for distributed use cases. Write-heavy systems can be supported by having multiple write shards for the same data partition, a technique known as peer-to-peer replication. However, the trade-off is a loss of strong consistency. After a write to a shard in a distributed NoSQL cluster, there is a small delay before the update propagates to other replicas. During this period, reading from a replica may result in accessing outdated data. This limitation, where data eventually becomes up-to-date, is called eventual consistency. 
+
+Eventual consistency is not exclusive to NoSQL databases but applies to distributed databases in general. A single shard NoSQL database can be strongly consistent, but to fully utilize NoSQL’s scalability benefits, the database should ideally be set up as a distributed cluster.
+
+And that's it for today's video on databases. To learn more, check out the Exponent article linked in the description below. Good luck with your interviews, and thanks for watching!
