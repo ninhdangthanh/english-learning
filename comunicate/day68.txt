@@ -13,5 +13,18 @@ traffic: lưu lượng
 10 times more user: nhiều người dùng hơn gấp 10 lần
 scope: phạm vi
 scale: quy mô
+
 wrap up: gói lại, kết thúc
 last about: kéo dài khoảng
+crawler: trình thu thập thông tin
+breath: hơi thở
+perceive/awareness: nhận thức
+thorough: kỹ lưỡng
+fraction: fraction
+seperate area: khu vực riêng biệt
+inverted: đảo ngược
+coverage: bao phủ, phạm vi phủ sóng
+timeliness: tính kịp thời
+timeline: dòng thời gian
+sophisticated: cầu kì
+tailor its: điều chỉnh nó
