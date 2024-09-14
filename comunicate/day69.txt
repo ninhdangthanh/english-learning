@@ -1,0 +1,16 @@
+duplicate: trùng lặp
+highlighting: làm nổi bật
+depth: độ sâu
+initial: ban đầu
+originally: tính 
+nguyên bản
+always changing: luôn thay đổi
+votes of confidence: phiếu của tín nhiệm
+artificial: nhân tạo
+evergreen: thường xanh
+best preactices: giải pháp tốt nhất
+parse: phân tích ra
+span: trải dài
+indexed seperately: lập chỉ mục riêng
+rate: tỷ lệ
+rank: thứ hạng
