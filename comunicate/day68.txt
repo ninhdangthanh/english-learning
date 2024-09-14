@@ -1,3 +1,17 @@
 refine/refining: tinh chế, tinh chỉnh, chắc lọc
 exclamation: dấu !
 boil them: đun sôi chúng
+blueprint: bản thiết kế
+logically: hợp lý
+Be sure to state: Hãy chắc chắn nêu rõ
+cost: chi phí
+volumn: khối lượng
+assumption: giả định
+assume: cho rằng
+orientation: định hướng
+traffic: lưu lượng
+10 times more user: nhiều người dùng hơn gấp 10 lần
+scope: phạm vi
+scale: quy mô
+wrap up: gói lại, kết thúc
+last about: kéo dài khoảng
