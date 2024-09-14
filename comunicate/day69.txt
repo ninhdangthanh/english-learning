@@ -14,3 +14,5 @@ span: trải dài
 indexed seperately: lập chỉ mục riêng
 rate: tỷ lệ
 rank: thứ hạng
+Assemble: lắp ráp
+postpone: hoãn
