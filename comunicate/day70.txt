@@ -1,0 +1,4 @@
+sequential: tuần tự
+variety: đa dạng
+variants: biến thể
+variant: khác nhau
