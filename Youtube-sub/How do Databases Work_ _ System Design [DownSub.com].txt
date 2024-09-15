@@ -1,0 +1,49 @@
+So, in this video, we're going to be discussing **databases**, specifically how databases **parse queries** and determine the most efficient way to retrieve the data you're attempting to access. 
+
+To begin, let's talk about **what a database actually is**. At its core, a database is simply a system that receives a **query**, which is typically a **statement** written in SQL. This statement tells the database what you want to retrieve from it. The database then processes the query on the backend and determines how to retrieve the data, ultimately returning the results. These results generally appear in a **table format**, consisting of **rows and columns of data**.
+
+While this may seem straightforward, there's actually a lot of complexity that takes place in the backend for the database to **execute the query** you've submitted. The primary reason for this complexity is that **SQL** is a **declarative language**—it describes **what data you want**, but not **how to retrieve** it.
+
+When we look at a SQL query, it might look like this: 
+- **SELECT something FROM table**. 
+- You may want to **JOIN another table** and **filter based on a condition**.
+
+Here, all we're doing is specifying what data we want to access. We're telling the database which **columns** we want and the **conditions** that must be met for the data, but we're not specifying the exact steps to **retrieve** that data. This is where the **declarative nature** of SQL comes into play.
+
+On the other hand, with **imperative statements**, you're telling the database **exactly how** you want to perform the operations. For example, you could specify that you want to **scan the table for certain records** using a **hash index**, and then use a **nested loop join** to connect two tables. Afterward, you could indicate that you want to **select two specific columns (A and B)**. 
+
+The key difference between **declarative** and **imperative** statements is that, with declarative statements, you leave it to the database to choose **how to execute** the query. As a user, it’s generally easier to work with declarative SQL, where you just express what data you need, without specifying how to get it.
+
+Internally, however, the database must convert this declarative statement into a **specific execution plan**. If you're interested in learning more about database mechanics—such as **hash indexes**, **join algorithms**, and how to configure a database for **optimal performance**—I recommend visiting **interviewpen.com**, where you'll find a full series on **database fundamentals**.
+
+Now, let's dive into how the database actually figures out how to execute your query. The process typically involves **three main steps**:
+1. **Parsing**.
+2. **Query Planning**.
+3. **Query Execution**.
+
+First, the database starts with your **SQL query**. The **parser** checks if the query is **grammatically correct** and translates it into a **data structure** that the database can easily work with. Next comes the **query planner**, where most of the **query optimization** happens. The planner converts your declarative SQL into specific steps for the database to follow. Finally, in the **execution** phase, the database runs the query based on the **execution plan**, using the actual data stored in the tables to produce the result.
+
+Let's break down each part, starting with the **parser**. The input to the parser is your raw **SQL statement**. For instance, consider a query like:
+- **SELECT A, B FROM table WHERE X = 3 AND Y = 5**.
+
+This raw text is difficult for the database to operate on directly, so the parser converts it into a **data structure**—usually a **tree**—that the database can process more easily. The base query contains three main parts: 
+1. The **SELECT clause** (with columns A and B).
+2. The **FROM clause** (specifying the table).
+3. The **WHERE clause**, which contains conditions that are combined using an **AND operator**.
+
+This is similar to how most **programming languages** parse code: by creating a **parse tree**. Once the parser has done its job, the next phase is the **query planner**.
+
+The **query planner** takes the parse tree and outputs a new tree with the **specific steps** the database will take to execute the query. For example, these steps may include **scanning a table**, **applying filters**, or **using indexes**. There are usually many possible ways to execute the same query, with some approaches being faster than others. The query planner's job is to find the most **efficient plan** based on various characteristics of the database.
+
+Let's take a look at an example. Suppose you have a query that:
+- **SELECTS from Table A**,
+- **JOINS with Table B**,
+- **FILTERS on certain conditions**.
+
+One approach might be to scan both tables, filter each based on the conditions, and then join the results. Another approach could be to join the tables first and then filter the results afterward. The planner evaluates the **cost** of each option—based on the **size of the tables**, the **distribution of data**, and other factors—and chooses the option with the **lowest cost**.
+
+To make this decision, the planner needs to look at some **statistics** about the data. For example, if Table A and Table B each have **100 rows**, the planner knows it needs to scan **100 rows** in both tables. Additionally, it might look at the **distribution of values** in each column. If column X has **10 unique values** and there are **100 rows**, the planner can estimate how many rows will remain after applying the filter.
+
+Once the query planner has determined the most efficient plan, the next step is **query execution**. Here, the database executes the steps outlined in the query plan, using the actual data stored in the tables, and returns the **final result**.
+
+Although we've looked at some basic examples, real-world databases introduce much more **complexity**. Factors like **caching** and other **performance optimizations** come into play to ensure the database runs efficiently across different systems. If you're curious to dive deeper into advanced database optimization techniques, I encourage you to explore the documentation for further learning.
