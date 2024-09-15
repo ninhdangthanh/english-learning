@@ -2,3 +2,9 @@ sequential: tuần tự
 variety: đa dạng
 variants: biến thể
 variant: khác nhau
+assembling: lắp ráp
+plug and play: cắm và chạy
+comprise: bao gồm
+puzzle: câu đố
+turn out: hóa ra
+specific/specifically: cụ thể
