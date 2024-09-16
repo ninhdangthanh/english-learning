@@ -8,3 +8,8 @@ comprise: bao gồm
 puzzle: câu đố
 turn out: hóa ra
 specific/specifically: cụ thể
+permit: cho phép làm gì
+acquire: có được
+derive/deriving: nguồn gốc, lấy ra, rút ra
+continuous: liên tục
+rack: giá đỡ, vợt
