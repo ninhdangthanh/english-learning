@@ -1,0 +1,22 @@
+
+So, what are the differences between TCP and UDP? 
+
+TCP (Transmission Control Protocol) is a connection-oriented transport layer protocol that ensures reliable, ordered, and error-checked delivery of data streams between applications. It works by establishing a connection, known as a three-way handshake. TCP then segments data into packets, numbers them for ordering, and the receiver acknowledges received packets. If packets are lost, TCP will retransmit them. 
+
+TCP is used when data integrity and accuracy are more critical than speed. It is ideal for web browsing (HTTP/HTTPS) and email (SMTP). For TCP, think of applications like Google Chrome or Gmail.
+
+The advantages of TCP include its reliability, guaranteeing the delivery of packets in the correct order without duplication. It has flow control, which manages the flow of data packets to prevent network congestion. TCP also includes error-checking to ensure error-free data communication.
+
+The disadvantages of TCP include higher latency. The process of establishing connections (the three-way handshake) and acknowledging data can introduce delays. There is also more protocol overhead due to acknowledgments, retransmissions, and status checks, leading to reduced efficiency.
+
+On the other hand, UDP (User Datagram Protocol) is a connectionless, lightweight transport layer protocol. It allows data packets (datagrams) to be sent without establishing a connection between the sender and receiver. UDP provides a simple, unreliable communication method between applications. It works by sending data packets without establishing a connection—there's no handshaking sequence or acknowledgment of received packets. Packets may arrive out of order, be duplicated, or not arrive at all, and there’s no retransmission of lost packets.
+
+UDP is used in situations where speed is crucial and a certain amount of data loss is acceptable. Common applications include live video streaming and online gaming—think of platforms like Twitch.
+
+The advantages of UDP include low latency, as there is no need to establish a connection before sending data. It is also efficient, with minimal protocol overhead, making it faster than TCP and more suited for real-time applications.
+
+The disadvantages include unreliability—packets may be lost or arrive out of order, and there is no built-in error checking or recovery mechanism. There's also no congestion control, which can contribute to network congestion and higher packet loss.
+
+To recap, TCP is a reliable, connection-oriented protocol that sends packets in order with retransmission upon failure—think of it for web browsing. In contrast, UDP is an unreliable, connectionless protocol that sends datagrams without guaranteeing delivery—think of it for video streaming.
+
+If you found any value in this, please like, subscribe, and share with your friends! It helps the channel a lot, and hopefully, I will see you in the next one.
