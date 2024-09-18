@@ -1,0 +1,79 @@
+DNS, or Domain Name System, is the backbone of the internet, but few know exactly how it works.  
+In this video, we will learn all about the system design of DNS.  
+
+Let’s dive right in.  
+
+DNS is the internet’s directory.  
+It translates human-readable domain names, such as google.com, into machine-readable IP addresses.  
+
+DNS can be a bit confusing because there are different types of DNS servers in the DNS hierarchy, each serving a different purpose.  
+
+When a browser makes a DNS query, it’s asking a DNS resolver.  
+This DNS resolver could be from our ISP, or from popular DNS providers like Cloudflare’s 1.1.1.1 or Google’s 8.8.8.8.  
+
+If the DNS resolver does not have the answer in its cache, it finds the right authoritative nameserver and asks it.  
+The authoritative nameserver is the one that holds the answer.  
+
+When we update a domain’s DNS records, we are updating its authoritative nameserver.  
+
+How does the DNS resolver find the authoritative nameserver?  
+This is where the system of DNS gets interesting.  
+
+There are three main levels of authoritative DNS servers:  
+- Root name servers,  
+- Top-level domain (TLD) name servers,  
+- Authoritative nameservers for the domains.  
+
+The root name servers store the IP addresses of the TLD name servers.  
+There are 13 logical root name servers. Each root name server has a single IP address assigned to it.  
+
+Behind each IP address, there are actually many physical servers. Through the magic of anycast, we get routed to the closest one.  
+
+The TLD name servers store the IP addresses of the authoritative name servers for all the domains under them.  
+
+There are many types of TLDs. We are all familiar with .com, .org, and .edu. There are also country-code TLDs like .de and .uk, among many others.  
+
+The authoritative name servers for a domain provide, well, authoritative answers to DNS queries.  
+
+When we register a domain, the registrar runs the authoritative nameservers by default, but we can change them.  
+Cloud providers like AWS and Cloudflare run robust authoritative nameservers.  
+
+This hierarchical design makes DNS highly decentralized and robust.  
+
+Let’s walk through the life of a typical DNS query.  
+
+The user types google.com into the browser.  
+The browser first checks its cache. If it has no answer, it makes an operating system call to try to get the answer.  
+
+The operating system call would most likely have its own cache. If the answer isn’t there, it reaches out to the DNS resolver.  
+The DNS resolver first checks its cache.  
+
+If the answer is not there or has expired, it asks the root name server.  
+The root name server responds with the list of .com TLD name servers.  
+
+Since .com is a common TLD, the resolver likely already has the IP addresses for these TLD nameservers cached.  
+The DNS resolver then contacts the .com TLD nameserver, which returns the authoritative nameservers for google.com.  
+
+Finally, the DNS resolver reaches out to google.com’s authoritative nameserver, which returns the IP address of google.com.  
+The DNS resolver returns the IP address to the operating system, which then passes it to the browser.  
+
+Now, let’s go over some key considerations when updating DNS records for a live, high-traffic production system.  
+DNS propagation is slow because there is a TTL (Time-to-Live) on each DNS record. Some default TTLs are quite long.  
+
+Also, not every DNS resolver is a good citizen. Some don’t honor the TTL.  
+
+To mitigate this, there are two practical steps to take.  
+First, reduce the TTL for the record that we want to change to something short, like 60 seconds, well in advance of the update.  
+This gives DNS servers time to receive the shortened TTL, allowing the actual record update to take effect more quickly.  
+
+Second, leave the server running on the old IP address for a while.  
+Only decommission the server when traffic dies down to an acceptable level.  
+
+Since some DNS resolvers don’t honor the TTL, this can take a bit of time and patience.  
+
+This concludes our video on DNS. We hope you now have a better understanding of how its hierarchical design makes it decentralized and robust.  
+
+Remember, DNS is what translates domain names to IP addresses, making it a critical component of the internet’s backbone.  
+
+If you enjoyed this video, you may also like our system design newsletter.  
+It covers topics and trends in large-scale system design and is trusted by over 250,000 readers. Subscribe at blog.bytebytego.com.  
