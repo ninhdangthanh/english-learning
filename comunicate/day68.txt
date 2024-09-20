@@ -20,7 +20,7 @@ crawler: trình thu thập thông tin
 breath: hơi thở
 perceive/awareness: nhận thức
 thorough: kỹ lưỡng
-fraction: fraction
+fraction: phân số, một phần
 seperate area: khu vực riêng biệt
 inverted: đảo ngược
 coverage: bao phủ, phạm vi phủ sóng

@@ -10,3 +10,29 @@ authority: thẩm quyền
 authorization: ủy quyền, cho phép
 effect: tác dụng, hiệu lực
 for a while: trong một thời gian
+
+observe/observability: quan sát, khả năng quan sát
+obviously: rõ ràng
+get rid: thoát khỏi
+viable: khả thi
+centralization: tập trung hóa
+Aggressively: quyết liệt
+claim: khẳng định
+canonically: theo kinh điển
+merely: chỉ đơn thuần
+exhibit: triển lãm
+elegant: thanh lịch
+
+impose: áp đặt
+obscene: tục tĩu
+emission: khí thải
+prohibitive: cấm đoán
+eraser: cục tẩy, xóa
+I don't get it: tôi không hiểu
+substitute or complement: thay thế hoặc bổ sung
+Resistance to data tampering: chống giả mạo dữ liệu
+along with: cùng với
+alongside: bên cạnh
+strip/stripping: thoát y, lột bỏ
+heuristic: tự tìm tòi
+referring: giới thiệu, đề cập
