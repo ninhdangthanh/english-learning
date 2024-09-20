@@ -9,3 +9,9 @@ spare time: thời gian rảnh
 natively: bản địa
 inevitable: không thể tránh khỏi
 ransomeware: phần mềm tống tiền
+caption: chú thích
+looking at: xem xét
+carousel: băng chuyền
+expected: dự kiến
+form: biểu mẫu
+hybrid: lai
