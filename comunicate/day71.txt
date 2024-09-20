@@ -17,7 +17,7 @@ bulk: số lượng lớn
 daily routine: thói quen hàng ngày
 remark/remarking: nhận xét
 remarkable: đáng chú ý
-running out: running out
+running out: đang chạy ra ngoài
 calmly paced: nhịp độ bình tĩnh
 executive: điều hành
 intentional: chủ đích

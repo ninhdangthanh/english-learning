@@ -1,0 +1,44 @@
+
+In this system design video, we’re going to be designing Instagram. Instagram is one of the most popular social media sites on the planet and, unsurprisingly, is often asked as a system design interview question at Meta. 
+
+The first thing to note is that there are many features on Instagram, so it's important to ask clarifying questions to your interviewer to understand what exactly they want. This video is going to focus on the main flows in the app, but the system is designed to be highly extendable, making it easy to add more features. So, let’s jump right in!
+
+Looking at the functional requirements, users should be able to upload media, which would include both images and videos. Users should also be able to follow and unfollow other users. We should be able to create user feeds, and we will assume a reverse chronological order based on who the user follows. We will not be using any machine learning-based algorithms here. However, if you're applying for a machine learning-based role, you should definitely look into that. Additionally, users should be able to search posts by captions or hashtags.
+
+For the non-functional requirements, we want high scalability since the system needs to handle hundreds of millions of users. We want high availability so users can always view content; it doesn’t have to be the most up-to-date content since the nature of the data isn't critical. Therefore, we would accept eventual consistency here. We also want high durability to ensure that data is never lost and low latency so that user feeds are generated quickly without long waiting times.
+
+What is not covered in this design is messaging and image editing. 
+
+Looking at the storage estimate, let's assume we have 500 million daily active users, and each user posts once every 5 days. Dividing one by five gives us 0.2, which represents the posts per day. So, we’ve got 500 million active users; multiplying that by 0.2 gives us 100 million posts per day.
+
+Now, for the daily storage: if we assume the average post size is 1 megabyte, we have 100 million megabytes of data. Dividing that by 1,024 gives us roughly 97,500 gigabytes to store per day. To calculate the yearly storage, we multiply that 97,500 by 365, which gives us approximately 35 million gigabytes. Dividing that by 1,024 results in around 34,800 terabytes per year. Finally, dividing by 1,024 again gives us a yearly storage estimate of roughly 34 petabytes of data. So, our system should be designed to handle this large storage requirement.
+
+Next, looking at the queries per second: we know the total posts per day is 100 million (100x10^6). We know there are 86,400 seconds in a day, so the number of writes per second is 100 million divided by 86,400, which equals roughly 1,150 writes per second. Assuming a read-to-write ratio of 100 to 1, we calculate the reads per second as 100 times the writes per second (1,150), giving us around 115,000 reads per second. Adding both gives us roughly 116,000 queries per second, which is a very high query rate. Our system must be designed to handle this high volume of requests.
+
+Looking at the data model, this is a very basic outline of some core tables that could be included in an Instagram data model. Obviously, in a production database, there would be many more tables, but due to time constraints in an interview, we’ll focus on a few core tables. 
+
+The `User` table will contain information related to the user. The `Followers` table will contain two foreign keys, `FollowerID` and `FollowedByID`, which enable the system to track which users are following each other. We’ll also have a `Media` table that contains the `MediaID`, which uniquely identifies each media item, along with the `UserID`, linking each media to a user, indicating who uploaded it. This table will also store the media type (image or video) and its file URL.
+
+We’ll have a `Post` table where the `PostID` uniquely identifies each post. The `UserID` links each post to a user, indicating who created it. The caption will store the text or description of the post, along with the `CreatedAt` timestamp. Lastly, the `PostMedia` table will link posts to their associated media, such as a carousel where a single post contains multiple images.
+
+For the API design, we could use a classic RESTful API to interact with the data. REST APIs are simple, widely used, stateless, and support caching, making them an excellent candidate for our system. Our REST API will include three main endpoints. 
+
+- First, the `PostAPI Upload` endpoint will accept a file (binary data for photos or videos) and some metadata such as `UserID`, `Caption`, etc. The response code for a successful upload should be 201 (Created).
+- Next, the `Get Post API` will retrieve an individual post based on the `PostID`, with the expected response code being 200 (Success).
+- Lastly, the `Get Feed API` will take a `UserID` and pagination details (offset or limit), with a 200 (Success) response code expected.
+
+We’ll now walk through some main flows and build the system as we go. By the end of this walkthrough, you should have a clear understanding of how to build the system from the ground up.
+
+First, let’s look at the media upload flow. When a user uploads an image or video, the client sends a POST request to an API Gateway. The gateway handles routing, rate limiting, authentication, and authorization. The request body contains the binary file data, and the request headers include content type (multipart form data) and boundary, a unique string that helps identify where the file data starts and ends. 
+
+The API Gateway forwards the request to a load balancer, which directs it to an instance of the Post Service. The Post Service, scaled horizontally for high availability, uploads the media file to an object storage solution like Amazon S3. For large files (e.g., exceeding 5MB), the system can use multi-part uploads, which split files into smaller chunks for more efficient uploading.
+
+After the media is uploaded, the Post Service receives the image URL from object storage and stores metadata about the post in the main PostgreSQL storage. To ensure data consistency, this process could use an atomic transaction, ensuring both the media upload and metadata storage either succeed together or fail, preventing data inconsistencies.
+
+Finally, the Post Service returns the image URL to the client and sends a denormalized message to Kafka for asynchronous message processing, decoupling services and enhancing scalability. Kafka consumers, such as Neo4j, update the graph database with new post relationships, and ElasticSearch updates search indexes, enabling efficient searching by captions or hashtags.
+
+Next, let’s discuss the feed publishing flow. We will use a hybrid push-pull model, a combination of pre-generated and real-time feed generation. When new content is published, it is pushed to the feeds of followers for quick retrieval (push model). However, for users with millions of followers (celebrities), the system waits until the user requests the feed, generating it on demand (pull model).
+
+By using a hybrid approach, we optimize read operations while avoiding the "hotkey" problem. When a regular user posts, their followers’ feeds are updated in the cache, and when a user with many followers posts, their fans fetch the latest content upon request.
+
+With this design, we aim to build a robust, scalable, and high-performing Instagram-like system that can handle high traffic, large storage needs, and quick response times.
