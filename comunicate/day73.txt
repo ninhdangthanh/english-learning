@@ -30,3 +30,4 @@ politics: chính trị
 eternal: vĩnh cửu
 so on = early: sớm
 directions=indirections: chỉ đường, chỉ dẫn
+collision: va chạm

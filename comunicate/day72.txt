@@ -18,7 +18,7 @@ viable: khả thi
 centralization: tập trung hóa
 Aggressively: quyết liệt
 claim: khẳng định
-canonically: theo kinh điển
+canonically: theo kinh điển/chuẩn mực
 merely: chỉ đơn thuần
 exhibit: triển lãm
 elegant: thanh lịch

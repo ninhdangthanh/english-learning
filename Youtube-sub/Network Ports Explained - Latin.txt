@@ -1,0 +1,46 @@
+
+Quid est portus? Ita est locus huius video. Portus nunc nexus physicus non est, sed nexus logicus qui programmata et officia ad informationes commutandas adhibet.
+
+In specie, determinat quae programmata vel servitium computatrale vel servo utendum sit. Utrum pagina interretialis id evelleret, utens servitio FTP, electronica accessione, et cetera.
+
+Portus singularem numerum habent, qui eos agnoscit. Numerus iugis ab 0 ad 65535. Exempli gratia, communium portus sunt portus 80 et 443, qui ad paginas utuntur. Portus numerus 21 ponitur pro FTP. Portus numerus 25 pro inscriptio ponitur. Numerus portus semper cum IP inscriptione coniungitur.
+
+Inscriptio IP est inscriptio numerorum. Identifier est pro una PC machinasque in modum retis. Omnis fabrica IP orationem pro communicationis causa habere debet. Et inscriptio IP et numerus portus cooperantur ad commutationem notitias in retis.
+
+Exempli gratia, si servo per interrete coniungere vis, IP oratio adhibetur ut situm geographicum illius servientis determinet. Ut quid continens, terra, civitas, et cetera. Numerus autem portus determinat utri servitio vel programmatis in illo servo uti velit: sive ministerium illud sit pagina interretialis, FTP operae, electronicae, et cetera.
+
+Nunc simpliciter, quid est hoc totum? Exempli gratia, portum communissimum sumamus, qui modo de omnibus utitur in dies, et qui numerus portus est 80. Portus 80 cum HTTP coniungitur, qui paginarum interretialium est. Quoties paginam interretialem ex computatro tuo invisis, portu 80 uteris, utrum eam scis an non.
+
+Dicamus ergo te ad computatrum tuum sedere et paginam Google invisere velle. Ita navigatrum interretialem aperires ac deinde "google.com" typus in talea inscriptionis haberes. Priusquam autem computatorium tuum paginae Google afferre possit, duo primum facere oportet: habet domain nomen "google.com" in electronicam IP Google convertendi, et praeterea cum navigatro interretiali quo HTTP uteris, computatrum tuum portum 80 ad IP orationem additurum est.
+
+Nunc ergo IP oratio adhibenda est ut servo Google telam collocaret. Dein cum servo deprehensus est, IP oratio officium suum praestitit. Nunc ergo numerus portus tractus est. Ineuntes petitionem cum numero 80, et Google telae server petitionem suam in instrumento interretiali praebebit. Sic paginam Google interretialem tandem recuperare potes. Haec autem omnia post scaenas fiunt.
+
+Non vides electronicam IP aut numerum portum qui utitur. Est autem modus ut videre possis, et quod est utendo netstat utilitate. Netstat breve est pro retis statisticis, et est instrumentum lineae mandatum quod iunctio retis ac activitatis in computatorio tuo monstrare adhibetur. Netstat in variis systematibus operantibus praesto est, sed in exemplo meo me in fenestra computatorio laboro. Itaque ad mandatum promptum vos typus in netstat, et tunc etiam in imperio sub -n utimur ut ipsum numerum portum videre possimus. Tunc "intrabimus".
+
+Ita hic in output videre possumus nexum nostrum cum google.com. Inscriptio localis hic computatoria nostra est cum nostra IP inscriptione. Hic est numerus portus quem computator noster huic sessioni se assignavit. Oratio peregrina est google.com. Hic igitur videre possumus IP inscriptionem interretialem Google servientis una cum numero 80 portum ad hanc connexionem adhiberi, quod, ut ante dixi, portus 80 pro paginis interretialibus adhibetur.
+
+Nunc dicamus de eadem exacta servo Google currit servitium FTP ubi clientes files transferre possunt. FTP vexillum est protocollum, quod inter computatores et servitores in retiaculis transferendis adhibetur et utitur numero portuum 21. Itaque in computatorio nostro possumus aperire telam navigandi, et exemplum in ftp.google.com ponemus. Et tunc idem iterum fiet: videbimus. Nomen domain "google.com" convertetur in IP orationem Google. Et quoniam FTP utimur, computatorium nostrum portum 21 ad IP inscriptionem adde.
+
+Cum servo Google petitionem advenientem viderit cum numero 21 portu, illam petitionem ad eius in FTP opera aedificata reddet. Et si iterum idem mandatum netstat, ostendet nexum cum ministerio Google FTP utentium numero portuum 21.
+
+Ita ut in principio huius video dixi, numeri portus ab 0 ad 65535 vagantur, et assignati sunt ab organization nomine Internet Assigned Numbers Authority (IANA). Hi 65000 numeri portuum in tria genera divisi sunt.
+
+Numeri portus ab 0 ad 1023 dicuntur systema seu portus noti. Hae sunt portus communes, quibus in dies plerique utuntur. Horum autem portuum pauca iam dixi, qualia sunt portus 80, 443, 25, et 21. Numeri portus ab 1024 ad 49151 dicuntur usores vel portus descripti. Hi portus sunt qui per turmas et tincidunt describi possunt ad aliquod servitium.
+
+Numeri portus ab 49152 ad 65535 hi vocantur portus dynamicus vel privatus. Hae portuum clientium lateris usui sunt. Hi numeri portus sunt quos computatrum tuum ad tempus in sessione sibi assignat, exempli gratia cum paginam inspicias.
+
+Horum trium generum capita duo, quae portuum numerorum notissima et conscripta sunt, haec duo genera de servo adhibentur. Aliis verbis, haec in servo adhibentur quae computatrum nostrum connectit. Tertius autem categoria, quae est numerus portus dynamicus vel privatus, ad usum clientium pertinent, id est computatrum nostrum.
+
+Id ipsum in sessione computatrum nostrum assignat. Quotiescumque computator noster in alio computatorio vel ministro uti vult, se unum ex his numeris portubus assignat.
+
+Interdum in computatro tuo in usu numerorum portuum notos videres, ut portum 21 et portum 80. Exempli gratia, si netstat cum -an sub imperio, videbimus portum 21 et portum 80 qui aut audire aut nexum certum habere.
+
+Ministri autem non solum magnum et potentem computers. Computatorium tuum ministrare etiam potest pro aliis computatris ad coniungere cum. Exempli gratia, si forte ad officium FTP currendum aut currendum in computatrum tuum situm visurus es, portum 21 et portum 80 audientem vel nexum certum habere potes quia computatorem tuum configurare potes ut servientem agere advenientis hospites accipiat.
+
+Ita omnia simul et alterum exemplum faciamus. Abeamus et computatrum nostrum connectamus ad duos paginas sicut yahoo.com et example.com. Tum etiam coniungemus cum servo FTP separato. Nunc si idem mandatum netstat -n iterum inspiciemus, output videbimus. Hic videmus localem IP inscriptionem computatri nostri una cum numero portuum clientis dynamico vel privato, qui pro sessione illa adhibetur.
+
+Tunc videmus duas IP inscriptiones paginarum quibus computatrum nostrum coniungitur cum numero propter portum 80 ad websites. Etiam unum FTP situm videmus, quem ad numerum portum utentes conexi sumus 21.
+
+Modo, si hoc netstat imperare multis temporibus uteris, portum 443 pro 80 in nexu ad locum videbis. Hoc est quia uterque portus ad paginas adhibetur, sed portus 80 utitur HTTP, quod est pro websites non signatos, et portus 443 utitur HTTPS, cum 'S' pro securitate. Paginas inspicere cum HTTPS securitatis pluma habere potes.
+
+And a lot of websites are now using port 443 instead of port 80. Hey guys, I just want to mention that if you want to increase your knowledge in the networking field or in life in general, I have some audiobooks that I recommend in the infra description.
