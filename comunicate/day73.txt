@@ -14,4 +14,19 @@ looking at: xem xét
 carousel: băng chuyền
 expected: dự kiến
 form: biểu mẫu
+
 hybrid: lai
+citation: trích dẫn
+undermine: làm suy yếu
+ultra: cực kỳ
+secure: chắc chắn, vững bền
+plugged/plug in: cắm
+abort: hủy bỏ
+denotes: biểu thị
+doubt: nghi ngờ
+debase: làm suy yếu, làm mất giá trị
+centuries: thế kỷ
+politics: chính trị
+eternal: vĩnh cửu
+so on = early: sớm
+directions=indirections: chỉ đường, chỉ dẫn
