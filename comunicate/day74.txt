@@ -10,8 +10,16 @@ has lasted: kéo dài, tồn tại
 dictate: ra lệnh
 sentiment: tình cảm
 punishing: trừng phạt
+
 depress: chán nản
 terribly: khủng khiếp,kinh khủng
 terribly inefficient: cực kỳ kém hiệu quả
 cutting-edge solution: giải pháp tiên tiến
 dispute: tranh luận
+sucky: tệ quá
+flip it: lật nó lại
+acquisition: mua lại
+prerequisite: điều kiện tiên quyết
+geofence: hàng rào địa lý
+run out: hết
+drop off: thả xuống
