@@ -10,11 +10,11 @@ has lasted: kéo dài, tồn tại
 dictate: ra lệnh
 sentiment: tình cảm
 punishing: trừng phạt
-
 depress: chán nản
 terribly: khủng khiếp,kinh khủng
 terribly inefficient: cực kỳ kém hiệu quả
 cutting-edge solution: giải pháp tiên tiến
+
 dispute: tranh luận
 sucky: tệ quá
 flip it: lật nó lại
@@ -23,3 +23,11 @@ prerequisite: điều kiện tiên quyết
 geofence: hàng rào địa lý
 run out: hết
 drop off: thả xuống
+dedicated libraries: thư viện chuyên dụng
+vast ecosystem: hst rộng lớn
+get thing done: hoàn thành công việc
+followed by a: theo sau bằng một
+switch: chuyển đổi
+uptime: thời gian hoạt động
+trip: chuyến đi
+travel/tourism: du lịch
