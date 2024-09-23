@@ -1,0 +1,29 @@
+
+
+Any reasonable developer in today's world would learn React because it's the status quo, and that's where the jobs are. But life is a lot more enjoyable when you become unreasonable and go against the status quo to push web development forward for future generations. 
+
+In today's video, we'll compare React and Svelte side by side by examining common patterns and design choices made by the framework creators. I'm not here to tell you that one is better than the other — that's what the comment section below this video is for. The only way to truly discover which one is best is to build something with both and decide for yourself.
+
+I just released a brand new full SvelteKit course yesterday and also have a complete Next.js 13 course for Fireship Pro members. Going through each of these courses will give you a really solid idea of which framework suits you best.
+
+First up, we need to discuss rendering. Both of these frameworks do the same thing: they help developers build reactive UIs with JavaScript by organizing code into reusable components. An end user would never be able to tell the difference between the two, but when it comes to the developer experience, there's a world of difference.
+
+React.js uses a runtime called the Virtual DOM. It tracks data changes in the application to render them in the actual DOM in the browser. The downside is that this runtime requires some initial JavaScript, and in frameworks like Next.js, your baseline is around 70 kilobytes just to render a "Hello World." 
+
+Svelte, on the other hand, takes an entirely different approach by using a compiler to eliminate the need for a runtime. It compiles your Svelte code into vanilla JavaScript, resulting in a far smaller "Hello World." Using a compiler, however, is a bit like cheating. React.js is just JavaScript, whereas Svelte can process non-JavaScript code, allowing developers to be more efficient than they otherwise could. But some JavaScript purists might view this as black magic.
+
+Ironically, vanilla JavaScript libraries tend to be much easier to work with in Svelte than in React. However, React does have a vast ecosystem of dedicated libraries to help you get things done.
+
+Now, let's look at an actual code example of component state. In React, we use functions to create components, then add reactive state with the `useState` hook, which returns a reactive value and a setter function to update the state. It's pretty simple. Let's see how it compares to Svelte. 
+
+On the right side in Svelte, you have only one component file, and you define the logic within the script tags. To create reactive state, all you need to do is declare a variable with the `let` keyword. From there, we can define a function on the click event that directly mutates the value. The Svelte code is more concise because it doesn't require any imports or function calls to initialize the state — it looks and feels like vanilla JavaScript, though that's an illusion.
+
+Now, let's look at how props work between the two frameworks. In React, we pass props by defining them as function arguments, which are typically destructured. In Svelte, things look quite different. By placing the `export` keyword in front of a variable, it allows it to be passed from outside. On the other side, using props looks nearly identical in both frameworks, though Svelte offers some syntactic sugar that makes it easier to match variable names to props. 
+
+However, React has an advantage: you can pass components as props, which you can't do in Svelte. This brings us to the next comparison: children. 
+
+In React, you can pass components as props and render them directly in JSX. Moreover, if you want to insert UI inside a component, you use the built-in `props.children` value. In Svelte, we have a completely different system called slots. The default slot is equivalent to `props.children`, but you can also create named slots to insert UI at specific points in the component's markup. While this works, I do miss the ability to use components as props.
+
+Now, let's see how you run code when a component initializes. In React, you use the `useEffect` hook, which takes a callback function followed by an empty array, indicating that it has no dependencies and should only run once. In Svelte, you use `onMount`, which is more readable and can handle asynchronous functions directly, something React can't do.
+
+Next, we see a bigger divergence with side effects and computed state. In React, we create a side effect with the `useEffect` hook, updating the document title when the count changes. You tell React to watch the count by placing it in the dependencies array. Svelte, on the other hand, uses reactive declarations, starting with `$:`. This might look weird, but it tells the compiler to rerun the code whenever any dependent data changes.
