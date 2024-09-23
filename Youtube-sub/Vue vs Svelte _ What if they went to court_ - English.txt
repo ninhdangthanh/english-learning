@@ -1,0 +1,260 @@
+welcome to the jelix channel could you
+
+imagine if the battles between the
+
+Frameworks were resolved in court today
+
+we'll be doing exactly that let's
+
+imagine ourselves in a court hearing the
+
+case of the two Frameworks spelt versus
+
+vew it might not have such a grand
+
+publicity scale as the Johnny Depp
+
+versus Amber herd case but for the jelix
+
+team it's been way more controversial so
+
+let's get it going we're jelix a
+
+software development partner for
+
+industry leaders WE Post weekly videos
+
+on Tech in 5 minutes don't forget to
+
+subscribe to our Channel use the super
+
+thanks feature to support us so we can
+
+deliver more great
+
+content first it's important to point
+
+out that both Vue and spelt are
+
+JavaScript Frameworks used for building
+
+user
+
+interfaces however they have distinct
+
+differences in their design philosophy
+
+approach to development and learning
+
+curve let's view some of their core
+
+differences in framework Design This is
+
+where the core trial begins first of all
+
+vue.js is a progressive framework
+
+meaning you can gradually adopt its
+
+features into an existing project it
+
+uses a virtual Dom for efficient
+
+rendering to build interactive
+
+applications with ease it also utilizes
+
+templates and offers a clear separation
+
+of concerns between HTML JavaScript and
+
+CSS server side rendering is widely
+
+supported unlike spelt spelt on the
+
+other hand is a compiler-based framework
+
+unlike vew it focuses on writing
+
+components as close to HTML and CSS as
+
+possible besides spelt doesn't rely on a
+
+virtual Dom but compiles components
+
+directly to Dom
+
+manipulation so what accusations did
+
+jelix developers bring to the court
+
+against each of the
+
+Frameworks framework specific syntax
+
+scoped CSS complexity view reactivity
+
+system managing Global CSS variables and
+
+State Management all these processes are
+
+claimed to be not easy to handle and
+
+view compared to spelt especially for
+
+newcomer developers besides there's a
+
+range of factors affecting the view app
+
+performance which obviously the jelix
+
+developers are not happy with those
+
+aspects include runtime overhead bundle
+
+size initial load performance building
+
+the runtime and others spelt in turn
+
+offers an Innovative compiler-based
+
+approach offering unique advantages in
+
+terms of optimizing code and reducing
+
+runtime overhead it's called the
+
+framework to write faster JavaScript for
+
+a reason the high performance of spelt
+
+is attributed to its compilation process
+
+where can components are compiled to
+
+highly optimized JavaScript during build
+
+time this results in smaller bundle
+
+sizes reduced runtime overhead and
+
+faster load
+
+times however the felt opponents claim
+
+the framework is not that great at all
+
+the so-called haters of spelt address
+
+the potential risks of the novelty
+
+approach and the fewer less standardized
+
+Community
+
+Resources also spelt has been accused of
+
+being less mature in regard to tooling
+
+and mobile development all of this they
+
+claim might cause potential project
+
+complications hold on here's where the
+
+jelix fans of spelt take the defense
+
+according to them the benefits of spelt
+
+outweigh the risks especially for
+
+smaller projects or those prioritizing
+
+performance and simplicity so who's
+
+right here to impose a fair judgment the
+
+jelix team decided to refer to the most
+
+OB objective judge the statistics jelic
+
+teammates went to the state of JS page
+
+and discovered view is undeniably a more
+
+known and used framework by 2021 only
+
+0.4% never heard of it compared to the
+
+6.5% of those who knew anything about
+
+spelt moreover 41% of all respondents
+
+mentioned they would use vue.js again
+
+while only
+
+17.8% said so regarding spelt however
+
+the statistics show there's more than
+
+twice as much interest in spelt and even
+
+though the growth dynamics of vue.js are
+
+greater than the growth of spelt over
+
+the last couple of years the data shows
+
+view has an almost five times faster
+
+growing number of those who would never
+
+use the framework again if the data
+
+could speak here's what it would tell us
+
+while vue.js currently has a bigger
+
+developer Community spelt keeps becoming
+
+more of a Trend across the it community
+
+and the low numbers of its dissatisfied
+
+users vividly show that spelt might keep
+
+strengthening its positions on the
+
+market in the recent future the given
+
+data provided great insights for the
+
+jelix team but it's not enough for their
+
+curious minds so the next question arose
+
+how can developers identify which
+
+framework would be better for the
+
+specific use case well we've got you
+
+covered have a look at a brief checklist
+
+that could make you make the right
+
+choice if you're considering view or
+
+spelt next we recommend watching another
+
+video comparing View and
+
+react also support us by liking this
+
+video and leaving a comment and don't
+
+forget to subscribe and press the Bell
+
+button bye for now
+
