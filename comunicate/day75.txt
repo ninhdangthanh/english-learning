@@ -22,3 +22,6 @@ active: tích cực
 outrun: vượt xa
 ride: chuyến đi/lái
 coming soon: sớm ra mắt
+practical: thực tế
+at most: nhiều nhất
+disposal in heap: xử lý trong heap
