@@ -1,0 +1,12 @@
+well-known: nổi tiếng
+intentional: cố ý
+determinate: xác định
+indeterminate: không xác định
+unintuitive: không trực quan
+pitfalls: cạm bẫy
+resource acquisition: thu thập tài nguyên
+general: tổng quan
+generalist: người thông thạo
+narrow: chật hẹp
+tough: khó
+solitary: đơn độc
