@@ -1,0 +1,67 @@
+
+
+Meet C++, Java, and Python – three of today’s most popular programming languages.
+
+On the surface, they may seem similar, with their code and syntax. But behind the scenes, they operate very differently.
+
+Today, we’re going under the hood to understand how these languages truly work on a fundamental level.
+
+By exploring their key differences, we can better appreciate the strengths and specific use cases of each.
+
+Hi everyone, I’m Sahn, co-author of the best-selling *System Design Interview* books.
+
+Our goal is to make complex system design concepts easy to understand through clear animations and simple language.
+
+Let’s get started.
+
+C++ is a compiled language. It begins its journey when the source code is sent to a compiler.
+
+The compiler meticulously analyzes the code and translates it into machine code – simple CPU instructions like add, move, and jump.
+
+The compiler outputs an executable file containing the machine code. This file is a standalone program that can be run on any compatible computer.
+
+This compiled nature makes C++ a top performer. It’s often chosen for performance-sensitive tasks, such as gaming or system-level programming.
+
+Compiled languages like C++, Go, and Rust take longer to compile initially, but then run very fast, as the CPU doesn’t need to interpret or Just-In-Time compile the code.
+
+Now, let’s look at Python, an interpreted language. It takes a different approach.
+
+Instead of compiling, Python sends its source code straight to the interpreter. The interpreter reads and executes the code on-the-fly.
+
+This process makes Python exceptionally flexible and user-friendly. It’s ideal for situations where rapid development and readability are important.
+
+With its interpreted nature, Python is a favorite among data scientists, educators, and web developers. It’s great for scripting, data analysis, and web development.
+
+However, this also means it’s generally slower than compiled languages, as each line must be interpreted every time it’s executed.
+
+Other popular interpreted languages include JavaScript, Ruby, and Perl.
+
+Then, there’s Java. Java uses a unique, hybrid approach.
+
+First, Java source code gets compiled into bytecode, which is then executed by the Java Virtual Machine (JVM).
+
+Here’s the secret sauce – the JVM has a Just-In-Time compiler that dynamically converts performance-critical bytecode into optimized native machine code right before execution.
+
+This means Java code runs significantly faster than purely interpreted languages.
+
+One advantage of Java is its portability. Since the JVM is available on nearly every operating system, Java code can run on any device without recompilation.
+
+Java is also designed to be memory safe and secure, with features like automatic memory management.
+
+This makes it well-suited for large, complex enterprise applications that demand stability, security, and scalability.
+
+Leading tech companies use Java to power critical systems. For example, Android apps are developed in Java, and Netflix uses Java across its infrastructure.
+
+Other bytecode language examples are C# and Kotlin.
+
+Thanks to advances like Just-In-Time compilation, the lines between interpreted and bytecode languages are blurring. Modern JavaScript engines use JIT to optimize performance.
+
+However, overall, JavaScript still falls into the interpreted category.
+
+C++ offers raw performance, Python flexibility, and Java balances both.
+
+Understanding these core differences under the hood explains why these languages excel in different situations.
+
+If you like our videos, you may enjoy our system design newsletter as well. It covers topics and trends in large-scale system design, trusted by 600,000 readers.
+
+Subscribe at blog.bytebytego.com.
