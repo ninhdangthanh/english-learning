@@ -10,6 +10,7 @@ generalist: người thông thạo
 narrow: chật hẹp
 tough: khó
 solitary: đơn độc
+
 polish: đánh bóng
 elapsed: trôi qua
 cohesive: gắn kết
@@ -17,3 +18,7 @@ ultimately: cuối cùng
 disposal: xử lý
 dispose: vứt bỏ
 refined: tinh chế
+traverse: đi qua
+reverse: đảo ngược
+diverse: phong phú, đa dạng
+deserve: xứng đáng
