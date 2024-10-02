@@ -22,3 +22,5 @@ traverse: đi qua
 reverse: đảo ngược
 diverse: phong phú, đa dạng
 deserve: xứng đáng
+leading: hang đầu
+blurring: mờ dần
