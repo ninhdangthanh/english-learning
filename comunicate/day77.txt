@@ -1,0 +1,9 @@
+proprietary/monopoly : độc quyền
+undo: tháo ra
+confluence: hợp lưu
+substitution: thay thế
+rought: thô sơ
+roughtly: đại khái
+universal: phoor quast
+Diagnostics: chuẩn đoán
+embark: tham gia
