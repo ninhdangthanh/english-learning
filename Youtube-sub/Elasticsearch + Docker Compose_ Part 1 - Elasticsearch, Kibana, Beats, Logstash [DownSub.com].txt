@@ -1,0 +1,35 @@
+In this video, I will demonstrate how to set up the Elastic Stack with Docker Compose. This video assumes you already know how to set up Elastic, Kibana, the Beats library, and Logstash without a container system. If you don’t know how to do this, check the description of this video. I will link to other videos that you should watch first. 
+
+I also want to point out that the ElasticSearch team wrote a blog on how to set up the Elastic Stack with Docker Compose. In the blog, they use Docker Compose to do a basic setup of Elastic, Kibana, Metricbeat, Filebeat, and Logstash. In fact, you can jump straight to the bottom of the blog, grab the Git repository code, and get everything working in a minute or so. The blog is part of a two-part series, and this particular blog doesn't talk much about security. When I have time, I might create additional videos that share security practices you can follow. 
+
+In the meantime, I just want to make two videos based on this particular blog. In this video, I want to get ElasticSearch, Kibana, Metricbeat, Filebeat, and Logstash up and running as quickly as possible. I won’t explain things too much, but in a few days, I will release a second video with more detailed explanations of what was done in this video. 
+
+Let's get started. We want to get things up and running as quickly as possible on a Linux machine. Right now, I have Red Hat Enterprise version 9.2, but I’m sure things will work on most Linux distributions. I’m going to run things on my local network. This machine has an IP address of 192.168.2.22. I already have Docker and Docker Compose installed on this machine, and I’m pretty sure you do as well. If you have any trouble installing Docker or Docker Compose, let me know, and I might create an additional video on how to do that in the future. 
+
+That’s basically our environment. Let’s set things up. I'm going to create a new directory and check out the Git repository code to this directory. I’ll grab that link, initialize the repository, and fetch the appropriate branches. It looks like there's just a main branch, so I’ll check that out. 
+
+In here, you will see all the files we need to work with: the `docker-compose.yml` file, the `.env` file, Filebeat configuration file, Metricbeat configuration file, and the Logstash configuration file. The `docker-compose.yml` file defines every container, including an initial setup container and containers for ElasticSearch, Kibana, Metricbeat, Filebeat, and Logstash. I will explain each container's configuration in more detail in my next video. 
+
+We also have an `.env` file that Docker Compose will use to set up some of the startup values for our Elastic Stack. We will log into the Kibana website with the Elastic user and the Kibana password shown in this file. ElasticSearch will run on port 9200, and Kibana will run on port 5601. 
+
+We also have other configuration files for Metricbeat, Filebeat, and Logstash. These configure the running instances of those services. We will look into the details of these files in my next video. 
+
+In the meantime, we can start up the entire Elastic Stack. I’ll type `docker-compose up --build -d` to build everything and run it in detached mode. This will allow the Docker processes to run in the background. Let’s wait a minute for everything to start up.
+
+It’s been about a minute, and it looks like the Elastic Stack might be up. I’ll type `docker ps -a` to check the status of all the containers. Oh, it seems my monitor is a bit too small, so let me format the display to have fewer columns. It looks like some containers have failed. Let's check the Logstash container logs to see what the issue might be.
+
+Ah, I remember! Elastic committed a change a few hours ago, and that might be causing the issue. For now, let’s check out the previous commit since I know it should work properly. Coming back to my terminal, I’ll grab the previous commit ID, tear down the existing Docker networks, remove all orphans, and delete the volumes to start fresh. Now, I’ll check out the previous commit and run `docker-compose up --build -d` again.
+
+After waiting a minute, it looks like everything is done. I’ll check the status of my containers and format the display for fewer columns again. Everything seems to be up and running. Since this machine is on IP 192.168.2.22, I’ll visit that IP on port 5601 to access Kibana. I’m automatically redirected to the login URL. The password is "changeme," so I’ll log in with that.
+
+To confirm that Metricbeat and Filebeat are working, I’ll go to the Observability section. I can already see Metricbeat publishing system information for container `0e8b`, and Filebeat is working based on the log events. Let’s verify Filebeat by creating a new data view for the `filebeat-*` index in Kibana's Discover tab. I’ll hit save, and now we can see Filebeat’s data.
+
+Next, I want to test if Filebeat can consume custom log files. I’ll edit the `filebeat.yml` file to check where the log files are being read from. The `docker-compose.yml` file shows that the container’s ingest directory is volume-mounted to the host machine's `filebeat-ingest-data` directory. I see a sample log file here, but I’ll use my own. I’ll pick a line from my cron log file, change the timestamp to the current time, and add the phrase "pizza pizza" to make it easy to search for.
+
+Filebeat should pick up this change in a moment. Let me search for "pizza pizza." Ah, that was quick! Filebeat already found the change and loaded it into ElasticSearch. Now, let’s check if Logstash is working. 
+
+In the Logstash configuration file, I see it should create an index called `logstash` and read data from the container’s ingest directory. The `docker-compose.yml` file shows that directory is bind-mounted to `logstash-ingest-data`. Let’s create a custom `test.log` file in this directory with the same line we used earlier. Logstash should pick it up shortly. 
+
+That was fast! Logstash created a new index and ingested the record. If I check the Kibana Dev Tools, I can see the `pizza pizza` record in the Logstash index.
+
+We’ve now successfully set up the entire Elastic Stack with Docker Compose. This was a quick walkthrough. In a few days, I’ll upload a more detailed video explaining each step. If you have any questions, feel free to leave them in the comments or email us through our website.
