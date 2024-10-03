@@ -7,3 +7,25 @@ roughtly: đại khái
 universal: phoor quast
 Diagnostics: chuẩn đoán
 embark: tham gia
+drill down: khoan sâu
+conjunction: liên kết
+complementing: bổ sung
+intervention: sự can thiệp
+state that: nói rằng
+digits: chữ số
+
+counterpart: đối tác
+fuzzy: mờ nhạt
+phrase: cụm từ
+catalog: danh mục/mục lục
+where all: trong đó tất cả...
+accuracy/precision: độ chính xác
+entries: mục, mục nhập
+indispensable: không thể thiếu
+semi: một phần, bán
+style/stylish: phong cách
+actionable: có thể hành động
+pure: nguyên chat
+raw: thô
+act as: hoạt động như
+work as: làm việc như
