@@ -1,0 +1,7 @@
+paid off: đền đáp, có kết quả
+uncover: khám phá
+paradigm: mô hình
+calculus: phép tính
+division: phân công
+make division: thực hiện phép chia
+imperative: bắt buộc
