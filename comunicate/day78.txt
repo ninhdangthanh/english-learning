@@ -5,3 +5,11 @@ calculus: phép tính
 division: phân công
 make division: thực hiện phép chia
 imperative: bắt buộc
+neat: gọn gàng
+roughly: đại khái
+inherently: bản chất
+tailored: được thiết kế riêng
+notation: kí hiệu
+superposition: chồng chất
+cross: chéo
+political: thuộc về chính trị
