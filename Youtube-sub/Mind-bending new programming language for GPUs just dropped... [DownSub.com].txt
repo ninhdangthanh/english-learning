@@ -1,0 +1,26 @@
+
+Yesterday, the clouds opened up, and a weird new programming language came down to Earth, with a promise of parallelism for all who write code. This is big, if true, because parallel computing is a superpower. It allows a programmer to take a problem that could be solved in a week and instead solve it in seven days using seven different computers.
+
+Unfortunately, running code in parallel is like conducting a symphony—one wrong note and the entire thing becomes a total disaster. But luckily, Bend offers hope by making a bold promise: everything that *can* run in parallel *will* run in parallel. You don’t need to know anything about CUDA, blocks, locks, mutexes, or regexes to write algorithms that take advantage of all 24 of your CPU cores, or even all 16,000 of your GPU cores. You just write some high-level Python-looking code, and the rest is magic.
+
+It is May 17th, 2024, and you’re watching *The Code Report*. When you write code in a language like Python, your code runs on a single thread. That means only one thing can happen at a time. It's like going to a KFC with only one employee, who takes the orders, cleans the toilets, and cooks the food—in that order.
+
+Now, on a modern CPU, you might have a clock cycle around 4 GHz, and if it's handling one instruction per cycle, you're only able to perform 4 billion instructions per second. If 4 GIPS (giga instructions per second) isn't enough, you can modify your Python code to take advantage of multiple threads. But it adds a lot of complexity to your code, and there are all kinds of gotchas, like race conditions, deadlocks, thread starvation, and potential conflicts with daemons. Even if you do manage to get it working, you might find that your CPU just doesn’t have enough juice. At this point, you’ll look into using the thousands of cores on your GPU, but now you’ll need to write some C++ code and might metaphorically “blow your leg off” in the process.
+
+Well, what if there was a language that just *knew* how to run things in parallel by default? That's the promise of Bend. Imagine we have a computation that adds two completely random numbers together. In Python, the interpreter is going to convert this into bytecode and then eventually run it on the Python virtual machine. Pretty simple, right? 
+
+But in Bend, things are a little more complex. The elements of the computation are structured into a graph, which are called *interaction combinators*. You can think of it as a big network of all the computations that need to be done. When two nodes run into each other, the computation progresses by following a simple set of rules that rewrite the computation in a way that can be done in parallel. It continues this pattern until all computations are done, then merges the result back into whatever expression was returned from the function.
+
+This concept of interaction combinators goes all the way back to the 1990s and is implemented in a runtime called the *Higher Order Virtual Machine* (HVM). HVM is not meant to be used directly, which is why they built Bend, a high-level language to interface with it. The language itself is implemented in Rust. Its syntax is very similar to Python, and we can write a "Hello, World" by defining a main function that returns a string.
+
+To execute this code, we can pull up the terminal and use the `bend run` command. By default, this will use the Rust interpreter, which will execute it sequentially—just like any other boring language. But now, here’s where things get interesting.
+
+Imagine we have an algorithm that needs to count a bunch of numbers and then add them together. The first thing that might blow your mind is that Bend does not have loops. We can't just do a for-loop like we would in Python. Instead, Bend has something entirely different called a *fold*, which works like a search-and-replace for data types. Any algorithm that requires a loop can be replaced with a fold. Essentially, a fold allows you to consume recursive data types in parallel, like a list or a tree. But first, we need to construct a recursive data type, and for that, we have the `bend` keyword, which is like the opposite of fold.
+
+Now, if that’s a little too mind-bending, maybe check out my back catalog for "Recursion in 100 Seconds." But now, let’s see what this looks like from a performance standpoint.
+
+When I try to run this algorithm on a single thread, it takes forever—like 10 minutes or more. However, I can run the same code, without any modification whatsoever, with the `bend run -c` command. When I do that, it's now utilizing all 24 threads on my CPU, and it only takes about 30 seconds to run the computation. That’s a huge improvement, but I think we can still do better.
+
+Because I’m a baller, I have an Nvidia RTX 4090, and once again, I can run this code without any modification on CUDA with the `bend run -cuu` command. Now, this code only takes 1 and a half seconds to run. I'll just go ahead and drop the mic right there.
+
+This has been *The Code Report*. Thanks for watching, and I will see you in the next one.
