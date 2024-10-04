@@ -13,3 +13,8 @@ notation: kí hiệu
 superposition: chồng chất
 cross: chéo
 political: thuộc về chính trị
+computation: phép tính
+expression: biểu thức
+standpoint: quan điểm
+huge improment: cải tiến lớn
+next one: phần sau
