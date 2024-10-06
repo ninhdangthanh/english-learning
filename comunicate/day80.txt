@@ -1,0 +1,8 @@
+trouble: sự cố
+distributions: bản phân phối
+it look like: có vẻ như
+start up: khởi động
+type: nhập
+verify: xác minh
+shortly: trong thời gian ngắn
+instruction/walkthrough
