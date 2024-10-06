@@ -1,0 +1,38 @@
+
+
+Say hello to Daniel! He is from Germany,  
+and for the past 8 years, he has spent his nights building an open-source database for JavaScript runtimes. RxDB has gained great traction with over 20k stars on GitHub. It is feature-packed and offers real-time queries, replication, offline support, an intuitive API, and great performance.
+
+The problem with the modern web is that everything moves fast, and complex, feature-rich apps have become the norm. So, to stay competitive, you need to explore new tools and products that can improve your application with as little effort as possible.
+
+Being able to quickly test ideas is a must in this competitive environment. In this video, we’ll do just that—we’ll prototype a small, security-first, peer-to-peer messaging app in under 5 minutes.
+
+You’ll likely appreciate the simplicity of the tech stack. The UI is built with Solid, data is stored locally via RxDB, and peer-to-peer communication is handled via WebRTC.
+
+Looking at the architecture of our application, the data will be managed directly by RxDB, and users will communicate directly over an encrypted channel, with no server in between, thanks to the seamless replication process offered by RxDB. Pretty cool, right?
+
+In a new terminal window, let’s initialize a new Vite project using the Solid JS template, with TypeScript as the default programming language. Vite is probably the best front-end build tool you can use these days. It significantly speeds up the development process and comes packed with a wide range of features, which has led to its adoption in many popular JS projects.
+
+On the UI side, things are straightforward. We’ll define a Solid function component and a couple of signals to manage the user's handle, messages, and joined channel. Signals power Solid’s reactivity, and hopefully, you’re familiar with them by now, as they’ve been integrated into most popular frontend frameworks in recent years.
+
+When the component is mounted in the DOM, we’ll fetch the messages from the database. Then, we’ll add some basic event listeners and UI elements using JSX. Since this is Solid, we are using the special Show and For components, which ensure that DOM elements are updated efficiently when changes are detected.
+
+Now, for the fun part, let’s look at RxDB, the sponsor of this video, in more detail and see how it helps us exchange messages between multiple peers in real-time—all in just a few lines of code.
+
+In a new TypeScript file, I’ll define the structure of our messages table. We’ll need a unique ID, the body, and the author of the message. The timestamp will help us sort incoming messages in the correct order.
+
+Next, in the database.ts file, let’s create an Rx database. Note that RxDB is not a self-contained database; instead, data is stored in an implementation of the RxStorage interface. This flexibility allows you to switch the underlying data layer, depending on the JavaScript environment and performance needs. You could use SQLite storage for a Capacitor app or IndexedDB for browser-based applications.
+
+If you’re unfamiliar with IndexedDB, you’re missing out! It’s a low-level API for client-side storage that can handle large amounts of structured data, including files and blobs. While Local Storage is useful for small strings, IndexedDB uses indexes to enable high-performance querying of large datasets. It supports the usual create, read, update, and delete (CRUD) operations, allowing applications to work both online and offline.
+
+Back to our database file, let’s register the messages collection and define some service methods for our messages table.
+
+More importantly, I want to define and start a replication process that will handle peer-to-peer communication for me. We can easily achieve this by using the WebRTC plugin. I’ll define the collection we want replicated and configure a few other details.
+
+RxDB offers a lot of flexibility with replication. In this example, I’m using WebRTC, but there are many other options you can explore to suit your specific application needs.
+
+Now, we can return to our UI component and bring everything together. I’ll fetch any existing messages when the app mounts in the DOM. Since RxDB is built on top of the Reactive Extensions library, query results provide observables you can subscribe to. In our case, when new messages are added to the collection via replication, we’ll react accordingly, update the message signals, and, in turn, update the UI.
+
+Thanks again to Daniel for his contributions to RxDB and for sponsoring this video. As we all know, open-source work is tough, so be sure to check out his repository if you have a few minutes to spare.
+
+If you enjoyed this video, watch the next one! Until next time, thank you for watching!
