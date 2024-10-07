@@ -6,3 +6,13 @@ type: nhập
 verify: xác minh
 shortly: trong thời gian ngắn
 instruction/walkthrough
+keen on: thích thú
+attention: chú ý
+circuit: mạch điện
+equation: phuowng trinh, su bang nhau
+in order to: để
+decodes: giải mã
+volatile: bốc hơi
+determines: xác định
+simulate: mô phỏng
+emulate: bắt chước
