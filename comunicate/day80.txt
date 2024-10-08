@@ -13,6 +13,16 @@ equation: phuowng trinh, su bang nhau
 in order to: để
 decodes: giải mã
 volatile: bốc hơi
+
 determines: xác định
 simulate: mô phỏng
 emulate: bắt chước
+argubly: có thể nói là
+resolution: nghị quyết
+criticizing/criticize: chỉ trích
+next crop: vụ mùa tiếp theo
+season: mùa
+perform: trình diễn
+inform=notify
+satiate/satiable: thỏa mã, no nê
+issues a JWT: cấp/phát hành một JWT
