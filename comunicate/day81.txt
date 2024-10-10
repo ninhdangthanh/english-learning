@@ -8,3 +8,12 @@ processor: bộ xử lý
 caveat=alerts
 vast: rộng lớn
 crashing=collapse=fall
+legal compliance: tuân thủ pháp luật
+criminal: tội phạm
+any more: còn cái nào không
+is any lib more: có thư viện nào nữa không
+in place: ở nơi nào đó...
+exclusive: loại trừ
+exclusively: độc quyền
+bucket: cái xô
+bucket list: danh sách mong muốn
