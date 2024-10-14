@@ -1,0 +1,14 @@
+
+In this video, I'm going to tell you about 10 recently asked system design interview questions. These questions are posed to software engineers, engineering managers, and technical program managers. They represent 10 of the most common questions that are frequently asked. I'll also share which companies have asked them recently; all of this information is collected from our interview question database, sourced from our community at Trixon Questions. Let's dive in.
+
+The first and most recently asked question is: *Design Twitter*, which was, of course, asked at Twitter. Next, we have: *How would you build TinyURL?*, a question recently posed at Google. These questions are classic, fundamental system design questions that you’ve likely already heard of and can expect to encounter in many of your interviews.
+
+Following that, we have: *Design Instagram*, recently asked at Facebook. We also have: *Design Dropbox* and *Design YouTube*. The *Design Dropbox* question was asked at Dropbox, while *Design YouTube* was recently posed at Wealthfront. For the *Design YouTube* and *Design Dropbox* questions, it's crucial to consider handling large file sizes. This is particularly important for products like Dropbox and YouTube, which manage massive amounts of file storage.
+
+Next, we have: *Design a messaging client like WhatsApp*, recently asked at Facebook, and *Design Uber*, which was asked at Google. When tackling these questions, it's vital to think about the real-time nature of these systems in your design.
+
+We then have: *Design Reddit*, a question recently asked at Netflix. For this, it's important to focus on the read and write volumes and their relative imbalance on the platform. 
+
+The last two recently asked system design interview questions are: *Design a Web Crawler*, which was asked at Google, and *Design Airbnb Search*, which was posed at Airbnb. These questions are more nuanced and differ from the others as they focus on a subset of the product experience rather than building the entire product from end to end.
+
+These are the top 10 recently asked system design interview questions. If you want to see more questions like these, along with answers, check out Trixon, where we have a database of recently asked system design interview questions and information on which top tech companies have asked them. Good luck with your upcoming interview!
