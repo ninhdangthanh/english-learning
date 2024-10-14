@@ -1,6 +1,0 @@
-upcoming: sắp tới
-omit=skip
-redentials: thông tin đăng nhập
-trusted: tin tưởng
-posed: đặt ra
-relatively: tương đối
