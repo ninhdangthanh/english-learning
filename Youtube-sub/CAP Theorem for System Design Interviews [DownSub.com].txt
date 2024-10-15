@@ -1,0 +1,34 @@
+
+In this video, we're going to talk about the CAP Theorem. My name is Kevin Way, and I'm here to help you land your dream job in tech.
+
+The CAP Theorem is an important database concept to understand in system design interviews. CAP stands for **Consistency**, **Availability**, and **Partition Tolerance**, hence the name CAP Theorem. 
+
+**Consistency** refers to all users being able to see the same data at the same time. **Availability** means the system is always accessible for reads or writes, even when nodes fail. **Partition Tolerance** indicates that the system continues to operate even if communication between nodes breaks down.
+
+The theorem states that only two of these three properties can be guaranteed in a distributed system. Before we dive deeper into the CAP Theorem, if you're enjoying these tech interview prep videos, make sure to **like**, **subscribe**, and **hit the notification bell** for new content every week. It might seem insignificant, but doing these actions really helps the algorithm find our content.
+
+In system design, an assumption we make is that network partitions will occur. To provide a reliable service, partition tolerance is essential, so you can't choose to forfeit the "P" in CAP. This leaves us with a trade-off between ensuring consistency or availability.
+
+Let's first discuss consistency. Consistency is the property that, after a write is sent to a database, all read requests sent to any node should return the updated data. Imagine a scenario where there's a network partition; in this case, both Node A and Node B would reject any write requests sent to them. This ensures that the data state of both nodes remains the same. Otherwise, only Node A would have the updated data, while Node B would have outdated data.
+
+Sometimes, you'll hear the term **strong consistency**. The consistency in CAP Theorem does not necessarily mean strong consistency. In a strongly consistent database, if data is written and immediately read afterward, it should, in theory, always return the updated data. However, in a distributed system, network communication isn't instantaneous, as nodes are physically separated and transferring data takes time. This is why achieving a perfect, strongly consistent distributed database is impractical in the real world.
+
+When we talk about databases prioritizing consistency, we usually refer to those that are **eventually consistent**, with only a brief, unnoticeable lag time between nodes. To summarize, consistency in the CAP Theorem means that all users can see the same data simultaneously.
+
+Now, let's discuss availability. In a database that prioritizes availability, it's acceptable to have inconsistent data across nodes—one node may contain stale data while another has the most recent version. Availability means that nodes are prioritized to successfully handle requests sent to them. 
+
+Available databases also tend to have eventual consistency, meaning that after some time, when a network partition is resolved, all nodes will sync and have the updated data. For instance, Node A will receive the update first, and, after some time, Node B will be updated as well.
+
+Now, when should consistency or availability be prioritized? If you're dealing with data that must be up-to-date, you'd want to prioritize consistency. On the other hand, if it's acceptable for queried data to be slightly outdated, storing it in an available database may be a better option.
+
+Let's go through some examples for better clarity. Imagine you're building an app like Amazon, where shoppers can browse a catalog of products and purchase them if they're in stock. You want to ensure that products are truly in stock; otherwise, you'd need to refund shoppers for unavailable items. Should your database storing product information prioritize consistency or availability?
+
+In this situation, you should choose consistency. In the event of a network partition where nodes can't sync, it's preferable to prevent any shoppers from purchasing products rather than allow multiple shoppers to buy the same product when only one is available. An available database would permit the latter, resulting in at least one shopper needing a refund.
+
+Now, imagine a different scenario with the same Amazon-like product. Let's say a product manager (PM) decides it's more cost-effective to refund shoppers for unavailable items than to show them as out of stock during a network issue. In this case, you'd want to prioritize availability, as canceling and refunding orders is preferable to preventing shoppers from purchasing products altogether during a network failure.
+
+Notice that only write requests were discussed here. This is because read requests don't alter the state of the data and don't require nodes to resync. Read requests are typically binary in network partitions for both consistent and available databases.
+
+I hope this explanation helped you understand the CAP Theorem. For more tech interview prep videos, Exponent offers the best resources to help you ace your interview, including in-depth courses, private coaching, and a community of experts ready to prepare you for even the toughest questions. 
+
+Hit the subscribe button for new videos every week, and visit **tryexponent.com** to become a member today. 
