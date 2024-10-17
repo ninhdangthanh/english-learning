@@ -1,0 +1,15 @@
+credentials: bộ thông tin đăng nhập
+widget: tiện ích
+assertion: khẳng định, xác nhận
+cryptography: mật mã học
+again: lại làm gì đó
+omit=skip
+breath: hơi thở
+shying: ngại ngùng, e thẹn
+come up: tiến lên
+segregation: sự phân loại/sự phân biệt
+tackled by: được giải quyết bởi
+respective: tương ứng
+substitutable: có thể thay thế
+possession: chiếm hữu
+wherea: trong khi đó
