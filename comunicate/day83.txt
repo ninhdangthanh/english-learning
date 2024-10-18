@@ -9,7 +9,14 @@ shying: ngại ngùng, e thẹn
 come up: tiến lên
 segregation: sự phân loại/sự phân biệt
 tackled by: được giải quyết bởi
+
 respective: tương ứng
 substitutable: có thể thay thế
 possession: chiếm hữu
 wherea: trong khi đó
+mocked/simulation: mô phỏng
+Segregation/classify: phân loại
+Substitution: Sự thay thế
+robust: mạnh mẽ
+power/powerful: quyền lực, năng lượng/ mạnh mẽ
+strong/strongly: mạnh/mạnh mẽ
