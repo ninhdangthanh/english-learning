@@ -1,0 +1,39 @@
+Caching is a data storage technique that plays an essential role in designing scalable internet applications. A cache is any data store that can store and retrieve data quickly for future use. This enables faster response times and decreases the load on other parts of your system. 
+
+So, why do we need caching? Without caching, computers and the internet would be impossibly slow due to the access time of retrieving data at every step. Caches take advantage of a principle called locality to store data closer to where it is likely to be needed. In a broader sense, caching can also refer to storing pre-computed data that would otherwise be difficult to serve on demand, such as in personalized news feeds or analytics reports.
+
+**How does caching work?**
+
+First, you can use an in-memory application cache. Storing data directly in the application's memory is a fast and straightforward option; however, each server must maintain its own cache, which increases overall memory demands and the cost of the system. 
+
+Second, you can use a distributed in-memory cache. For example, a separate caching server such as Memcached or Redis can be used to store data, allowing multiple servers to read and write from the same cache. 
+
+Finally, a file system cache stores commonly accessed files. CDNs are an example of a distributed file system that takes advantage of geographic locality.
+
+**Caching Policies:**
+
+If caching is so beneficial, why not cache everything? There are two main reasons: cost and accuracy. Since caching is meant to be fast and temporary, it's often implemented with more expensive and less resilient hardware than other types of storage. For this reason, caches are typically smaller than the primary data storage system, and they must selectively choose which data to keep and which to remove or evict. 
+
+The selection process, known as a caching policy, helps the cache free up space for the more relevant data that will be needed. 
+
+Some examples of caching strategies include:
+
+1. **First-In-First-Out (FIFO)**: This policy evicts whichever item was added the earliest and keeps the most recently added items. 
+
+2. **Least Recently Used (LRU)**: This policy keeps track of when items were last retrieved and evicts whichever item has not been accessed recently. 
+
+3. **Least Frequently Used (LFU)**: This policy tracks how often items are retrieved and evicts whichever item is used the least frequently, regardless of when it was last accessed.
+
+**What is Cache Coherence?**
+
+One final consideration is how to ensure appropriate cache consistency. A **write-through cache** updates the cache and main memory simultaneously, ensuring that neither can go out of date, which also simplifies the system. 
+
+In a **write-behind cache**, memory updates happen asynchronously, which may lead to inconsistency but significantly speeds up operations. 
+
+Another option is **Cache Aside** or **Lazy Loading**, where data is loaded into the cache on demand. First, the application checks the cache for requested data; if it's not there, the application fetches the data from the data store and updates the cache. This simple strategy keeps the data stored in the cache relatively relevant if you choose a cache eviction policy and a limited TTL combination that matches data access patterns.
+
+The three big decisions you'll have to make when designing a cache are: **How big should the cache be?**, **How should I evict cache data?**, and **Which expiration policy should I choose?** 
+
+I hope this explanation gave you a better sense of what caching is and how it works. For more interview preparation content, Exponent has the best resources to help you ace your system design and software engineering interviews, including in-depth interview courses, private coaching, and a community of experts ready to help you prepare for even the toughest questions. 
+
+Hit that subscribe button for new videos every single week, and visit **tryexponent.com** to become a member today. Thanks for watching!
