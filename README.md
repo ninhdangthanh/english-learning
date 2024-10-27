@@ -1,3 +1,3 @@
 "# english-learning" 
 
-next review: day 60 communicate
+next review: from day 80 communicate
