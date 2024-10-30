@@ -6,3 +6,19 @@ being a: là
 paradox: nghịch lý
 disruption/interrupt: sự gián đoạn
 comply/adhere: tuân thủ
+circuits: mạch điện
+registers, control units, and arithmetic logic units (ALUs): thanh ghi, bộ điều khiển và bộ logic số học (ALU).
+form: tạo thành
+fetch: truy xuất
+
+registers: thanh ghi
+control units: bộ điều khiển
+arithmetic logic units (ALUs): bộ logic khóa học
+instruction cycle: chu kỳ lệnh
+secondary storage: bộ nhớ thứ cấp
+hard drives: ổ cứng
+drive: lái xe
+processor: bộ điều khiển
+multiple: nhiều
+to include: đưa vào để
+engineering: kỹ thuật
