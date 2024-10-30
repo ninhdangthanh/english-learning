@@ -1,3 +1,4 @@
+
 What Is Scalability? Scalability means that a system can manage increased loads by adding resources without compromising performance. However, scalability isn’t just about handling more work; it’s about doing so efficiently, applying cost-effective strategies to expand system capacity. This approach shifts the focus from merely surviving high demand to optimizing how we scale.
 
 This raises important questions: If we add more processors or servers, how do we coordinate work between them? The overhead of coordination might affect performance gains. Addressing these factors ensures that adding resources delivers the expected benefits.

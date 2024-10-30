@@ -1,0 +1,17 @@
+coordinate: phối hợp
+axis: trục
+visual: hình ảnh trực quan
+objectively: khách quan
+defer: hoãn lại
+delay: trì hoãn
+push: đẩy
+upper limit: giới hạn trên
+lower limit: giới hạn dưới
+enhance: tăng cường
+round-robin: luân phiên
+traffic: lưu lượng
+possible
+heavy loads: tải nặng
+disrupt: gián đoạn
+interrupt: ngắt quãng
+evaluate=assessment
