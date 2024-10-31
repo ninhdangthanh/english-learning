@@ -10,8 +10,16 @@ lower limit: giới hạn dưới
 enhance: tăng cường
 round-robin: luân phiên
 traffic: lưu lượng
-possible
+
+possible: khả thi
 heavy loads: tải nặng
 disrupt: gián đoạn
 interrupt: ngắt quãng
 evaluate=assessment
+bounty: tiền thưởng
+ransomeware: phần mềm tống tiền
+crime: tội phạm
+prison: nhà tù
+reward=award: phần thưởng
+allocate: phân bổ
+deallocate: giải phóng
