@@ -1,0 +1,25 @@
+confine: giới hạn = limit
+receipt: biên lai
+recipient: người nhận
+whereas: trong khi
+otherwise: ngược lại thì
+resilient: đàn hồi
+resilience: phục hồi
+grasping: nắm bắt
+tied: bị trói
+tie: cà vạt/ trói
+dozens: hàng chục
+bounce back: bật lại "bounce back error"
+
+cascade: thác nước
+cascaded: xếp tầng
+cascaded down: đổ xuống
+proper: thích hợp
+circuit breaker: cầu dao điện
+steady: vững chắc
+reliable/reliability: sự tin cậy /độ tin cậy
+it crucial: nó rất quan trọng
+it critical: nó quan trọng
+watertight compartment: ngăn kín nước
+watertight: không thấm nước
+compartment: ngăn
