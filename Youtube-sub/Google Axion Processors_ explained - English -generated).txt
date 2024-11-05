@@ -1,0 +1,26 @@
+
+Hi, everyone! I’m Don McCastlen, a Staff Developer Advocate for Google Cloud.
+
+Today, we’re going to talk about *architecture*. How often do you think about architecture? I bet you think about it all the time. Right now, your head might be filling up with diagrams, nested rectangles, and arrows. Maybe you're considering application architectures, microservices, APIs, threading models, and data schemas. Or perhaps you’re thinking about infrastructure, container orchestration, load balancers, and data layers.
+
+But I want you to think even deeper. I want you to consider the silicon that powers these workloads. When optimizing your infrastructure, the first step is choosing the right processor and virtual machine for your tasks and workloads. There are many options.
+
+This video is perfect if you want to understand the differences between ARM and x86 processors and learn about Google’s Axion processors. At the heart of every computer lies a CPU—the brain that handles all calculations and tasks. For a long time, there have been two main architectures and design philosophies: x86 and ARM. x86 was designed around Complex Instruction Set Computers (CISC), while ARM was designed around Reduced Instruction Set Computers (RISC).
+
+How are they different? Today, not as much as they once were. But this is a common question, so let’s look back at their origins.
+
+x86 designs have been around since the advent of personal computing. They became more widespread as data centers emerged and are now used in most cloud applications. Over time, x86 processor cores added functionality, providing developers with rich instruction set extensions to support emerging workloads and usage models, like media encoding, encryption, confidential computing, and compression with minimal operations.
+
+ARM-based processors came later, initially designed for mobile and edge devices. With a smaller instruction set, ARM uses less power and fewer transistors, delivering faster speeds for simpler or well-defined operations.
+
+So, how do these origins translate into differences today? Both architectures deliver impressive performance for cloud workloads, and few programmers are building applications directly in assembly language. So, the difference isn’t huge. Many applications are optimized or simply run better on x86. For example, high-frequency trading systems require extremely low latency and, in some cases, hand-tuned assembly code on specific x86 platforms that have benefited from decades of optimization.
+
+On the other hand, ARM-based processors like Axion take up less than half the physical silicon space of other processors, offering significant energy efficiency. Applications written in high-level languages like Java, or those that need to run on multiple devices, have also benefited from years of optimization on ARM.
+
+There’s one more difference. Axion is our first custom ARM CPU designed for the cloud. By custom-designing Axion in-house, all our teams—from customer support to software and hardware engineering—are under one roof. When our customers’ needs change, feedback reaches our hardware team quickly, enabling them to design new versions to serve those needs. This approach is known as vertically integrated software design. It’s pretty cool and results in real-world gains for your workloads.
+
+When we designed Axion, we custom-built the processors for seamless integration with Google software, such as Cloud SQL, Google Kubernetes Engine, and Spanner. In case you didn’t know, Axion is just the latest in Google’s line of custom silicon. We’ve released six generations of Tensor Processing Units, two generations of Video Coding Units that achieve up to 33 times more efficiency for video transcoding, and three generations of Tensor chips for mobile devices. Now, we’re bringing the same advancements to ARM.
+
+Ready to experience the power and efficiency of ARM on Google Cloud? Check out our new Axion-powered VMs, or if you want to compare our full range of VMs, take a look at our documentation.
+
+That’s all, folks! See you next time.
