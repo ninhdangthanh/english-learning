@@ -14,9 +14,9 @@ shy/shy away: ngại/ngại tránh
 as much as possible: càng nhiều càng tốt
 arrive: đến nơi
 arrange: sắp xếp
+
 what matters: điều quan trọng
 faith: niềm tin
-
 try tackling projects that make you stretch: thử thực hiện các dự án giúp bạn vượt qua giới hạn của bản thân
 comfort zone: vùng an toàn
 obstacle: trở ngại
@@ -30,9 +30,3 @@ offload: giảm tải, xả bớt
 privacy policy: chính sách quyền riêng tư
 orchestrating a brighter world: tổ chức một thế giới tươi sáng hơn
 bridge: cầu nối
-exponentially: nhanh chóng theo cấp số nhân
-groovy: thú vị, vui nhộn
-come across: gặp phải
-adversity: nghịch cảnh
-despite: cho dù
-despite of: mặc dù
