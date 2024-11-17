@@ -1,0 +1,22 @@
+distinct: riêng biệt
+reveals: cho thấy
+Origins: nguồn gốc
+formerly: trước đây là
+unauthorized: trái phép
+favorite among: yêu thích trong số
+straightforward: thẳng than, đơn giản
+first-class: hang nhất
+Sandboxed: hộp cát
+ahead: phía trước
+overhead: trên không, ý là nhiều
+
+minimalistic: tối giản
+simplifying: đơn giản hóa
+general-purpose : mục đích chung
+adoption: áp dung
+specialized for: chuyên dung cho
+integrity: toàn vẹn, trung thực
+choice: lựa chọn
+chosen: đã chọn
+meet the requirement: đáp ứng yêu cầu
+ready to make: sẵn sàng thực hiện
