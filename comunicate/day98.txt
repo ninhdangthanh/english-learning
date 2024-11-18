@@ -1,0 +1,57 @@
+
+Payment: Thanh toán
+Paid: Đã thanh toán
+Unpaid: Chưa thanh toán
+Pay: Trả tiền
+Payer: Người trả tiền
+Payee: Người nhận tiền
+Due: Đến hạn thanh toán
+Overdue: Quá hạn
+Installment: Trả góp
+Invoice: Hoá đơn
+Receipt: Biên lai
+Billing: Việc lập hoá đơn
+Transaction: Giao dịch
+Order: Đơn hàng
+
+Purchase: Mua hàng
+Sell/Sale: Bán hàng
+Buy: Mua
+Refund: Hoàn tiền
+Exchange: Trao đổi
+Trade: Thương mại
+Barter: Trao đổi hàng hóa
+Price: Giá
+Cost: Chi phí
+Fee: Phí
+Charge: Tính phí
+Discount: Giảm giá
+Tax: Thuế
+Interest: Lãi suất
+
+Deposit: Tiền đặt cọc
+Balance: Số dư
+Profit: Lợi nhuận
+Loss: Lỗ
+Hình thức thanh toán
+Cash: Tiền mặt
+Card: Thẻ (ngân hàng, tín dụng)
+Credit card: Thẻ tín dụng
+Debit card: Thẻ ghi nợ
+Bank transfer: Chuyển khoản ngân hàng
+Cryptocurrency: Tiền mã hóa
+E-wallet: Ví điện tử (như PayPal, Momo)
+Cheque: Séc
+
+Wire transfer: Chuyển tiền qua ngân hàng
+Các khái niệm khác
+Marketplace: Sàn giao dịch, chợ
+E-commerce: Thương mại điện tử
+Buyer: Người mua
+Seller: Người bán
+Supplier: Nhà cung cấp
+Merchant: Thương nhân
+Delivery: Giao hàng
+Shipment: Vận chuyển
+Agreement: Thỏa thuận
+Contract: Hợp đồng
