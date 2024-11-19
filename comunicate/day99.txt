@@ -1,0 +1,22 @@
+since: kể từ
+cloud native: đám mây gốc
+praise: khen ngợi
+collaboration: cộng tác
+across teams: giữa các nhóm
+experiment: thử nghiệm
+major strength: sức mạnh chính
+built-in toolchain: chuỗi công cụ tích hợp
+complemented: bổ sung
+deep: sâu sắc
+enrich: làm phong phú, làm giàu
+
+area: lĩnh vực
+demanding: đòi hỏi
+In addition to: ngoài ra
+field: lĩnh vực
+pillar: trụ cột
+cryptographic: nguyên hàm mật mã
+elegantly: tinh thế, thanh lịch
+gonna take: sẽ lấy
+introspective: nội tâm
+got it: đã hiểu
