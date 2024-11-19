@@ -1,0 +1,6 @@
+minimalistic: tối giản
+repetitive: lặp đi lặp lại
+enhance: tăng cường
+container: vùng chứa, thùng chứa
+middleware: phần mềm trung gian
+termination: việc chấm dứt
