@@ -4,3 +4,23 @@ enhance: tăng cường
 container: vùng chứa, thùng chứa
 middleware: phần mềm trung gian
 termination: việc chấm dứt
+a bit more: một chút nữa, hơi thêm một chút
+imposing: ấn tượng, oai nghiêm, đồ sộ
+no overhead: không có chi phí bổ sung, không có chi phí phụ
+flavor: hương vị, nét đặc trưng
+closely: một cách chặt chẽ, sát sao
+tropical: nhiệt đới
+
+relentless: không ngừng nghỉ, dai dẳng, không khoan nhượng
+freed: được giải phóng, được thả tự do
+intervention: sự can thiệp
+enforce: thi hành, thực thi
+forced: bị ép buộc
+upfront: trả trước, sẵn sàng, ngay từ đầu
+cumbersome: cồng kềnh, nặng nề, khó sử dụng
+mascot: linh vật
+are in charge: chịu trách nhiệm, đang phụ trách
+quite a while: khá lâu
+conform to: tuân theo, phù hợp với
+specific chunks: các phần cụ thể
+consistent manner: một cách nhất quán
