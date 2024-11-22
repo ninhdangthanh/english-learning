@@ -1,0 +1,90 @@
+
+**Security Assertion Markup Language (SAML)** is an open standard for exchanging authentication and authorization data between two parties: an identity provider and a service provider. 
+
+SAML is commonly used to enable **single sign-on (SSO)**, which allows users to access multiple applications with a single set of login credentials. In this video, we will discuss the basics of single sign-on, what SAML is, how it works, the benefits of using SAML, common SAML use cases, and how it compares with OAuth 2.0. By the end of this video, you will have a solid understanding of SAML's capabilities and how integrating it can enhance both security and user experience within your IT framework. So, let's get started.
+
+---
+
+There was a time when users had to create user accounts for every application and remember every login credential. That's why the idea of **SSO** or single sign-on became more popular in enterprise identity management.
+
+Single sign-on allows the user to sign in with one set of credentials and gain access to multiple applications and services. SSO improves security and provides a better user experience by reducing the number of necessary accounts or passwords, offering easier access to all the applications and services they need. For example, when you log into Gmail, you are automatically granted access to your accounts in Google-owned applications like Google Drive, YouTube, and Maps.
+
+There are different implementations of SSO, but the general flow, as well as the main players, are almost the same. **SAML**, **OpenID Connect**, and **WS-Federation** are common open standards for SSO. Let's define the primary elements in SSO before describing the overall flow of SSO.
+
+---
+
+A **user** is a person who wants to use the service from the service provider. A **service provider** provides services to the users and receives authentication from the identity provider to grant authorization to the user.
+
+An **identity provider** is the one that provides the identity of the user who is trying to access the service provider and sends authentication data along with the user's access rights to the service. Open standard protocols for single sign-on define how service providers and identity providers exchange identity information.
+
+---
+
+**SAML** is an XML-based framework for exchanging authentication and authorization data between two parties. In simple terms, it allows different organizations and systems to trust each other's identities without exposing sensitive information.
+
+Imagine you're trying to access multiple web applications from different providers. You wouldn't want to remember separate usernames and passwords for each, right? That's where **SAML** comes in, offering **single sign-on (SSO)**. It allows you to authenticate once with your identity provider and then access multiple services seamlessly.
+
+---
+
+Let’s break down the key components of **SAML**:
+
+- **Identity provider**: This is where your identity is established and authenticated. It is a service that stores and manages digital identities. IDPs provide a way for users to authenticate their identities and access protected resources without having to create and manage multiple accounts with each service they use. Google and Google Workspace are both identity providers that can be used to implement single sign-on. Google is primarily a consumer-focused IDP, while Google Workspace is a business-focused IDP. This means that Google is designed to be used by individuals, while Google Workspace is designed for organizations. 
+
+Some other examples of popular IDPs include Microsoft, Okta, and Auth0.
+
+- **Service providers** are the applications or services you want to access. They rely on the identity provider for user authentication. A **SAML-enabled service provider** supports the SAML protocol for single sign-on. This means that users can log into the service provider using their credentials from a trusted identity provider without having to create a separate account for the service provider. Some of the popular examples of SAML-enabled service providers include Salesforce, Google Workspace, Microsoft 365, and Okta. 
+
+If you are considering implementing single sign-on for your organization, you should ensure that the service providers you want to support are SAML-enabled. This will ensure that you can provide a seamless and secure SSO experience for your users.
+
+---
+
+Finally, a **SAML assertion** is an XML document that is exchanged between an identity provider and a service provider to convey information about the user's identity and authorization status. SAML assertions are used to implement single sign-on, which allows users to access multiple applications with a single set of login credentials.
+
+SAML assertions contain a variety of information about the user, including:
+
+- The user's identity (e.g., name and email address).
+- The user's authorization levels (e.g., roles or permissions).
+- The time the assertion was issued.
+- The time the assertion expires.
+- A signature from the IDP that verifies the authenticity of the assertion.
+
+SAML assertions are typically signed by the IDP using a digital signature certificate. This ensures that the assertion cannot be tampered with during transit.
+
+---
+
+Here is how SAML works in practice:
+
+1. The user attempts to access a SAML-enabled service provider.
+2. The service provider redirects the user to the identity provider.
+3. The user authenticates with the identity provider.
+4. The identity provider redirects the user back to the service provider with a SAML assertion, which contains the user's identity information.
+5. The service provider validates the SAML assertion and grants the user access to the requested resource.
+
+Now, some of the terminology used in **SAML** sounds similar to **OAuth**, and you might wonder: how does SAML differ from OAuth?
+
+---
+
+I have covered this in detail in my previous video, describing all the use cases and various types of OAuth flows. While both SAML and OAuth serve authentication and authorization purposes, OAuth is mainly focused on authorization for third-party access, while SAML specializes in identity and single sign-on.
+
+OAuth allows third-party applications to access a user's data or perform actions on their behalf without exposing the user's credentials (such as username or password). For example, when you use your Facebook account to log into a third-party app, you are granting the app permission to access certain data or perform actions on your Facebook account, such as posting on your behalf. Or when you use OAuth 2.0 to authorize a mobile app to access your Google Drive files, it's an authorization process where you are allowing the app access to specific resources without revealing your Google credentials.
+
+SAML, on the other hand, specializes in identity and single sign-on. It focuses on the exchange of authentication and authorization data between parties to establish and verify your user's identity. 
+
+For example, in a corporate environment, SAML can be used to implement single sign-on. When you log in once to your corporate network, you gain access to various services like email, internet applications, and cloud resources without having to log in separately for each. SAML asserts your identity to these services.
+
+---
+
+OAuth 2.0 can also be used for authentication, but it's not its primary purpose. Some extensions and profiles of OAuth, like OpenID Connect, have been developed to add authentication capabilities to OAuth. However, OAuth alone doesn't inherently guarantee strong identity verification, which is well-suited for scenarios where third-party applications need limited access to users' data without having full control over the user's identity. In fact, OAuth 2.0 with JWT has gained significant adoption in modern microservices architecture.
+
+In a microservices architecture, one service may need to access another service’s API, and OAuth 2.0 can be used to authenticate and authorize the service-to-service interactions. While it's possible to use SAML for service-to-service authentication and authorization in a microservices architecture, it's not the most common or typical choice for several reasons. SAML uses XML-based assertions, whereas modern microservices architectures often prefer JSON for its simplicity and efficiency. OAuth 2.0, when used with JSON Web Tokens (JWT), aligns better with the JSON-based communication that is prevalent in microservices environments. 
+
+Moreover, SAML is a robust protocol designed for various scenarios, including single sign-on and identity federation, which can make it complex to implement for simple service-to-service authentication and authorization within a single organization. 
+
+---
+
+SAML is favored in scenarios where strong identity federation and SSO are critical. This includes government institutions, healthcare organizations, or enterprises. Government agencies often require robust identity verification for access to sensitive systems, making SAML a good fit. Healthcare providers handle sensitive patient data, and SAML helps ensure that only authorized personnel can access this information.
+
+SAML enables employees to access various applications and services within an organization without repeated logins, enhancing productivity and security. While OAuth can be extended for authentication by using OpenID Connect, SAML excels in scenarios that require strong identity assurance, which is why government institutions and healthcare organizations often prefer it.
+
+SAML promotes secure authentication and data exchange between parties. Individual users enjoy a seamless experience with single sign-on, and different organizations or systems can trust each other’s identities without sharing passwords.
+
+Stay secure, and see you in the next video.
