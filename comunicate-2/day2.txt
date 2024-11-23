@@ -1,0 +1,20 @@
+interact: tương tác
+verification: xác minh
+authentication: xác thực
+enterprise: doanh nghiệp
+encourage: khuyến khích
+promotes: thúc đẩy
+between parties: giữa các bên
+enjoy: tận hưởng
+comically: một cách hài hước
+injust: bất công
+
+Assertion: khẳng định
+skip: bỏ qua
+forward: chuyển tiếp
+accordingly: theo đó
+agency: hãng
+brand: thương hiệu
+instuitively: trực giác
+Headless: Không đầu
+consistent manner: một cách nhất quán
