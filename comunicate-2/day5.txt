@@ -8,3 +8,16 @@ conferences: hội nghị, hội thảo
 rebrand/rebranded: đổi tên thương hiệu
 standardization: tiêu chuẩn hóa
 filed a petition: nộp đơn kiến nghị
+comply: tuân thủ
+
+bound: ràng buộc, giới hạn
+agreement: thỏa thuận
+revised: được sửa đổi
+obligations: nghĩa vụ
+renewal: gia hạn, làm mới
+backoff: lùi lại, thoái lui
+click and drag: nhấp và kéo
+nervous: lo lắng, hồi hộp
+suspend: đình chỉ, cấm
+resume: tiếp tục
+target: mục tiêu
