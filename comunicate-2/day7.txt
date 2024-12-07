@@ -1,0 +1,28 @@
+hypervisor: trình quản lý siêu dữ liệu
+spatial data: dữ liệu không gian
+geometric: hình học
+rectangle: hình chữ nhật
+polygons: đa giác
+modeling: mô hình hóa
+lightweight: nhẹ
+timestamps: dấu thời gian
+triangle: tam giác
+proprietary: độc quyền
+beating the control: vượt qua sự kiểm soát
+in-person: trực tiếp
+anticipate: dự đoán, mong đợi
+baked: đã được tích hợp sẵn hoặc hoàn thiện
+bulk: số lượng lớn, hàng loạt
+
+craft-base: dựa trên kỹ năng thủ công
+advocate: ủng hộ, người ủng hộ
+upset: làm khó chịu, sự bất mãn
+understatement: sự nói giảm nói tránh
+elasticity: tính đàn hồi
+instrument/instrumental: công cụ/quan trọng, có vai trò thiết yếu
+absence: sự vắng mặt
+remarkable: đáng chú ý, nổi bật
+hands-on: thực hành, thực tế
+respective: tương ứng
+submit: nộp, đệ trình
+submission: sự nộp, sự đệ trình
