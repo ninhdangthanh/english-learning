@@ -1,0 +1,22 @@
+aborts: hủy bỏ, kết thúc sớm
+deducted: bị trừ đi
+overselling: bán vượt quá số lượng
+following: theo sau
+lifetime: vòng đời
+the same query: cùng một truy vấn
+behave as if: hoạt động như thể
+due to: do là, do bởi
+go along: đồng ý, đi theo
+won't be attributed: sẽ không được quy cho
+pain point: điểm khó chịu, vấn đề khó khăn
+
+organism: sinh vật
+dispose: vứt bỏ, xử lý
+revising: chỉnh sửa, xem lại
+facilities: cơ sở vật chất, tiện nghi
+fascinating: hấp dẫn, thú vị
+resistance: sự chống lại, sự kháng cự
+restrict: hạn chế
+disposal: sự xử lý, sự vứt bỏ
+inflect: uốn cong, biến đổi âm điệu hoặc ngữ pháp
+narrow/narrower: hẹp/hẹp hơn
