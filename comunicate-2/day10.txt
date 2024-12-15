@@ -1,0 +1,25 @@
+traversal: sự đi qua
+constant time: thời gian nhất định, không đổi 
+doesn’t preserve the order of the data: không bảo toàn thứ tự của dữ liệu
+greater than or less than: lớn hơn hoặc nhỏ hơn
+whether that row have: liệu hang đó có
+distinct value: giá trị riêng biệt
+large number of value: số lượng lớn giá trị
+specific terms: thuật ngữ cụ thể
+phrases: cụm từ
+patterns within a body of text: các mẫu trong một nội dung văn bản
+several: một số
+several factors: nhiều yếu tố
+
+low: ít, thấp
+general: tổng quan
+overal: tổng thể
+yield: năng suất
+journaling: việc ghi chép nhật ký
+preserving: bảo tồn
+expendable: có thể tiêu tốn, có thể thay thế
+indispensable: không thể thiếu, cần thiết
+portray: miêu tả
+show off: thể hiện, khoe khoang
+disrupt: gián đoạn, phá vỡ
+inference: suy luận
