@@ -1,0 +1,30 @@
+eligible: đủ điều kiện
+work by: hoạt động bằng cách
+relevance level: mức độ liên quan
+drastically: một cách mạnh mẽ, đáng kể
+devil: quỷ
+deterministic: có tính quyết định
+optimistic: lạc quan
+rollout: triển khai
+scrap: loại bỏ, phế liệu
+rate-limited: giới hạn tốc độ
+bounty: phần thưởng
+you probably use: bạn có thể sử dụng
+pricing is insane: giá cả quá cao
+referencing: tham chiếu, trích dẫn
+
+burning fiery passion: đam mê mãnh liệt
+centric: tập trung vào
+dictionary: từ điển
+shuffle/shuffling: xáo trộn
+artists: nghệ sĩ
+sentiment: cảm xúc
+bar/bar code number: mã vạch
+amongst: giữa, trong số
+to places: đến những nơi
+halfway: nửa đường
+brief: ngắn gọn
+exclude/exclusive: loại trừ
+exclusively: độc quyền
+get rid/get rid of it: loại bỏ
+conversely: ngược lại
