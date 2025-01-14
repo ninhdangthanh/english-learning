@@ -1,0 +1,52 @@
+awful: tồi tệ
+taste: nếm
+terrible: khủng khiếp
+beg: cầu xin
+attempt: cố gắng
+refuse: từ chối
+bear: chịu đựng
+except: ngoại trừ
+amuse: làm cho vui
+delight: thích thú
+grateful: biết ơn
+helpness: bất lực
+wise: khôn ngoan
+compel: ép buộc
+suspect: nghi ngờ
+instruct: hướng dẫn
+
+tempt: cám dỗ
+remind: nhắc nhở
+urge: thúc giục
+agreement: thỏa thuận
+mention: đề cập
+put off: trì hoãn
+recollect: nhớ lại
+escape: trốn thoát
+resent: bực tức
+threaten with: đe dọa bằng
+end in: kết thúc bằng
+object to: phản đối
+think of: nghĩ về
+take to: bắt đầu thích
+persist in: kiên trì
+
+get to: đến
+keep on: tiếp tục
+keen on: say mê
+long for: mong mỏi
+apologise for: xin lỗi vì
+careless of: bất cẩn
+content with: hài lòng với
+embarrassed at: xấu hổ về
+delight at: vui mừng về
+frighten of: sợ hãi
+aware of: nhận thức
+far from: cách xa
+capable of: có khả năng
+wrong in: sai lầm
+set on: quyết tâm
+useless: vô ích
+advise: khuyên bảo
+go on: tiếp tục
+bear: chịu đựng
