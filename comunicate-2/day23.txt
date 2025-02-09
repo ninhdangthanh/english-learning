@@ -1,0 +1,9 @@
+influx: sự tràn vào
+urban: đô thị
+transport: giao thông
+urging: thúc giục
+cycling: đạp xe
+cycle: xe đạp 
+livable city: thành phố đáng sống
+commuter: người đi làm
+collective: tập thể
