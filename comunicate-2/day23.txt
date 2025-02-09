@@ -1,9 +1,33 @@
-influx: sự tràn vào
-urban: đô thị
-transport: giao thông
-urging: thúc giục
 cycling: đạp xe
 cycle: xe đạp 
 livable city: thành phố đáng sống
 commuter: người đi làm
 collective: tập thể
+in turn: lần lượt
+guard/guardian: bảo vệ/người bảo vệ
+beyond: vượt quá
+location: địa điểm
+dont have to: không phải
+foundational: làm nền tảng
+background: nền tảng
+more and more: ngày càng nhiều
+unnormally: bất thường
+mastering: thành thạo, làm chủ
+far from that reality: xa thực tế đó
+
+struggle with: gặp khó khan
+confined: giới hạn
+the rise: gia tang
+boost: thúc đẩy
+streamline: hợp lý
+critical thinking: tư duy phản biện
+logic resoning: lý luận logic
+critical, crucial: quan trọng, chủ yếu
+skyrocket: tăng vọt
+breaches: vi phạm security, risk
+penalties: hình phạt legal
+must bear: phải chịu
+phishing: lừa đảo
+vulnerability exploits: khai thác lỗ hổng tự động
+worldwide: trên toàn thế giới
+disrupte: làm gián đoạn

@@ -10,9 +10,9 @@ best-case scenarios
 I daydreaming: tôi mơ mộng
 decisive factors: yếu tố quyết định
 overwhelm: áp đảo, lấn át
-
 come with: đi kèm
 fleeting: thoáng qua
+
 about to: sắp
 fridge: tủ lạnh
 stressful: căng thẳng
@@ -23,3 +23,7 @@ fool/foolist: ngu xuẩn, ngu ngốc/ kẻ ngốc
 violate: vi phạm
 major company: công ty lớn
 major: lớn
+influx: sự tràn vào
+urban: đô thị
+transport: giao thông
+urging: thúc giục
