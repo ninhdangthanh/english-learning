@@ -1,0 +1,69 @@
+Burnout, stress, and anxiety are all increasing at alarming rates for basically anyone under the age of 45. According to the UK's Mental Health organization, 9 out of 10 individuals have experienced high or extreme levels of stress just in the past year.
+
+And look, I'm not trying to be dramatic here, but something just feels different in 2025. As a software engineer—despite it being only February—this video is going to dive into the top three things that I think people are already struggling with.
+
+To be totally honest, this video won’t be filled with tips, tricks, or advice on how to navigate through it. Instead, I'm posting this to let you know that you're not alone. So whether you're in the US, the UK, or honestly anywhere else on this planet, we are all more alike than we are different.
+
+So, let’s dive in.
+
+I think I would be shocked if you told me that your manager, tech lead, or boss—whoever is above you—hasn’t come to ask what AI features you can easily integrate into your application. With all the AI drama happening—DeepSeek, OpenAI, and all the new facilities they’re planning to build—it lowkey feels like we’re in an AI pressure cooker, quickly approaching the point of no return.
+
+With the bold claims that Zuck made on Rogan's latest podcast—how he fully anticipates, and even expects, junior to mid-level engineers to be replaced by AI in 2025—I think now is the time to start paying attention.
+
+For those of us who may not be fully bought into the AI hype right now, I see you. I hear you. But I can also feel the increasing pressure of falling behind, growing and growing every day.
+
+And maybe this is a hot take, but I’m willing to bet that in the next one to two years, if you don’t have AI experience on your resume, you’re just going to fall behind. Your resume will sink lower and lower in the stack.
+
+And if AI coming for our jobs wasn’t bad enough, let’s talk about the return-to-office mandates.
+
+We all saw how common they were in 2024—Amazon, Microsoft, Google, Netflix—all requiring developers and engineers to return to the office at least three to five days a week. I think last year was just a preview, but this year? It’s going to be far more common.
+
+This isn’t just “return to office.” This is return to office—or else.
+
+And now, even worse, companies are using it as leverage to cut a significant portion of their workforce without looking like the bad guy. You’re being sold on the idea that it’s for “collaboration, mentorship, innovation, and R&D,” but I’m here to call BS.
+
+I lead and mentor many engineers daily. I see them succeed. I watch them grow as developers, their programming skills improving, all while working remotely. And the icing on the cake? These return-to-office mandates aren’t coming randomly—they’re coming at a time when the tech industry is already incredibly difficult to break into.
+
+Which brings me to my last point.
+
+Holy—what a time to be an engineer.
+
+And no, I don’t mean that in a good way.
+
+To all my junior and mid-level engineers, I feel for you. If you ever need advice, or honestly just want someone to listen, drop a comment below. I want to be here for you because, truthfully, y'all are getting screwed.
+
+Going back to Zuck’s claims on Rogan’s podcast—I guarantee that some managers out there heard him say, "Hey, we could replace junior to mid-level engineers with AI. It might be expensive at first, but it'll get cheaper."
+
+And I guarantee you—some of you will lose your jobs because of that.
+
+I’m willing to bet that by Q4 this year, managers will start realizing that, sure, maybe a junior engineer could be replaced by AI. And if it saves them half a million dollars by cutting a quarter of their workforce in favor of ChatGPT? They’ll do it.
+
+I know some of you are terrified. And it does suck. It isn’t fair.
+
+I do think there are opportunities to navigate through this, but right now? It’s rough out there.
+
+And look, I get it—this video probably seems all doom and gloom. Like the world is ending, the sky is falling. And honestly, for some people, it might be.
+
+I know this isn’t the usual positive, uplifting content I create on this channel. But we are facing the perfect storm.
+
+And the worst part?
+
+I haven’t found any engineers on YouTube talking about this.
+
+I haven’t seen anyone creating a space where we can communicate about this.
+
+That’s exactly why I’m posting this video.
+
+I want this channel, this comment section—wherever you may be—to be a safe space.
+
+I want you to come here and talk about your problems. I want you to connect with others, to commiserate. Because when we go through it together, we’ll get through it.
+
+And if you’re looking for a place to hang out and chat with other engineers, hit the first link below—join our free Discord. It’s completely free, filled with genuinely amazing people who actually care.
+
+And if that’s not your thing? Do me a favor—thumbs up this video, subscribe, and come along for more content.
+
+If you feel like this video resonated with you—if you’ve realized that yeah, this sucks—you’re not alone.
+
+Because at least if we’re getting cooked... we’re getting cooked together.
+
+And with that, I'll see you all next week.
