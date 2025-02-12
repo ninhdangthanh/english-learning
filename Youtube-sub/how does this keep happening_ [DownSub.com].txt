@@ -1,0 +1,49 @@
+Go Module Mirror Served Backdoor to Developers for Over Three Years
+
+A supply chain attack targeted developers using the Go programming language. This is my main issue with languages like Go, Python, Rust, and especially JavaScript. So much of the code you write depends on third-party packages sourced from a package manager. Any violation of supply chain trust leads to issues like this.
+
+A mere proxy, Ghoul, running on behalf of developers using the Go programming language, pushed a backdoored package for more than three years—until Monday—after researchers who spotted the malicious code petitioned twice for its removal.
+
+This is happening across ecosystems like Go, Python, and others. Hackers know that developers using these languages must rely on third-party code. As a result, mechanisms exist that allow attackers to exploit that trust and introduce malicious code.
+
+The system in question is the Go Module Mirror, which caches open-source packages from GitHub and elsewhere. This improves download speed and ensures compatibility with the rest of the Go ecosystem. If you had to run git clone every time you needed a Go package, it would be like an unorchestrated DoS attack on GitHub.
+
+To prevent that, Google created a mirror that acts as a proxy between developers and GitHub. This mirror caches package versions, so instead of DDoSing GitHub, developers pull from Google’s vertically scalable proxy, which can be optimized for performance when needed.
+
+Since November 2021, the Google Module Mirror has been hosting a backdoored version of a widely used module, according to Socket. The file uses typosquatting, a technique where malicious package names closely resemble legitimate ones and get planted in popular repositories.
+
+If you’re unfamiliar with typosquatting, here’s an example: Back in the day, if you typed "Google" with three Gs and visited "google.com," you might have landed on a malicious site that exploited your browser and downloaded malware. I infected my own computer so many times with that vulnerability—between LimeWire, typosquatting, and other exploits.
+
+The idea behind typosquatting is simple: users make a typing mistake, and hackers exploit it. In this case, if someone fetches a Go module but types a slight variation—like boltDB-go instead of boltDB—they unknowingly install the malicious package.
+
+The issue here is significant: BoltDB is relied on by over 8,000 other packages. If a maintainer of one of these packages accidentally mistyped the dependency while debugging—maybe thinking they had the wrong version—they could have easily pulled in the malicious package.
+
+The backdoored version first appeared on GitHub, but it was eventually reverted to a legitimate version. However, by then, the Go Module Mirror had already cached the malicious one.
+
+This is the core of the exploit. When you upload a package to Google’s package mirror, it acts as a middleman, storing a cached version. However, it never verifies if the original GitHub repository has been updated.
+
+Here’s what the hackers did:
+
+They created a typosquatted GitHub repository.
+They published a backdoored version of the module, embedding a hidden remote access mechanism (a backdoor that either calls out to a server or executes malicious code locally).
+The Go Module Mirror fetched and cached this compromised version.
+Later, the attackers reverted the GitHub repository back to a clean version.
+Because the Go Module Mirror doesn’t re-check GitHub for changes, the backdoor remained active in Google’s cache. Even if someone manually inspected the GitHub repository, they’d see a safe version. But since the mirror kept serving the cached malicious version, users continued downloading the compromised package.
+
+Despite GitHub showing the correct code, the mirror persisted in serving version 3.1.3—the backdoored version.
+
+Eventually, researchers disclosed the issue. Between the 30th and the 3rd, discussions took place, and ultimately, the malicious package was removed.
+
+Google and the Go team did not respond to emails regarding what measures they have in place to ensure the security of modules distributed through the mirror. This highlights an inherent flaw in package management systems—without automated scanning or manual review, it’s challenging to detect malicious packages.
+
+In the open-source world, part of the security model relies on developers manually reviewing packages. Ideally, someone would spot a function that, for example, spawns a remote shell or calls an external server. However, if you introduce a middleman cache that hides the code and doesn’t validate updates, it creates a serious problem—attackers can push malicious code without it being detected.
+
+Thankfully, as of today, both the malicious GitHub package and the compromised Go Module Mirror package have been removed. Analysts from Socket and Caplock have confirmed this.
+
+But still—it’s an interesting time to be a developer. Coding is harder than ever, largely because of how many dependencies are needed to accomplish even basic tasks.
+
+When you depend on third-party code, you place trust in other developers’ work. This makes it incredibly difficult to ensure that your own code is safe.
+
+You can use a memory-safe language like Go, which has garbage collection and almost no runtime memory safety vulnerabilities (aside from nil references). But when you have to rely on third-party code, you introduce an entirely new security threat model.
+
+That’s it, guys—thanks for watching! If you found this helpful, hit the thumbs up button, subscribe, and check out this other video about a backdoor found in HeartMod—yeah, I’m serious! It's right here—go check it out.
