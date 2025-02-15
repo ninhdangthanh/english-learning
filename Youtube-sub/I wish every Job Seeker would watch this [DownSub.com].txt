@@ -1,0 +1,136 @@
+The most frustrating thing about job searching is that most aspects are subjective.
+
+One recruiter might strongly advocate for a professional summary on résumés, while another hiring manager will reject every single candidate that includes one.
+
+To eliminate guesswork, we need to analyze the data.
+
+According to Forbes and ResumeBuilder.com, 46% of job seekers use ChatGPT during their job search. Among them:
+
+69% (nice) received more interviews compared to when they didn’t use an AI assistant.
+59% ended up with job offers.
+But here’s where it gets really interesting:
+
+77% of successful candidates had to make significant edits to ChatGPT’s outputs because they were too generic.
+The remaining 23% received highly personalized results, allowing them to spend less time per application and submit more applications on average.
+What caused that difference? The quality of the initial prompt.
+
+So in this video, we’ll explore the best prompt to use during each step of the job search process—from networking all the way to writing a thank-you email and negotiating an offer.
+
+Best Networking Prompt
+The goal here is to land a coffee chat with a complete stranger working in your desired field.
+
+Step 1: Extract Their LinkedIn Profile
+Visit their LinkedIn page.
+Click More → Save to PDF.
+Open the PDF, press Command/Ctrl + A to select everything, then Command/Ctrl + C to copy it.
+Step 2: Use ChatGPT to Summarize Their Profile
+Go to ChatGPT (I’m using the free version—you can see it’s GPT-3.5).
+
+Use this prompt:
+
+*"You are an experienced career coach with over 20 years of expertise. Based on the following LinkedIn profile, could you generate a summary of this person’s career accomplishments and highlight their top three achievements?
+
+List the three achievements under separate headers. Please provide as much detail as possible, including relevant experiences, skills, and accomplishments that showcase their expertise in their field.
+
+Here’s their profile: [Paste the profile here]."*
+
+For this example, I used Jerry Lee’s profile—he has great content on LinkedIn, so check it out.
+
+Now, if you reference one of his key achievements (e.g., becoming the first intern from his school to work at Google), you’ll immediately stand out from the hundreds (if not thousands) of generic connection requests like:
+"Hey, I like your content. I’d love to learn from you!"
+
+Step 3: Craft a Standout LinkedIn Connection Request
+Next, use this prompt:
+
+*"I’m a job seeker looking to connect with Jerry on LinkedIn. He receives a lot of requests, so I need to stand out.
+
+Based on his top career achievements, give me three practical, actionable ideas on how I can get Jerry to accept my LinkedIn request. Prioritize unconventional, lesser-known strategies.
+
+Explain with detailed examples, and let’s think step by step."*
+
+(Side Note: The phrase "Let’s think step by step" is an example of a zero-shot chain-of-thought prompting technique—it’s incredibly powerful and can generate amazing ideas.)
+
+ChatGPT’s Suggestions:
+Personalized Video Message
+
+Use tools like Loom or Vidyard to record a short custom video.
+ChatGPT even provides a script for you!
+Worst-case scenario? Send the message as text instead.
+Create a Customized Resource for Him
+
+Provide specific examples related to his work.
+Offer to Help with a Challenge He’s Facing
+
+Again, use specific examples to make it valuable.
+And here’s the best part: Even if he declines your offer, he’s still likely to respond—which is the entire point.
+
+Most messages he gets are super generic, like:
+"Hey, I need help. Can I get 30 minutes of your time?"
+That’s why no one replies to them.
+
+Pro Tip for College Students
+If you’re a college student with zero work experience and zero LinkedIn connections:
+
+Go to your alumni database (every college has one).
+Search for alumni working in the fields you’re interested in.
+Find them on LinkedIn and start from Step 1.
+(By the way, both OpenAI and Microsoft declined to sponsor this video for some reason, but it’s supported by those of you who subscribe to my paid productivity newsletter—link in the description.)
+
+Coffee Chat Questions
+Once you land a coffee chat, your next goal is to impress them by asking thoughtful questions.
+
+Use This Prompt:
+*"You are a career coach with over 20 years of experience helping job seekers land jobs in [industry].
+
+I have an upcoming coffee chat with a [Job Title]. I want to understand how I can break into this field.
+
+Based on their resume, generate 10 insightful questions I can ask during the chat. These questions should show that I’ve done my research and respect their time.
+
+Prioritize unorthodox, lesser-known advice. Explain using detailed examples.
+
+Here’s their resume: [Paste LinkedIn PDF here]."*
+
+Smart Interview Questions
+At the end of an actual interview, asking strong questions is crucial.
+
+Use This Prompt:
+*"You are a career coach. I have an interview with a Senior Product Marketing Manager at Stripe.
+
+I want to impress the interviewer with my knowledge of the role. Based on the job description, generate 5 thoughtful questions I can ask at the end of the interview.
+
+These questions should make me appear highly proactive and enthusiastic. Prioritize lesser-known insights and explain with examples.
+
+Here’s the job description: [Paste it here]."*
+
+Thank-You Email in Seconds
+The key to a great follow-up email:
+
+Reference something specific from the interview.
+Reinforce why your unique background makes you a strong fit.
+Use this prompt:
+*"You are a career coach.
+
+During my interview, the interviewer shared an example of a marketing campaign that increased product adoption of Stripe’s security feature by 80%.
+
+Even though I don’t have product marketing experience, emphasize my transferable skills as a Customer Success Manager in the retail industry.
+
+Do not sound overly flattering. Stay within 200 words."*
+
+Salary Negotiation Prompt
+Use this role-play prompt:
+
+*"Two people are negotiating salary.
+
+The job seeker received a $70,000 offer for a Product Marketing Manager position.
+They researched similar roles and found that the upper salary range is $95,000.
+They want to negotiate closer to $95K while remaining polite yet firm.
+Please play out this conversation realistically."*
+
+Now, if the recruiter says, "Let me get back to you," follow up with:
+
+"Continue this conversation. Give the job seeker advice on how to push for $95K while staying professional."
+
+Final Thoughts
+Most people don’t negotiate salary because they don’t know what to say. ChatGPT just gave you all the right words to start that conversation.
+
+And remember: Negotiation is a skill. This practice helps you feel confident going into real conversations.
