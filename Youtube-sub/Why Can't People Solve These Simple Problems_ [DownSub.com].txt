@@ -1,0 +1,90 @@
+I want to start this video by presenting some problems you may have encountered before.
+
+Try solving these problems first. Then, we’ll discuss their structure before diving into what they reveal about human reasoning.
+
+Here are the problems:
+A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?
+
+If it takes five machines five minutes to produce five widgets, how long would it take 100 machines to manufacture 100 widgets?
+
+In a lake, there is a patch of lily pads that doubles in size each day. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half the lake?
+
+Hopefully, if you haven’t attempted these problems before, you’ve now given them a try.
+
+These questions form what is known as the Cognitive Reflection Test (CRT). They all share a common structure:
+There is an appealing, intuitive answer that seems correct but isn’t. However, once you pause and reflect, the correct answer doesn’t actually require much calculation or deep thought.
+
+For example, the intuitive answer to the first problem is that the ball costs 10 cents. But this doesn’t work because, if the bat is $1.00 more, then the bat would be $1.10. Adding 10 cents to $1.10 results in $1.20, which is incorrect.
+
+The correct answer is that the ball costs 5 cents, and the bat, being $1.00 more, costs $1.05. Together, they sum to $1.10, which is exactly what the question asks for.
+
+For question two, many people assume the answer is 100 minutes, but the correct response is just five minutes. Since the ratio between machines and widgets remains constant, the time required does not change.
+In other words, if one machine takes five minutes to produce one widget, then 100 machines will still take five minutes to produce 100 widgets.
+
+For question three, the common but incorrect answer is 24 days. Many people simply halve 48, but this is flawed reasoning. Since the lily pads double in size each day, we just need to go one day back from when the lake is fully covered.
+Thus, on day 47, the lake would be half covered.
+
+Why do people get these questions wrong?
+In each case, the intuitive but incorrect response comes from matching elements of the problem that shouldn’t be connected.
+
+In question one, people see $1.00 and $1.10, assume the problem is about subtraction, and subtract them—even though this approach doesn’t make logical sense.
+In question two, they see 5, 5, 5 and assume the pattern continues with 100, 100, 100, without considering the ratio of machines to time.
+In question three, they see half and assume they must halve 48, despite the exponential nature of the growth.
+These questions were developed by Shane Frederick, who aimed to create a measure of reflective thinking—the ability to stop and think before answering.
+
+Surprisingly, fewer than 50% of participants in the first studies got all three questions right, and in some cases, as few as 6–8% of people answered all correctly.
+This means that most participants got at least one question wrong, and many got all three incorrect.
+
+One interesting finding is that people who answer incorrectly often believe the problems are easy and assume everyone will get them right.
+Meanwhile, those who answer correctly tend to recognize that the questions are tricky, although they still overestimate how many others will solve them correctly.
+
+CRT vs. Insight Problems
+The structure of CRT problems differs from another type of problem called insight problems. Let’s examine one:
+
+A man in a small town married 20 different women from the same town. All are still alive, and he never divorced. Polygamy is illegal, yet he broke no law. How is this possible?
+
+Unlike CRT problems, insight problems require cognitive restructuring—a shift in perspective.
+
+Many people initially interpret "married" to mean getting married to someone. However, in English, "marry" can also mean officiating a wedding.
+Thus, the correct answer is that the man is a pastor, priest, or rabbi who legally performed the marriages.
+
+With insight problems, there isn’t a tempting but incorrect answer. Instead, people often feel stuck, thinking, "This doesn’t seem possible."
+By contrast, with CRT problems, people initially think, "This is easy—I got it!" before realizing their mistake.
+
+Why do so many people fail CRT questions?
+There are two primary explanations:
+
+1. The tendency to reflect (or lack thereof)
+This was Frederick’s original idea: the CRT measures how willing people are to question their initial instinct.
+
+Research supports this. Studies by Keith Stanovich and colleagues show that the CRT predicts rational thinking far better than IQ tests.
+
+Moreover, real-world studies show that those who reflect more tend to evaluate information more critically and accurately—a key component of critical thinking.
+
+2. Numeracy (Basic Math Skills)
+Another explanation is that CRT performance depends on numeracy—the ability to work with numbers, similar to how literacy relates to reading.
+
+Since CRT problems involve proportions, time, and measurements, people with stronger math skills tend to perform better.
+For instance, performance on math standardized tests correlates more strongly with CRT scores than reading test performance.
+
+Are CRT Questions Actually Insight Problems?
+Some researchers at the University of Missouri explored this idea by giving people multiple-choice versions of the CRT questions.
+However, they removed the tempting intuitive answers—meaning, for example, they didn’t include "10 cents" as an option for the bat-and-ball question.
+
+If CRT purely measured reflection, then the majority of people should have answered correctly, since once you reject the intuitive answer, the correct one is easy to identify.
+
+What happened?
+While more people got the correct answers, about 50% still answered incorrectly.
+
+This suggests that CRT problems aren’t just about reflection—they also involve cognitive restructuring, similar to insight problems.
+
+In insight problems, we misinterpret a key word or phrase (like "married").
+In CRT problems, we misinterpret the problem structure itself, leading to the wrong intuitive response.
+Conclusion
+At first glance, CRT questions appear to measure a single ability: the tendency to reflect.
+However, research suggests they actually assess two skills:
+
+Reflective thinking—the ability to pause and reconsider an intuitive response.
+Cognitive restructuring—the ability to reinterpret a problem’s structure when needed.
+Understanding this distinction can help us become better critical thinkers—not just in math but in everyday problem-solving as well.
+
