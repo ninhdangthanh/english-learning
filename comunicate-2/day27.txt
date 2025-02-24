@@ -1,0 +1,23 @@
+subtract: trừ
+reflective: phản biện, phản chiếu
+meanwhile: trong khi đó
+overestimate: đánh giá quá cao
+he broke no law: anh ấy không vi phạm luật pháp
+therefore,thus: vì vậy, do đó
+insight: hiểu biết, thấu hiểu
+multi choice question: câu hỏi trắc nghiệm
+tempting instuitive answer: câu trả lời trực quan hấp dẫn
+reaction: phản ứng
+intuitive: trực quan
+when needed: khi cần
+
+bounces: nảy, bóng nảy, tung lên
+cognitive: nhận thức ~ awareness
+reasoning: lý luận
+widgets: tiện ích
+how long: bao lâu
+how many time: bao nhiêu lần
+cover: phủ kín
+attempted: thử, nỗ lực
+reflection: phản xạ
+problem: bài toán
