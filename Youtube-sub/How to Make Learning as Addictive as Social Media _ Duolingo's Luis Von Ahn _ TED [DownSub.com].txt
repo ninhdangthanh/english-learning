@@ -1,0 +1,53 @@
+So, I'm from Guatemala. This is a public service announcement—Guatemala is a country.
+
+Also, it is not where they keep the prisoners. That place is called Guantanamo, which is not the same.
+
+Guatemala is located just below Mexico. For the Americans in the audience—let this sink in, because it really applies in most ways—you can think of it as "Mexico's Mexico."
+
+Just like the U.S. doesn't want illegal immigration from Mexico, Mexico doesn't want illegal immigration from Guatemala. It's a smaller country, it's a poorer country, and—well, what can I say?—it has much better Mexican food.
+
+Guatemala is a very poor country. A lot of people talk about education as something that brings equality to different social classes, but I always saw it as the opposite—something that actually increases inequality.
+
+In practice, what happens is that people with a lot of money can buy themselves an excellent education and, therefore, continue having a lot of money. Meanwhile, people who don’t have much money barely learn how to read and write and, as a result, never make a lot of money. This is especially true in poor countries.
+
+Now, I was fortunate. Even though I didn’t grow up rich, I received a rich person’s education. This was because I was an only child, and my mother—who was a single parent—spent all of her resources on my education.
+
+That decision allowed me to go to college in the U.S. and, eventually, earn a Ph.D. in Computer Science.
+
+Because of all this, about ten years ago, I decided I wanted to do something that would give everyone equal access to education.
+
+Oh, by the way, that’s what I want to talk to you about today—giving equal access to education for all.
+
+At the time, I was a professor of Computer Science at Carnegie Mellon University. I decided to work on this project with my Ph.D. students.
+
+Now, the way my brain works, “education” felt like too broad of a problem. So, I decided, let’s start by teaching just one thing.
+
+Then, the question became: What should we teach first?
+
+Should we teach math? My co-founder and I both loved math. But in the end, we didn’t choose math.
+
+Then, we thought: Maybe we should teach computer science?
+
+But eventually—and this might be surprising to people in North America—we decided that the best subject to start with was teaching foreign languages.
+
+Let me explain why.
+
+There are several reasons. First, there’s a huge audience for it. About two billion people worldwide are learning a foreign language—both in and outside of school. Most of them, about 80%, are learning English.
+
+In this map, all the countries in green are places where people are predominantly learning English. And the reason is simple: knowing English can transform your life.
+
+In most countries, knowledge of English can significantly increase your income potential. That’s another reason why we chose foreign languages. You can directly earn more money just by learning another language—especially English.
+
+Compare that to math. Just knowing math doesn’t immediately increase your earning potential. You usually have to learn math, then learn physics, then become a civil engineer—and that’s when you start making more money.
+
+But with languages? If you were a waiter and you learned English, you could now be a waiter at a hotel and make more money right away.
+
+So, we decided: Let’s start by teaching languages.
+
+We also realized that the only way to reach a massive audience was through mobile phones—specifically, smartphones.
+
+See, building schools all over the world is way too expensive. But most of the world's population already has access to a smartphone, and that number is only increasing.
+
+So, we decided to create a way to learn foreign languages on a mobile phone—one that was accessible to everyone.
+
+We called it Duolingo.
