@@ -1,0 +1,165 @@
+If you want to go fast, you go alone.
+
+If you want to go far, you go together.
+
+At least, that is a proverb we are all trying to live by.
+
+At the start of my career, I wanted to go fast. I wanted to move swiftly, break barriers, and embrace all the startup-type culture. But honestly, it nearly ruined my career.
+
+This video might be tough for me because, in it, I’m going to share the most painful lesson I’ve had to learn as a software engineer—with over a decade of experience. And this lesson is a crucial one, one that cost me all my colleagues' trust and nearly derailed our entire project.
+
+I believe it’s more important than ever to discuss this, especially in today’s AI-driven world, where we are often tempted to be the "code hero." The pressure can be overwhelming.
+
+So, let’s dive in.
+
+About five years ago—around the midpoint of my career—there was a weekend I will never forget. It ultimately reshaped how I lead, how I carry myself, and how I contribute as a team member within an organization.
+
+For this story, I’m going to use a fictional name. And if you happen to be the person watching this video, if you get to this point and think, Yes, that was me. I remember that situation, just know—I’m sorry.
+
+It is something I’ve come to acknowledge in my life. I messed up. But I’ve learned from it. I’ve grown from it. I understand that my apology won’t fix the past, but I hope that by sharing this, other leaders or engineers in my position won’t make the same mistake.
+
+It was a normal workweek. We had a deadline approaching in the coming weeks, but everything was going smoothly.
+
+There was another developer—let’s call him Alex. Alex was working on a rather intricate task, and I personally wasn’t confident he could complete it alone. Instead of doing the right thing—offering assistance, teaching, and guiding him through the challenge—I simply said, No problem. We’ll get it done on Monday. It’s Friday afternoon, don’t worry about it.
+
+But secretly, I was already planning my next move.
+
+Saturday morning rolled around. I grabbed my Dunkin’, my Starbucks—whatever it was—had my caffeine fix, and went into the office.
+
+I finished up the last bit of my own pending work and then made a decision.
+
+It’s in the best interest of the team, I told myself.
+
+So, I completely rewrote Alex’s module, completed all his work—without even informing him.
+
+After an intense, 18-hour coding marathon, I had the solution ready. I merged it into develop, promoted it up to the baseline for QA, and went home feeling accomplished.
+
+I thought I had done the right thing. I believed I had improved the team’s progress.
+
+I was the code hero. The weekend warrior.
+
+But I was completely wrong.
+
+Monday arrived. In our daily standup, I confidently announced:
+
+"Hey, I fixed that problem. No need to merge your branch anymore—I already did it. I tested it, pushed it to QA, and we’re good to go."
+
+The look on Alex’s face was something I’ll never forget.
+
+I wasn’t met with gratitude. I was met with shock. With anger. And, honestly, with humiliation.
+
+Not only had I bulldozed over his efforts, doing all the work without being a good teammate or even informing him, but I also made things worse by publicly announcing it in standup—almost as if I was seeking validation, as if I was on some kind of ego trip.
+
+I thought I was the hero.
+
+But all I did was embarrass myself and lose my colleagues' trust.
+
+To this day, I swear—I had the best intentions.
+
+I wanted to push the team forward. I had the time. I was willing to put in the extra effort over the weekend.
+
+But what I quickly learned is that this is not how you conduct yourself in a software team.
+
+I do believe that if you want to go fast, you go alone. In some industries, that might work.
+
+And for a very, very long time, I used to believe that was true in software engineering.
+
+If I wanted something done quickly, I would just code it myself. I wouldn’t bring along peers. I wouldn’t uplift others.
+
+But now—after going through these trials and tribulations—I realize:
+
+The only way forward is to bring others along with you.
+
+Not just the fastest way. The only way.
+
+Because let’s look at what really happened.
+
+That heroic weekend, where I thought I was saving the project and getting us to the deadline, actually caused more damage.
+
+It affected morale. It impacted the very people who needed to work on these solutions.
+
+Alex no longer wanted to be part of my team. He didn’t want to collaborate on projects where I was involved.
+
+And for what? Because I had a highly caffeinated ego trip over the weekend?
+
+I pushed out a promising developer.
+
+And on top of that—my solution wasn’t even better.
+
+It had the same subtle bugs and issues.
+
+I hadn’t taken the time to thoroughly vet my code.
+
+And the damage didn’t stop there.
+
+Other developers started feeling uneasy. They hesitated to share their progress in fear that I’d swoop in and “fix” things behind their backs.
+
+They didn’t appreciate that I went and worked in secret without consulting them.
+
+But the most painful part of this lesson?
+
+I had the best intentions.
+
+I wanted to contribute. I wanted to be that extra hardworking developer.
+
+Yet, as I’ve grown—as a developer, as a leader, and as a person—I’ve had to confront the harsh reality:
+
+My "help" wasn’t help.
+
+It was about feeding my own ego.
+
+Yes, in the long run, maybe it was a good lesson. But this humbling experience completely changed how I lead teams, how I carry myself, and how I function within an organization.
+
+I learned that the first question should be:
+
+"How can I help you succeed?"
+
+Instead of taking over, I started treating code as a team asset rather than an individual accomplishment.
+
+I began investing in pair programming, knowledge sharing, and writing better documentation—even if it felt like it slowed me down.
+
+Most importantly, I realized:
+
+Empowering my teammates had a greater impact than trying to move faster alone.
+
+Being part of a team means ensuring everyone crosses the finish line together.
+
+It doesn’t matter if one or two people finish first if the rest are left behind.
+
+Software engineering is a team sport.
+
+And it took some really painful lessons for me to learn that.
+
+Now, as we move into 2025, I think this realization is more important than ever.
+
+AI allows us to move fast—but also together.
+
+With tools like Copilot, we can boost efficiency. With collaborative LLMs, we can brainstorm and problem-solve as a team.
+
+And because of these advancements, we’ll have more opportunities for face-to-face collaboration.
+
+That’s going to be critical for career growth moving forward.
+
+Spend time with your peers. Engage in collaborative coding. Share knowledge.
+
+Use AI to your advantage—but don’t let it replace human collaboration.
+
+And if I had the chance to redo that weekend where I bulldozed over Alex’s work?
+
+I would.
+
+I’d ask: How can I help? Do you need my support? Can I provide any resources? Can we work on this together?
+
+Hell, I’d say, Let’s grab some coffee and tackle this as a team.
+
+Because software engineering is not about proving how fast you can type.
+
+It’s about collaboration. Communication. Shared understanding.
+
+So, what about you?
+
+What tough lessons have you learned that changed your perspective on teamwork?
+
+If you have a story to share, I’d love to hear it. Drop a comment below—let’s talk about it.
+
+And with that, I’ll see you all next week.
